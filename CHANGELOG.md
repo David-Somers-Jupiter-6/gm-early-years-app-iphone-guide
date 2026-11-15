@@ -2,6 +2,14 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 15 November 2026 – guide version 2.36
+
+- Contents: "Cover page" added as the first entry and "Your Health Visiting team" after Introduction (it opens the existing page in Contact & support). The "Select Next" prompt now uses the standard information box, on Contents and Introduction. The Contents title box is shorter so that seven entries fit.
+- Signing in, page 1: the large "Begin signing in" button is removed; the bottom Begin button is green.
+- Step 1, Restart your iPhone: three short steps, with how to turn the iPhone off and on in an information box.
+- Step 6: the "Not asked for a code?" box is removed.
+- Step 9: title changed to "Checking your details".
+
 ## 15 November 2026 – guide version 2.35
 
 - Text sizes now follow Apple's recommendations for iPhone: main text, answer options, boxes and buttons 17; supporting text 15; labels 12 to 13; nothing under 11 except the lettering in the GMCA logo.
