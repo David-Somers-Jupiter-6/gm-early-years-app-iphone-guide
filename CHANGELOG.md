@@ -2,6 +2,15 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 15 November 2026 – guide version 2.31
+
+- Printing now gives the whole guide (about 42 A4 pages) instead of only the page on screen. Both answers to each checklist question and every Health Visiting team are printed.
+- Cover: new full photo; the "Greater Manchester – Doing Digital Differently" wording is a separate layer and is no longer cropped.
+- Cover start button now reads "Start".
+- NHS login Support Team page: larger NHS login logo.
+- "NHS Login" corrected to "NHS login" in 14 places.
+- Menu titles for checklist questions 2 and 4 now match the short titles on the pages.
+
 ## 15 November 2026 – guide version 2.30
 
 - Signing in (steps 1 to 15): every screenshot is now the same width and starts the same distance below the text. On a short screen the picture shows less of the phone screen instead of shrinking.
