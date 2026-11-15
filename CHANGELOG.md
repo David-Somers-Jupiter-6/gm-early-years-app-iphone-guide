@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 15 November 2026 – guide version 2.38
+
+- Checklist (Section 2, page 1): title shortened to "Checklist", also in Contents and in the three "return to the checklist" links in Troubleshooting.
+- The large "Begin the checklist" button is removed; the Begin button at the bottom is green and pulses, like Signing in.
+- Wording: "Tap Begin to start the checklist."
+
 ## 15 November 2026 – guide version 2.37
 
 - New Section 1, "Your Health Visiting team", is its own page between the Introduction and the Checklist (Introduction → Next → Section 1 → Next → Section 2 Checklist). It is a copy of the team finder page, with its own Locality and team choices.
