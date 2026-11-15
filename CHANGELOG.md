@@ -2,6 +2,10 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 15 November 2026 – guide version 2.40
+
+- Revision history: the 2.37 entry now correctly says "New Section 1, Your Health Visiting team".
+
 ## 15 November 2026 – guide version 2.39
 
 - Checklist (Section 2, page 1) reworded: "Before you sign in, please run the checklist to ensure that everything is ready." The 2 information pages and 4 questions are now bullet points, with a space between paragraphs. The summary line now reads "A summary at the end shows what to do next or where to get help."
