@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 15 November 2026 – guide version 2.41
+
+- Section 1, Your Health Visiting team: the title is now in the blue title box with a large "1", like the Introduction and the Checklist. The title stays on one line.
+- To make room, the "To see your team's contact details…" line hides once a team is chosen, and the team card sits a little closer to the choices. Every team still fits one screen at 375 × 637 and above.
+- The copy in Contact & support is unchanged.
+
 ## 15 November 2026 – guide version 2.40
 
 - Revision history: the 2.37 entry now correctly says "New Section 1, Your Health Visiting team".
