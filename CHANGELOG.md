@@ -2,6 +2,14 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 15 November 2026 – guide version 2.37
+
+- New Section 1, "Your Health Visiting team", is its own page between the Introduction and the Checklist (Introduction → Next → Section 1 → Next → Section 2 Checklist). It is a copy of the team finder page, with its own Locality and team choices.
+- The original "Your Health Visiting team" page stays in Contact & support.
+- Sections renumbered: Checklist 2, Signing in 3, Troubleshooting 4, Contact & support 5. Contents shows the new numbers and its "Your Health Visiting team" row opens Section 1.
+- The guide now has 70 pages; page counts and progress bars updated.
+- Printing: the Section 1 copy shows a pointer to Contact & support instead of repeating all 23 teams.
+
 ## 15 November 2026 – guide version 2.36
 
 - Contents: "Cover page" added as the first entry and "Your Health Visiting team" after Introduction (it opens the existing page in Contact & support). The "Select Next" prompt now uses the standard information box, on Contents and Introduction. The Contents title box is shorter so that seven entries fit.
