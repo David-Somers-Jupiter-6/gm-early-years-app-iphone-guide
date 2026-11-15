@@ -6,7 +6,7 @@ A screen-by-screen guide for parents and primary carers who are having trouble s
 
 | | |
 |---|---|
-| Current version | 2.34 (review draft, iPhone edition) |
+| Current version | 2.35 (review draft, iPhone edition) |
 | Pages | 69, in four sections: Checklist, Signing in, Troubleshooting, Contact & support |
 | Owner | GMDP Support Team, GMCA |
 | Hosting | GitHub Pages, deployed by GitHub Actions |
@@ -20,7 +20,7 @@ The whole guide is one self-contained file, `index.html`. Fonts, images and scri
 | File | Purpose |
 |---|---|
 | `index.html` | The published guide |
-| `preview/index.html` | A trial version for review, published at `/preview/`. Not the live guide. |
+| `preview/` (when present) | A trial version for review, published at `/preview/`. Not the live guide. |
 | `404.html` | "Page not found" page that points back to the guide |
 | `releases/` | A named copy of each published version |
 | `scripts/validate_site.py` | Checks run before every deployment (structure, links, alt text, self-containment) |

@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 15 November 2026 – guide version 2.35
+
+- Text sizes now follow Apple's recommendations for iPhone: main text, answer options, boxes and buttons 17; supporting text 15; labels 12 to 13; nothing under 11 except the lettering in the GMCA logo.
+- A few tight pages use 15 for detail text so that every page still fits one screen.
+- Downloaded copies (no scripts) re-tuned for the larger text.
+- The `/preview/` trial has been removed now that it is the live guide.
+
 ## 15 November 2026 – preview: Apple text sizes
 
 - A trial version is published at `/preview/` with text sizes following Apple's iOS text styles (body 17, secondary 15, labels 12 to 13, nothing under 11). The live guide is unchanged at v2.34.
