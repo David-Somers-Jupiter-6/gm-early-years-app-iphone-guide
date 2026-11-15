@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 15 November 2026 – guide version 2.42
+
+- Checklist (Section 2, page 1): "If you answer No, the guide will explain what to do next" and "A summary at the end shows what to do next or where to get help" are now in an information box, in the same style as "In this guide, this person is called the account holder" on the next page.
+- Spacing in the box is slightly tighter so that the page still fits one screen at 375 × 637.
+
 ## 15 November 2026 – guide version 2.41
 
 - Section 1, Your Health Visiting team: the title is now in the blue title box with a large "1", like the Introduction and the Checklist. The title stays on one line.
