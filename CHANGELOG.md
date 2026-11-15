@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 15 November 2026 – guide version 2.32
+
+- Signing in pages: the guide now measures the visible screen more cautiously (smallest of the window, dynamic viewport and visual viewport) and re-measures after the browser toolbars settle, so the bottom of the page is not cut off.
+- Downloaded copies (no scripts): more room is kept below each Signing in screenshot.
+
 ## 15 November 2026 – guide version 2.31
 
 - Printing now gives the whole guide (about 42 A4 pages) instead of only the page on screen. Both answers to each checklist question and every Health Visiting team are printed.
