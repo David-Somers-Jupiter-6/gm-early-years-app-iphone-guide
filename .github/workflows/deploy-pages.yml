@@ -38,6 +38,7 @@ jobs:
         run: |
           mkdir -p _site
           cp index.html 404.html .nojekyll _site/
+          if [ -d preview ]; then cp -r preview _site/; fi
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload GitHub Pages artifact

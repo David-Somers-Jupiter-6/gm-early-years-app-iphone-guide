@@ -2,6 +2,10 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 15 November 2026 – preview: Apple text sizes
+
+- A trial version is published at `/preview/` with text sizes following Apple's iOS text styles (body 17, secondary 15, labels 12 to 13, nothing under 11). The live guide is unchanged at v2.34.
+
 ## 15 November 2026 – guide version 2.34
 
 - Page height: pages are now sized to the visible part of the screen (100dvh) instead of the screen with the browser toolbars hidden (100vh). On an iPhone in Chrome this was 736 against a visible 637, so the bottom 99 px of some pages sat behind Back, Contents and Next.

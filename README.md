@@ -20,6 +20,7 @@ The whole guide is one self-contained file, `index.html`. Fonts, images and scri
 | File | Purpose |
 |---|---|
 | `index.html` | The published guide |
+| `preview/index.html` | A trial version for review, published at `/preview/`. Not the live guide. |
 | `404.html` | "Page not found" page that points back to the guide |
 | `releases/` | A named copy of each published version |
 | `scripts/validate_site.py` | Checks run before every deployment (structure, links, alt text, self-containment) |
