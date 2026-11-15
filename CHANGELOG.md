@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 15 November 2026 – guide version 2.33
+
+- Introduction: the "GM Early Years App Account Support" section is replaced by one line pointing to Contact & support, where the support details already are.
+- Testing aid: adding `?debug` to the website address shows a small read-out of the screen sizes the browser reports on each page. It is not shown otherwise.
+
 ## 15 November 2026 – guide version 2.32
 
 - Signing in pages: the guide now measures the visible screen more cautiously (smallest of the window, dynamic viewport and visual viewport) and re-measures after the browser toolbars settle, so the bottom of the page is not cut off.
