@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 15 November 2026 – guide version 2.34
+
+- Page height: pages are now sized to the visible part of the screen (100dvh) instead of the screen with the browser toolbars hidden (100vh). On an iPhone in Chrome this was 736 against a visible 637, so the bottom 99 px of some pages sat behind Back, Contents and Next.
+- Small links: in-text links keep their look but respond to taps across a 44 px-high area (55 of 69 links; the 14 left are in Troubleshooting).
+
 ## 15 November 2026 – guide version 2.33
 
 - Introduction: the "GM Early Years App Account Support" section is replaced by one line pointing to Contact & support, where the support details already are.
