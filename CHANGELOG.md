@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.55 (trial copy at /preview/; the live guide stays 2.54)
+
+- **All text on Apple's recommended iPhone sizes:** reading text, links, messages, search results, buttons and controls are Body 17 everywhere (some had been reduced to 15 or 16 to make pages fit); page titles are Title 2 22 (were 21.5 or 23); the cover title is Large Title 34 (was 36); headings inside pages are Headline 17 (were 16 or 18). Labels (11 to 13), the cover's subtitle lines and the icons in circles are unchanged.
+- **Pages that no longer fit** (only on the two narrowest test screens): Checklist results at 320 × 664 when three or four answers are No (4 px; 27 px with four Nos, where the last line goes under the Back/Next bar); "I have not received an Activation Link" and "NHS login Support Team" at 320 × 664 (4 px and 3 px); the Family Nurse Partnership card at 320 × 664 and 360 × 640 (2 to 5 px). Every other page and state fits at all eight sizes.
+
 ## 16 November 2026 – guide version 2.54
 
 - **Checklist questions 1 to 4:** choosing "No, or I'm not sure" now shows the same short message on every question: "You will not be able to access a GM Early Years App account", then "Select Next to complete the checklist. Your checklist results will then explain what to do next." (Question 4: "Select Next to see your checklist results and what to do next."). The links and longer help that were in these messages are removed; the specific help is given once, on the checklist results page.
