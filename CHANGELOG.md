@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.62 (trial copy at /preview/; the live guide stays 2.57)
+
+- **New Troubleshooting page, "Set up NHS login"** (page 3 of 34): what the NHS login set-up help covers (What is NHS login?, Where you can use NHS login, What you need to set up an NHS login, How to set up an NHS login), the link help.login.nhs.uk/setupnhslogin, and "GMDP Support cannot access NHS login accounts." at the bottom.
+- **NHS login account issues:** "Set up NHS login" is item 1 (the others are now 2 to 8). "GMDP Support cannot assist with NHS login account issues." is now under the section line, above the list, in place of "Choose your problem to find NHS login help:"; the line at the bottom is removed. Fits at all eight sizes.
+- Page numbers updated: Troubleshooting has 34 pages; the guide has 73 pages (plus Search).
+
 ## 16 November 2026 – guide version 2.61 (trial copy at /preview/; the live guide stays 2.57)
 
 - **Section 3 Signing in, new titles:** page 6, Step 5 "Enter your credentials" (was "Enter your email and password"); page 7, Step 6 "Enter the security code" (was "Get your NHS login security code"); page 8, Step 7 "Enter security code" (was "Enter your NHS login security code"); pages 12, 13 and 14, Step 11, its Helpful tip and Step 12 "App verification code" (were "Get your App verification code" and "Enter your App verification code").
