@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.52
+
+- New page in Section 6: **How this guide works**. It shows the six sections in order as a route; each one can be tapped to go straight to it. Under Checklist, two markers show the branch: all Yes goes to Signing in, any No goes to Troubleshooting.
+- Section 6 is now 4 pages (About this guide, How this guide works, Document control, Revision history); the guide has 72 pages.
+- Tested: every page fits at all eight iPhone test sizes; Next and Back walk correctly through Sections 5 and 6.
+
 ## 16 November 2026 – guide version 2.51
 
 - New **Section 6 · About this guide**, with its own title page, Document control and Revision history (moved from Contact & support).
