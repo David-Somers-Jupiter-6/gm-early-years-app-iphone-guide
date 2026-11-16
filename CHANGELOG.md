@@ -2,6 +2,10 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.60 (trial copy at /preview/; the live guide stays 2.57)
+
+- **Section 1 › Your Health Visiting team:** removed the first line, "Your team can check your account and link." The Contact & support team page keeps it.
+
 ## 16 November 2026 – guide version 2.59 (trial copy at /preview/; the live guide stays 2.57)
 
 - **Contact & support › Your Health Visiting team:** removed the two lines under the team card ("To view on a map, tap the address." / "To call, tap the contact number."). Every card now fits on a 375 × 637 screen (the Stockport "Cheadle Hulme and Bramhall" card was 9 px over in 2.58). Section 1's team page keeps the two lines.
