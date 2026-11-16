@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.58 (trial copy at /preview/; the live guide stays 2.57)
+
+- **Every title box the same height (Option B, 110 px).** The title sits at the bottom of the box; the progress bar stays at the top. **Contents** is the one exception: it keeps its shorter title box and the "Select Next" tip.
+- **Shorter titles so they fit:** Step H and its Note page "Check your NHS account details" (was "Check your name, date of birth and NHS number"); Step C and its Helpful tip page "Enter your email and password" (was "Enter your email address and password"); Step D Good to know page "Security code page" (was "The security code page opens"; Step D itself unchanged).
+- **Left as they are (need a short scroll on the smallest screen, 320 × 664):** How this guide works (31 px), Mobile number problems (15 px). "I have not received an Activation Link" (10 px at 360 and 320 wide) is to be reworked later.
+- **Still to decide:** Contact & support › Your Health Visiting team, one Stockport card is 9 px too long on a 375 × 637 screen (and three cards' map views 5 px at 320 wide); Checklist summary with all four answers No is 15 px too long at 320 wide.
+
 ## 16 November 2026 – guide version 2.57 is live
 
 - The live guide is now 2.57 (it was 2.54). This brings in all the changes in 2.55, 2.56 and 2.57 below. The offline copy (`sw.js`) is renamed `ey-guide-v2.57`, so phones that saved 2.54 get the new version next time they have a signal. The trial copy at /preview/ is removed.
