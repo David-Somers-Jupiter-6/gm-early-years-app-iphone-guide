@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.59 (trial copy at /preview/; the live guide stays 2.57)
+
+- **Contact & support › Your Health Visiting team:** removed the two lines under the team card ("To view on a map, tap the address." / "To call, tap the contact number."). Every card now fits on a 375 × 637 screen (the Stockport "Cheadle Hulme and Bramhall" card was 9 px over in 2.58). Section 1's team page keeps the two lines.
+- Still over on the smallest screen (320 × 664): the map view of three cards on this page (Bury 5th, Rochdale 4th and 5th, 5 px); Checklist summary with all four answers No (15 px); How this guide works (31 px) and Mobile number problems (15 px), left as they are; "I have not received an Activation Link" (also 10 px at 360 wide), to be reworked later.
+
 ## 16 November 2026 – guide version 2.58 (trial copy at /preview/; the live guide stays 2.57)
 
 - **Every title box the same height (Option B, 110 px).** The title sits at the bottom of the box; the progress bar stays at the top. **Contents** is the one exception: it keeps its shorter title box and the "Select Next" tip.
