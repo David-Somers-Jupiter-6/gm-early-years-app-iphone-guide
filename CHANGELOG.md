@@ -2,6 +2,14 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.56 (trial copy at /preview/; the live guide stays 2.54)
+
+- **Checklist summary:** the title box shows one title, "Checklist summary" (the label "Checklist summary" and the title "Your checklist results" repeated each other). The stop messages on Questions 1 to 4 now say "checklist summary" to match.
+- **Your Health Visiting team (both pages):** team cards show only the team name, address, phone number(s) and opening hours. Removed: "Referral only, through your Health Visitor or midwife." (Enhanced and SEND, Bury) and "For young first-time parents, referred by the midwife. Number: Health Visiting Advice Line." (Family Nurse Partnership, Stockport).
+- **NHS logo** in the title box of both Health Visiting team pages (the NHS part of the guide's NHS login badge, same size and place).
+- Numbered circles on three Troubleshooting pages are 15, the same as the other lists.
+- **Fit:** the checklist summary (all 81 answer combinations) and every team card now fit at all eight sizes. Still over, only at 320 × 664: "NHS login Support Team" (3 px, text visible) and "I have not received an Activation Link" (4 px, to be reworked later).
+
 ## 16 November 2026 – guide version 2.55 (trial copy at /preview/; the live guide stays 2.54)
 
 - **All text on Apple's recommended iPhone sizes:** reading text, links, messages, search results, buttons and controls are Body 17 everywhere (some had been reduced to 15 or 16 to make pages fit); page titles are Title 2 22 (were 21.5 or 23); the cover title is Large Title 34 (was 36); headings inside pages are Headline 17 (were 16 or 18). Labels (11 to 13), the cover's subtitle lines and the icons in circles are unchanged.
