@@ -2,6 +2,10 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.45
+
+- "Select Next to continue." is now "Tap Next to continue." on Checklist Information 1 and Information 2 (the only two places it appeared).
+
 ## 16 November 2026 – guide version 2.44
 
 - Checklist (Section 2, page 1): the information box now reads "If you answer No, a summary at the end of the checklist will explain what to do next or where to get help." (replaces the two earlier sentences).
