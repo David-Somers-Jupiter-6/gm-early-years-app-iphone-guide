@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.54
+
+- **Checklist questions 1 to 4:** choosing "No, or I'm not sure" now shows the same short message on every question: "You will not be able to access a GM Early Years App account", then "Select Next to complete the checklist. Your checklist results will then explain what to do next." (Question 4: "Select Next to see your checklist results and what to do next."). The links and longer help that were in these messages are removed; the specific help is given once, on the checklist results page.
+- **Checklist results:** Get help for "NHS login account" now opens "What stopped you signing in?" in Troubleshooting (which has the NHS login set-up guidance), in place of Question 1.
+- The message text is 17 (the old messages had been reduced to 15 to fit).
+- Tested: every question in both answer states, in Light and Dark Mode, fits at all eight iPhone sizes.
+
 ## 16 November 2026 – guide version 2.53
 
 - **Home Screen app:** the website now has an app icon (an open book with a yellow question mark, different from the GM Early Years App's own icon) and the name "EY App Guide". In Safari, Share → Add to Home Screen puts it on the iPhone; it then opens full screen like an app. New files: `manifest.webmanifest`, `icons/`, `sw.js`; the deploy workflow now publishes them.
