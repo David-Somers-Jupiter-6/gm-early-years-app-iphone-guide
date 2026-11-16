@@ -2,6 +2,10 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.44
+
+- Checklist (Section 2, page 1): the information box now reads "If you answer No, a summary at the end of the checklist will explain what to do next or where to get help." (replaces the two earlier sentences).
+
 ## 16 November 2026 – guide version 2.43
 
 - Introduction: "Contact & support" in the last line is now a link that opens Section 5, Contact & support. Back returns to the Introduction.
