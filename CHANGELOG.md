@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.57 (trial copy at /preview/; the live guide stays 2.54)
+
+- **NHS login Support Team, NHS login help:** shorter link titles. "What is NHS login / Set up an NHS login account" is now "Set up an NHS login account"; "Contact the NHS login Support Team" is now "Contact NHS login support"; "Change your email, mobile number or password" is now "Change contact details". "NHS login Help Centre" and the web addresses are unchanged.
+- **I have not received an Activation Link, What should I check?:** the third point is now "If you cannot find the link, contact your Health Visiting team." (removed "or it does not open").
+- "Forgotten your password" and "Common reasons for sign-in problems" are unchanged (to be reworked later).
+- **Fit:** every page now fits at all eight sizes, including "NHS login Support Team" and "I have not received an Activation Link" at 320 × 664.
+
 ## 16 November 2026 – guide version 2.56 (trial copy at /preview/; the live guide stays 2.54)
 
 - **Checklist summary:** the title box shows one title, "Checklist summary" (the label "Checklist summary" and the title "Your checklist results" repeated each other). The stop messages on Questions 1 to 4 now say "checklist summary" to match.
