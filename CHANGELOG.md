@@ -2,6 +2,18 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.47
+
+- Reading text is now 17 (Apple's default size) everywhere a carer reads: Health Visiting team pages, Checklist summary, Signing in page 1 and step 1, Troubleshooting topic lines, notes and web addresses, and Contact & support. Labels are unchanged. The GMDP email button stays 15 so the address fits.
+- Long web addresses break after a slash, never at a hyphen.
+- So that pages still fit one screen at 375 × 637 and the other iPhone test sizes:
+  - Your Health Visiting team (both copies): opening line now "Your team can check your account and link."; the Contact & support copy also hides the "To see your team" line once a team is chosen.
+  - NHS login Support Team: description now "For NHS login problems. GMDP Support cannot access NHS login accounts."
+  - Troubleshooting NHS login pages: bottom note now "GMDP Support cannot access NHS login accounts."
+  - Checklist summary: "Select Answer next to any item with a dash." and "Select Get help next to each cross, or Next for more help."; rows slightly tighter.
+  - Signing in step 1: the screenshot is slightly smaller. No Activation Link: spacing tightened.
+- Tested: every page, all 81 summary answer combinations and all 23 team cards at 375×637, 390×664, 393×659, 430×739 and 375×715.
+
 ## 16 November 2026 – guide version 2.46
 
 - Checklist Information 1 (Section 2, page 2): "Your Health Visiting team sets up a GM Early Years App account for:" followed by a bullet, "the **child's mother** or **primary carer**." (bold as before).
