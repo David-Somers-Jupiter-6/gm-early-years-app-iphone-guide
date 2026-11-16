@@ -2,6 +2,14 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.50
+
+- Your Health Visiting team (Section 1 and the Contact & support copy): every team address (23 on each page) is now a tappable link. Tapping it opens a map of that address inside the team card, with a Contact details / Map switch to go back. The map fills the space left on the screen and loads only when it is first opened. "Open in Maps" under the map opens the address in the Maps app.
+- Under the team card: "To view on a map, tap the address." and "To call, tap the contact number." (hidden while the map is showing).
+- Choosing another team starts on contact details again. Printing shows contact details only.
+- Checklist, Information 2 of 2 (Who can sign in?): new wording; "A partner or another family member cannot sign in to the account." is now in a yellow box.
+- Tested: all 46 team cards, in both views, fit at 375×637, 390×664, 393×659, 430×739, 375×715, 360×640, 414×715 and 320×664; every page fits at all eight sizes.
+
 ## 16 November 2026 – guide version 2.49
 
 - NHS login logo sits at the bottom right of the title box on "How to sign in to your NHS login account" and "NHS login Support Team", so the titles use the full width (the first now fits on two lines instead of three).
