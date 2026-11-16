@@ -2,6 +2,15 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.51
+
+- New **Section 6 · About this guide**, with its own title page, Document control and Revision history (moved from Contact & support).
+- **Section 5 · Contact & support** now holds only the help pages: Your Health Visiting team, NHS login Support Team, GMDP Support Team and Accessibility (5 pages). Its list shows "Accessibility – Large print, easy-read and other formats" in place of "About this guide".
+- **Accessibility** wording: "If this guide is hard to read or use, it is available in large print, easy-read and other formats or languages. To ask for one, please contact the GMDP Support Team at …".
+- **Contents** has two new rows: 6 About this guide, and Accessibility at the end (with an accessibility symbol). Spacing tightened so it still fits one screen.
+- The guide now has 71 pages; page positions, section lines and Back/Next links updated.
+- Tested: every page fits at 375×637, 390×664, 393×659, 430×739, 375×715, 360×640, 414×715 and 320×664; Next and Back walk correctly through Sections 5 and 6.
+
 ## 16 November 2026 – guide version 2.50
 
 - Your Health Visiting team (Section 1 and the Contact & support copy): every team address (23 on each page) is now a tappable link. Tapping it opens a map of that address inside the team card, with a Contact details / Map switch to go back. The map fills the space left on the screen and loads only when it is first opened. "Open in Maps" under the map opens the address in the Maps app.

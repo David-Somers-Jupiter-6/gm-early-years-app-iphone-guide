@@ -6,8 +6,8 @@ A screen-by-screen guide for parents and primary carers who are having trouble s
 
 | | |
 |---|---|
-| Current version | 2.50 (review draft, iPhone edition) |
-| Pages | 69, in four sections: Checklist, Signing in, Troubleshooting, Contact & support |
+| Current version | 2.51 (review draft, iPhone edition) |
+| Pages | 71: Welcome, then six sections: Your Health Visiting team, Checklist, Signing in, Troubleshooting, Contact & support, About this guide |
 | Owner | GMDP Support Team, GMCA |
 | Hosting | GitHub Pages, deployed by GitHub Actions |
 
