@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d6fb8"/><stop offset="1" stop-color="#0f4c8a"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#g)"/><g transform="translate(0 34)">
+<!-- open book -->
+<path d="M256 186c-38-26-92-34-150-30v188c58-4 112 4 150 30z" fill="#fff"/>
+<path d="M256 186c38-26 92-34 150-30v188c-58-4-112 4-150 30z" fill="#eaf2fb"/>
+<path d="M256 186v188" stroke="#0f4c8a" stroke-width="6"/>
+<!-- lines on pages -->
+<g stroke="#a9c7e6" stroke-width="9" stroke-linecap="round">
+<path d="M136 206c30-1 60 4 88 15M136 242c30-1 60 4 88 15M136 278c30-1 60 4 88 15"/>
+<path d="M288 221c28-11 58-16 88-15M288 257c28-11 58-16 88-15M288 293c28-11 58-16 88-15"/>
+</g>
+<!-- question badge -->
+<circle cx="256" cy="118" r="54" fill="#ffd23f"/>
+<path d="M236 104c0-13 9-22 21-22s21 8 21 19c0 14-17 15-17 30" fill="none" stroke="#0f4c8a" stroke-width="12" stroke-linecap="round"/>
+<circle cx="261" cy="148" r="7.5" fill="#0f4c8a"/>
+</g></svg>

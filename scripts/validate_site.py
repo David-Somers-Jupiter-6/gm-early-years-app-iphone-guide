@@ -33,6 +33,9 @@ checks = {
     'self-contained: no remote images or fonts': not re.search(r'(src=|url\()["\']?https?://', html, re.I),
     'published guide matches the archived release': release.is_file() and release.read_bytes() == (ROOT / 'index.html').read_bytes(),
     '404 page present': (ROOT / '404.html').is_file(),
+    'Home Screen: manifest, icons and offline worker present': all((ROOT / f).is_file() for f in ('manifest.webmanifest', 'sw.js', 'icons/icon-180.png', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png')),
+    'Home Screen: guide links the manifest and the iPhone icon': 'rel="manifest" href="manifest.webmanifest"' in html and 'rel="apple-touch-icon" href="icons/icon-180.png"' in html,
+    'offline worker cache named for this version': version is not None and f"'ey-guide-v{version}'" in (ROOT / 'sw.js').read_text(encoding='utf-8'),
     '.nojekyll present': (ROOT / '.nojekyll').is_file(),
     'file size under 5 MB': (ROOT / 'index.html').stat().st_size < 5_000_000,
 }

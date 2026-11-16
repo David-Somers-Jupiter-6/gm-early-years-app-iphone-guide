@@ -2,6 +2,15 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.53
+
+- **Home Screen app:** the website now has an app icon (an open book with a yellow question mark, different from the GM Early Years App's own icon) and the name "EY App Guide". In Safari, Share → Add to Home Screen puts it on the iPhone; it then opens full screen like an app. New files: `manifest.webmanifest`, `icons/`, `sw.js`; the deploy workflow now publishes them.
+- **Works offline:** after one visit, the website keeps a copy of the guide on the phone (`sw.js`), so it opens with no signal. With a signal it always fetches the latest version. Maps still need a signal. A downloaded copy of the file is unchanged.
+- **Search:** a Search button in the Contents title box opens a new Search page. It searches the titles and words of every page (including team names and addresses), highlights the matching words and opens a page when tapped. Results scroll inside the page; the page itself still fits one screen.
+- **Dark Mode:** the guide follows the iPhone's Light/Dark setting. Printing stays light.
+- `validate_site.py` checks the Home Screen files and that the offline copy is named for the current version.
+- Tested: every page fits at all eight iPhone sizes in both Light and Dark Mode; all team cards fit; search tested with sample words; the guide opened offline after one visit (local test).
+
 ## 16 November 2026 – guide version 2.52
 
 - New page in Section 6: **How this guide works**. It shows the six sections in order as a route; each one can be tapped to go straight to it. Under Checklist, two markers show the branch: all Yes goes to Signing in, any No goes to Troubleshooting.

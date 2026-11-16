@@ -1,0 +1,16 @@
+{
+  "name": "GM Early Years App – iPhone guide for carers",
+  "short_name": "EY App Guide",
+  "description": "How to sign in to the GM Early Years App on an iPhone, and what to do if you cannot.",
+  "lang": "en-GB",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f4c8a",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
