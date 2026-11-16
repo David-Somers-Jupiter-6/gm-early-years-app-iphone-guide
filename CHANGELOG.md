@@ -2,7 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
-## 16 November 2026 – guide version 2.57 (trial copy at /preview/; the live guide stays 2.54)
+## 16 November 2026 – guide version 2.57 is live
+
+- The live guide is now 2.57 (it was 2.54). This brings in all the changes in 2.55, 2.56 and 2.57 below. The offline copy (`sw.js`) is renamed `ey-guide-v2.57`, so phones that saved 2.54 get the new version next time they have a signal. The trial copy at /preview/ is removed.
+
+## 16 November 2026 – guide version 2.57 (trial copy at /preview/)
 
 - **NHS login Support Team, NHS login help:** shorter link titles. "What is NHS login / Set up an NHS login account" is now "Set up an NHS login account"; "Contact the NHS login Support Team" is now "Contact NHS login support"; "Change your email, mobile number or password" is now "Change contact details". "NHS login Help Centre" and the web addresses are unchanged.
 - **I have not received an Activation Link, What should I check?:** the third point is now "If you cannot find the link, contact your Health Visiting team." (removed "or it does not open").
