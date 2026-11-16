@@ -2,6 +2,10 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.46
+
+- Checklist Information 1 (Section 2, page 2): "Your Health Visiting team sets up a GM Early Years App account for:" followed by a bullet, "the **child's mother** or **primary carer**." (bold as before).
+
 ## 16 November 2026 – guide version 2.45
 
 - "Select Next to continue." is now "Tap Next to continue." on Checklist Information 1 and Information 2 (the only two places it appeared).
