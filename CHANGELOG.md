@@ -2,6 +2,18 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.48
+
+New page layout ("C"):
+- The blue header (logo, GM Early Years App, GMCA) shows on the cover only.
+- Every other page opens with a blue title box. Title pages keep their existing box. On checklist, Signing in and NHS login step pages the box holds the progress bar, the small label (for example "Question 1 of 4") and the title, with the step number or letter as a large faint number. Other pages have the title in the box; the NHS login logo sits inside the box on the two pages that have it.
+- The section line ("SECTION 2 · CHECKLIST … PAGE 4 OF 8") sits under the box as plain text; the thin progress line under it is removed.
+- The "8 / 70" counter under Contents is removed.
+- The numbered circles beside step and question titles are removed (the number is in the box).
+- Signing in screenshots get more room because the header no longer takes space.
+- Printing: boxes print as plain headings.
+- Tested: every page, all 81 summary answer combinations and all 23 team cards fit at 375×637, 390×664, 393×659, 430×739 and 375×715; at 360×640, 414×715 and 320×664 fewer pages scroll than in 2.47. Downloaded-copy mode (no scripts) hides the header after the cover too.
+
 ## 16 November 2026 – guide version 2.47
 
 - Reading text is now 17 (Apple's default size) everywhere a carer reads: Health Visiting team pages, Checklist summary, Signing in page 1 and step 1, Troubleshooting topic lines, notes and web addresses, and Contact & support. Labels are unchanged. The GMDP email button stays 15 so the address fits.
