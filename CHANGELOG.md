@@ -2,6 +2,10 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.49
+
+- NHS login logo sits at the bottom right of the title box on "How to sign in to your NHS login account" and "NHS login Support Team", so the titles use the full width (the first now fits on two lines instead of three).
+
 ## 16 November 2026 – guide version 2.48
 
 New page layout ("C"):

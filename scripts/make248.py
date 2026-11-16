@@ -56,8 +56,8 @@ css = '''/* 2.48 layout C: no header after the cover; every page opens with a bl
 .pbox h2,.pbox h2.h2{position:relative;z-index:1;color:#fff!important;font-family:var(--font-head);font-weight:800;font-size:21.5px!important;line-height:1.2;margin:0;max-width:100%}
 .pbox.has-n h2{max-width:86%}
 .pbox h2:focus{outline:none}
-.pbox.has-badge{padding-right:104px}
-.pbox.has-badge .nhsbadge{position:absolute;right:14px;top:50%;transform:translateY(-50%);height:26px;width:auto;margin:0}
+.pbox.has-badge{padding-bottom:34px}
+.pbox.has-badge .nhsbadge{position:absolute;right:14px;bottom:9px;top:auto;transform:none;height:22px;width:auto;margin:0}
 .pbox .stepper,.screen .pbox .stepper.chk-steps,.screen[data-sec^="Section 3"] .pbox .stepper{position:relative;z-index:1;margin:0 0 12px!important}
 .pbox .stepper span{background:rgba(255,255,255,.28)!important}
 .pbox .stepper span.d{background:#5fd38d!important}
