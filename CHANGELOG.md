@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 16 November 2026 – guide version 2.61 (trial copy at /preview/; the live guide stays 2.57)
+
+- **Section 3 Signing in, new titles:** page 6, Step 5 "Enter your credentials" (was "Enter your email and password"); page 7, Step 6 "Enter the security code" (was "Get your NHS login security code"); page 8, Step 7 "Enter security code" (was "Enter your NHS login security code"); pages 12, 13 and 14, Step 11, its Helpful tip and Step 12 "App verification code" (were "Get your App verification code" and "Enter your App verification code").
+- Troubleshooting Step C and its Helpful tip keep "Enter your email and password".
+
 ## 16 November 2026 – guide version 2.60 (trial copy at /preview/; the live guide stays 2.57)
 
 - **Section 1 › Your Health Visiting team:** removed the first line, "Your team can check your account and link." The Contact & support team page keeps it.
