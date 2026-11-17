@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 17 November 2026 – guide version 2.66 is live
+
+- Troubleshooting pages "Set up NHS login", "Cannot sign in" and "Activation Link not received" now show three parts: **The issue**, **Who can help** and **What to do**, with the help links as buttons under What to do.
+- Who can help on the two NHS login pages is the NHS login Support team, with "(The GMDP Support team cannot assist with NHS login account issues, as they do not have access to NHS login accounts.)" underneath.
+- "I have not received an Activation Link" is retitled "Activation Link not received" (both pages), with three short checks and a "What to ask" box.
+- All three pages fit at 375 × 637, 360 × 640 and 320 × 664, light and Dark Mode. Offline copy renamed `ey-guide-v2.66`. Built by `scripts/make266.py`.
+
 ## 17 November 2026 – guide version 2.65 is live
 
 - The live guide is now 2.65 (it was 2.57). This brings in all the changes in 2.58 to 2.65 below. The offline copy (`sw.js`) is renamed `ey-guide-v2.65`, so phones that saved an older version get 2.65 next time they have a signal. The trial copy at /preview/ is removed.
