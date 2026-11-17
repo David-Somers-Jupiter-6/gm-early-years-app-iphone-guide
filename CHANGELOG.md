@@ -2,6 +2,15 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 17 November 2026 – guide version 2.73 is live
+
+- **New title boxes across the guide**, chosen from the "App band + icon" mockups. Every title box is in the GM Early Years App colours (plum to crimson, from the ABC app logo) with a dark band reading "GM Early Years App | section" and the ABC app icon.
+- **NHS login pages are not in the app colours.** They are NHS blue with an "NHS login" band and the NHS mark, matching the NHS login account issues pages: When you can sign in to NHS login, How to sign in to NHS login, Steps A to H and their tips, and NHS login Support Team.
+- Question, step and tip pages: the band shows the section and position (for example "Checklist | Question 1 of 4"), with the progress bar under it. Other pages have a page icon in a white circle. The large faded page numbers and the small NHS logo in title boxes are no longer shown. The NHS logo no longer overlaps the Section 1 title.
+- Narrow and short screens: on iPhones narrower than 370 px the band shows the app icon without the app name; on iPhone SE in Safari the band is slimmer, page icons are hidden and pages with a progress bar keep their previous header, so every page still fits.
+- Trials 2.71 (section colours with faded ABC blocks) and 2.72 (app colour with faded blocks) were reviewed at `/preview/` and are not used; the trial copy is removed.
+- Checked on eight iPhone sizes in Safari and as a Home Screen app, plus 360 × 640 and 320 × 664, light and Dark Mode, including every checklist answer. Offline copy renamed `ey-guide-v2.73`. Built by `scripts/make273.py`.
+
 ## 17 November 2026 – guide version 2.70 is live
 
 - **NHS login account issues pages** (the section page and its eight pages) have a new title box, option 6c: a dark NHS blue band reading "NHS login | Account issues", an NHS blue title box, and a white circle with an icon for the page (person, add person, padlock, key, phone with message, envelope, change arrows, mobile phone, ID card).
