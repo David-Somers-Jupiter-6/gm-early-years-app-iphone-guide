@@ -2,6 +2,10 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 17 November 2026 – guide version 2.65 is live
+
+- The live guide is now 2.65 (it was 2.57). This brings in all the changes in 2.58 to 2.65 below. The offline copy (`sw.js`) is renamed `ey-guide-v2.65`, so phones that saved an older version get 2.65 next time they have a signal. The trial copy at /preview/ is removed.
+
 ## 17 November 2026 – guide version 2.65 (trial copy at /preview/; the live guide stays 2.57)
 
 - **Checklist questions line up:** on all four question pages the section line, the first line of the explanation, the first line of the question, and the tops of the Yes and No boxes are at the same height (the explanation always takes three lines of space, the question two).
