@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 17 November 2026 – guide version 2.80 is live
+
+- **NHS login sign-in steps are numbered 1 to 8** instead of A to H (band "Step 3 of 8", page names, screen reader text, tip pages and the "continue at Step 7" link).
+- **Progress bar** on Steps 1 to 8 and their tip pages, like Section 3 Signing in: eight slim segments under the NHS login band (done green, current white). These title boxes are 128 px so a two-line title fits; titles stay in the same position as on every other page.
+- Step 8 renamed **Your NHS account page**, so it no longer shares the title "Check your NHS account details" with the list item.
+- Checked on eight iPhone sizes in Safari and as a Home Screen app, light and Dark Mode. Offline copy renamed `ey-guide-v2.80`. Built by `scripts/make280.py`.
+
 ## 17 November 2026 – guide version 2.79 is live
 
 - NHS login account issues list: "How to sign in to NHS login" is now item 2, renamed **Check your NHS account details** (list and page title). The page and its Steps A to H now follow Set up NHS login, so Next and Back follow the list order.
