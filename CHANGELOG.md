@@ -2,6 +2,14 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 17 November 2026 – guide version 2.75 is live
+
+- **Back to clear title boxes** (David: lighter, less busy). The 2.73–2.74 design is now called "the banded version".
+- Every title box is in the GM Early Years App colours (plum to crimson) with the white ABC blocks from the app logo faintly behind the right-hand side. No band or page icon; the small label above the title ("Question 1 of 4", "Part 2 of 3 · NHS login") is back.
+- The Your Health Visiting team pages are NHS blue, with the ABC blocks and the NHS logo. The Section 1 title no longer runs under the NHS logo.
+- NHS login pages keep the banded look: NHS blue with the "NHS login | …" band, NHS mark and page icon (the NHS login account issues pages, When you can sign in to NHS login, How to sign in to NHS login, Steps A to H and their tips, NHS login Support Team).
+- Checked on eight iPhone sizes in Safari and as a Home Screen app, plus 360 × 640 and 320 × 664, light and Dark Mode, including every checklist answer. Offline copy renamed `ey-guide-v2.75`. Built by `scripts/make275.py`.
+
 ## 17 November 2026 – guide version 2.74 is live
 
 - Same look as 2.73, smaller file: the app icon in the title box bands was stored 45 times, which grew the guide from 1.9 MB to 3.6 MB. It is now stored once, so the guide is back to 1.9 MB and opens faster on a weak signal. Offline copy renamed `ey-guide-v2.74`. Built by `scripts/make274.py`.
