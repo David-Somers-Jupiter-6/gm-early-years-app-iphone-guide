@@ -2,6 +2,17 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 17 November 2026 – guide version 2.64 (trial copy at /preview/; the live guide stays 2.57)
+
+- **Checklist questions:** each page gives the reason, then asks the question on its own line in bold, then "Select one option, then select Next." and the two answers.
+  - Q1 "Do you have an NHS login account?" – "Yes, I have an NHS login account" / "No, I have not set up an NHS login account".
+  - Q2 "You will sign in to the App with your NHS login email address and password." "Can you sign in to your NHS login account?" – "Yes, I can sign in to my NHS login" / "No, I cannot sign in to my NHS login".
+  - Q3 "…the same email address and mobile number as your NHS login account." "Does your GM Early Years App account use the same email address and mobile number as your NHS login account?" – "Yes, my account details match" / "No, my account details do not match, or I'm not sure".
+  - Q4 "Have you received an Activation Link?" – "Yes, I have my Activation Link" / "No, I have not received an Activation Link".
+  - Stop message after No on Q1–Q3: "Select **Next** to complete the checklist."
+- **Checklist summary:** "If any item below has a red cross, tap **Get help** next to it to find out what to do." under the section line; the amber box at the bottom is removed.
+- Fits at all eight sizes, except Q3 with No chosen at 320 × 664 (12 px).
+
 ## 17 November 2026 – guide version 2.63 (trial copy at /preview/; the live guide stays 2.57)
 
 - **Checklist summary:** Next always goes to Section 3, Signing in to the GM Early Years App. It is green when all four answers are Yes; when there are crosses it stays blue but still goes to Signing in (it used to go to Troubleshooting).
