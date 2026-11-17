@@ -2,6 +2,14 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 17 November 2026 – guide version 2.77 is live
+
+- Troubleshooting page "When you can sign in to NHS login" removed (David).
+- "Change your password" removed from the NHS login account issues list and the guide: NHS login's help says you change your password in your NHS login settings, after signing in, by entering your current password — so it is not a sign-in problem. Forgotten passwords are still covered by "Forgotten your password", and both pages linked to the same NHS login passwords page.
+- "How to sign in to NHS login" is now item 8 on the NHS login account issues list, with the "NHS login | Account issues" band like the other pages on the list. The list stays at eight items and fits every iPhone.
+- Page numbers updated: Troubleshooting is now 32 pages; the guide is 71 pages (plus Search).
+- Checked on eight iPhone sizes in Safari and as a Home Screen app. Offline copy renamed `ey-guide-v2.77`. Built by `scripts/make277.py`.
+
 ## 17 November 2026 – guide version 2.76 is live
 
 - **Titles and underlines sit in exactly the same place on every page**, so nothing shifts when you move between pages. The seven section start pages (Introduction, Your Health Visiting team, Checklist, Signing in, Troubleshooting, Contact & support, About this guide) use a different kind of title box, which had slightly different settings: title 2 px further right and 2 px lower, tighter line spacing, and the underline 2 px right and 2 px higher. They now match every other page.
