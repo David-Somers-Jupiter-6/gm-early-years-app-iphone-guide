@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 17 November 2026 – guide version 2.69 is live
+
+- **Every page now fits on every iPhone.** After the cover fix, every page was checked on eight iPhone sizes (SE to 16 Pro Max), in Safari and as a Home Screen app.
+- Activation Link not received was 4 px too long on a 12/13 mini in Safari: rows tightened slightly.
+- iPhone SE in Safari (about 548 px tall): 20 pages and three checklist answers did not fit. On screens this short, title boxes now size to their content (at least 72 px) instead of a fixed 110 px, spacing is tighter, and two hint lines are hidden (Contents "Select Next…" and How this guide works "Tap a section…"). Text sizes are unchanged and nothing changes on taller screens.
+- Offline copy renamed `ey-guide-v2.69`. Built by `scripts/make269.py`.
+
 ## 17 November 2026 – guide version 2.68 is live
 
 - **Cover fills the screen on every iPhone.** Since 2.31 the cover photo was capped at 240 px, so taller screens showed a white gap above Back / Contents / Start, worst as a Home Screen app (132 px on a 12/13 mini, 264 px on a 16 Pro Max). The photo now takes the free space first, up to 85% of the screen width; the blue panel takes anything left, with its text centred; the photo framing moved left so the child's face stays in view.
