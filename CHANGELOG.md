@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 17 November 2026 – guide version 2.65 (trial copy at /preview/; the live guide stays 2.57)
+
+- **Checklist questions line up:** on all four question pages the section line, the first line of the explanation, the first line of the question, and the tops of the Yes and No boxes are at the same height (the explanation always takes three lines of space, the question two).
+- Q3 question: "Do both accounts use the same email address and mobile number?"
+- Q4 message after No: "Select **Next** to see your checklist summary."
+- Fits at all eight sizes, except Q4 with No chosen at 360 × 640 (19 px). At 320 wide the Yes answers on Q1 and Q2 take two lines, so their No boxes sit lower.
+
 ## 17 November 2026 – guide version 2.64 (trial copy at /preview/; the live guide stays 2.57)
 
 - **Checklist questions:** each page gives the reason, then asks the question on its own line in bold, then "Select one option, then select Next." and the two answers.
