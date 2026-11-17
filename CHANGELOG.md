@@ -2,6 +2,15 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 17 November 2026 – guide version 2.81 is live
+
+- **New section order** (David): 1 How this guide works · 2 Signing in to NHS login · 3 Your Health Visiting team · 4 Checklist · 5 Signing in to the GM Early Years App · 6 Troubleshooting · 7 Contact & support · 8 About this guide. Cover, Contents and Introduction stay first.
+- How this guide works moved out of About this guide to become Section 1; its list now shows the new route (sections 2 to 8).
+- The NHS login sign-in pages (start page plus Steps 1 to 8 and tips) moved out of Troubleshooting into their own Section 2, **Signing in to NHS login**; they are no longer on the NHS login account issues list (now 7 items).
+- Section numbers updated everywhere: page labels, Contents, cross-references ("see Section 7", "go to Section 6 · Troubleshooting") and the styling for the Signing in screenshots. Back and Next follow the new order.
+- To fit the extra rows: Contents no longer lists the Cover page (Back from Contents still goes there) or shows the "Select Next below" tip; How this guide works no longer shows the grey descriptions or the "Tap a section" line; on iPhone SE in Safari the Contents rows are 37 px.
+- Checked on eight iPhone sizes in Safari and as a Home Screen app, including every checklist answer. Offline copy renamed `ey-guide-v2.81`. Built by `scripts/make281.py`.
+
 ## 17 November 2026 – guide version 2.80 is live
 
 - **NHS login sign-in steps are numbered 1 to 8** instead of A to H (band "Step 3 of 8", page names, screen reader text, tip pages and the "continue at Step 7" link).
