@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 17 November 2026 – guide version 2.63 (trial copy at /preview/; the live guide stays 2.57)
+
+- **Checklist summary:** Next always goes to Section 3, Signing in to the GM Early Years App. It is green when all four answers are Yes; when there are crosses it stays blue but still goes to Signing in (it used to go to Troubleshooting).
+- NHS login account cross: **Get help** opens the new "Set up NHS login" page.
+- Amber message with crosses: "Select **Get help** next to each cross." ("or Next for more help" removed). The summary now fits at all eight sizes in all 81 answer combinations.
+- No pages deleted; the "What stopped you signing in?" pages stay for now.
+
 ## 16 November 2026 – guide version 2.62 (trial copy at /preview/; the live guide stays 2.57)
 
 - **New Troubleshooting page, "Set up NHS login"** (page 3 of 34): what the NHS login set-up help covers (What is NHS login?, Where you can use NHS login, What you need to set up an NHS login, How to set up an NHS login), the link help.login.nhs.uk/setupnhslogin, and "GMDP Support cannot access NHS login accounts." at the bottom.
