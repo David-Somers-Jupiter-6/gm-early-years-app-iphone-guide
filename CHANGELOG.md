@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 17 November 2026 – guide version 2.67 is live
+
+- NHS login account issues pages 3 to 8 (Forgotten your password, Security code not arriving, Cannot get into your email, Change your password, Mobile number problems, My name has changed) now show **The issue**, **Who can help** (NHS login Support team, with the bracketed GMDP note) and **What to do**, with help links as buttons. The email, mobile number and name pages add a second step: ask your Health Visiting team to update your App account.
+- "Common reasons for sign-in problems" is now a contents page, **Common sign-in problems**, leading to three pages: Details do not match, Partner's details used, A partner is signing in. These replace the "What stopped you signing in?" pages (Troubleshooting pages 31 to 33). The Troubleshooting contents row is renamed to match.
+- **Still need help?** shows the GMDP Support team, what to include in the email, "Never send passwords or security codes.", and the email address on the button.
+- Everything fits at 375 × 637, 360 × 640 and 320 × 664. Offline copy renamed `ey-guide-v2.67`. Built by `scripts/make267.py`.
+
 ## 17 November 2026 – guide version 2.66 is live
 
 - Troubleshooting pages "Set up NHS login", "Cannot sign in" and "Activation Link not received" now show three parts: **The issue**, **Who can help** and **What to do**, with the help links as buttons under What to do.
