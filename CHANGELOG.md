@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 17 November 2026 – guide version 2.68 is live
+
+- **Cover fills the screen on every iPhone.** Since 2.31 the cover photo was capped at 240 px, so taller screens showed a white gap above Back / Contents / Start, worst as a Home Screen app (132 px on a 12/13 mini, 264 px on a 16 Pro Max). The photo now takes the free space first, up to 85% of the screen width; the blue panel takes anything left, with its text centred; the photo framing moved left so the child's face stays in view.
+- Checked with no gap on iPhone SE, 12/13 mini, 12/13/14, 14 Pro/15/16, 16 Pro, XR/11, Plus/Pro Max and 16 Pro Max, in Safari and as a Home Screen app. Offline copy renamed `ey-guide-v2.68`. Built by `scripts/make268.py`.
+
 ## 17 November 2026 – guide version 2.67 is live
 
 - NHS login account issues pages 3 to 8 (Forgotten your password, Security code not arriving, Cannot get into your email, Change your password, Mobile number problems, My name has changed) now show **The issue**, **Who can help** (NHS login Support team, with the bracketed GMDP note) and **What to do**, with help links as buttons. The email, mobile number and name pages add a second step: ask your Health Visiting team to update your App account.
