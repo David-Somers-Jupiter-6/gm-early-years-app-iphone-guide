@@ -2,6 +2,10 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 17 November 2026 – guide version 2.74 is live
+
+- Same look as 2.73, smaller file: the app icon in the title box bands was stored 45 times, which grew the guide from 1.9 MB to 3.6 MB. It is now stored once, so the guide is back to 1.9 MB and opens faster on a weak signal. Offline copy renamed `ey-guide-v2.74`. Built by `scripts/make274.py`.
+
 ## 17 November 2026 – guide version 2.73 is live
 
 - **New title boxes across the guide**, chosen from the "App band + icon" mockups. Every title box is in the GM Early Years App colours (plum to crimson, from the ABC app logo) with a dark band reading "GM Early Years App | section" and the ABC app icon.
