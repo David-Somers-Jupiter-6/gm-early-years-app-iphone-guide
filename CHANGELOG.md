@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 17 November 2026 – guide version 2.76 is live
+
+- **Titles and underlines sit in exactly the same place on every page**, so nothing shifts when you move between pages. The seven section start pages (Introduction, Your Health Visiting team, Checklist, Signing in, Troubleshooting, Contact & support, About this guide) use a different kind of title box, which had slightly different settings: title 2 px further right and 2 px lower, tighter line spacing, and the underline 2 px right and 2 px higher. They now match every other page.
+- The Contact & support "Your Health Visiting team" title sat 16 px higher than the others to leave room for the NHS logo underneath; the logo now sits bottom right beside the title, as on the Section 1 team page.
+- Measured on all 72 title boxes at 375 × 637, 375 × 548, 320 × 664 and 430 × 876: one position everywhere. Offline copy renamed `ey-guide-v2.76`. Built by `scripts/make276.py`.
+
 ## 17 November 2026 – guide version 2.75 is live
 
 - **Back to clear title boxes** (David: lighter, less busy). The 2.73–2.74 design is now called "the banded version".
