@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 17 November 2026 – guide version 2.79 is live
+
+- NHS login account issues list: "How to sign in to NHS login" is now item 2, renamed **Check your NHS account details** (list and page title). The page and its Steps A to H now follow Set up NHS login, so Next and Back follow the list order.
+- Steps B to H screenshots now match Section 3 Signing in: 248 points wide and centred, cropped to the part of the screen that matters and the highlighted area, with "Tap to enlarge" underneath. The title boxes keep the NHS login blue band.
+- Checked NHS login's help: signing in is still email address and password, then a security code sent to your phone (or a passkey).
+- Checked on eight iPhone sizes in Safari and as a Home Screen app; every title box now the same size at every width. Offline copy renamed `ey-guide-v2.79`. Built by `scripts/make279.py`.
+
 ## 17 November 2026 – guide version 2.78 is live
 
 - **Cannot get into your email** now follows NHS login's own advice. NHS login only lets you change your email in your settings after signing in; if you cannot get into your email, you need to create a new NHS login. What to do: "Set up a new NHS login with an email you can open." then "Ask your Health Visiting team to update your App account." The first button is renamed "Lost access to your email" and opens NHS login's page on it.
