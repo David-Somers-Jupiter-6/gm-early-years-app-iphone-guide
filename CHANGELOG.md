@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 17 November 2026 – guide version 2.78 is live
+
+- **Cannot get into your email** now follows NHS login's own advice. NHS login only lets you change your email in your settings after signing in; if you cannot get into your email, you need to create a new NHS login. What to do: "Set up a new NHS login with an email you can open." then "Ask your Health Visiting team to update your App account." The first button is renamed "Lost access to your email" and opens NHS login's page on it.
+- On iPhone SE in Safari the bracketed note and the two buttons on this page are slightly smaller so it fits.
+- Checked on eight iPhone sizes in Safari and as a Home Screen app. Offline copy renamed `ey-guide-v2.78`. Built by `scripts/make278.py`.
+
 ## 17 November 2026 – guide version 2.77 is live
 
 - Troubleshooting page "When you can sign in to NHS login" removed (David).
