@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 17 November 2026 – guide version 2.70 is live
+
+- **NHS login account issues pages** (the section page and its eight pages) have a new title box, option 6c: a dark NHS blue band reading "NHS login | Account issues", an NHS blue title box, and a white circle with an icon for the page (person, add person, padlock, key, phone with message, envelope, change arrows, mobile phone, ID card).
+- On very short screens (iPhone SE in Safari) the band is slimmer and the icon is hidden so every page still fits.
+- Checked on eight iPhone sizes in Safari and as a Home Screen app, light and Dark Mode. Offline copy renamed `ey-guide-v2.70`. Built by `scripts/make270.py` (uses `scripts/nhsmark_white.png`).
+
 ## 17 November 2026 – guide version 2.69 is live
 
 - **Every page now fits on every iPhone.** After the cover fix, every page was checked on eight iPhone sizes (SE to 16 Pro Max), in Safari and as a Home Screen app.
