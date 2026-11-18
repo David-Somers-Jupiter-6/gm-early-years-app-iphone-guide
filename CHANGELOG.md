@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 18 November 2026 – guide version 2.84 is live
+
+- **Section 4 · Your Health Visiting team title boxes** (David): same design as NHS login – a dark blue strip at the top with the NHS logo and **Health Visiting team**, then the title and underline on the NHS login blue. The NHS logo in the corner and the faint ABC blocks are gone. Both Section 4 pages.
+- Titles shortened to one line, as the strip already says Health Visiting team: **Contact your team** and **Confirm your details** (Contents and Search keep the full names). The title and underline sit in the same place as on every other page.
+- **About your account** (David): one highlight only. "In this guide, we call this person the account holder" is now plain text after the opening sentence; then the two points; then the yellow note "A partner or another family member **cannot** sign in to the account".
+- Checked on eight iPhone sizes in Safari and as a Home Screen app, plus 375×637, 360×640 and 320×664. Offline copy renamed `ey-guide-v2.84`. Built by `scripts/make284.py`.
+
 ## 18 November 2026 – guide version 2.83 is live
 
 - **Section 3 · NHS login titles on one line** (David): Step 1 Go to NHS login · 2 Sign-in page opens · 3 Email and password · 4 Security code page · 5 Get your security code · 6 Enter the security code · 7 Checking your details · 8 Your NHS account page (tips use their step's title). Part a is now titled **Information needed**; the band on the two part pages reads "NHS login | Part a" and "Part b". All fit on one line at 375 px wide and above; at 320 px (Display Zoom) a few wrap, as some Signing in titles do.
