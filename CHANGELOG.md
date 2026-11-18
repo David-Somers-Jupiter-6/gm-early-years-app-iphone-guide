@@ -2,6 +2,18 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 18 November 2026 – guide version 2.85 is live
+
+- **Health Visiting team finder** (David) – Section 4 Contact your team, and the same finder in Section 8:
+  - The instruction "To see your team's contact details, select your Locality, then your Health Visiting team" now stays on screen after a team is chosen (Section 4), so a carer who picked the wrong team can see what to do.
+  - More space between the instruction and the menus, and between the menus and the team card.
+  - The **Contact details / Map** switch is always shown on the card. A newly chosen team always opens on Contact details. Switching fades smoothly (no motion if the iPhone's Reduce Motion is on).
+  - **"Tap the contact number to call."** is now inside the card, under the opening hours, above a thin divider. The separate note under the card has gone (the switch now shows the map).
+  - **One phone number per team**: Cheadle Hulme and Bramhall (0161 835 6552) and Heatons (0161 835 6490) keep their first number only.
+  - Card polish: rounded corners with a soft shadow, a clock icon on the hours line to match the address pin, more room under the team name.
+  - On shorter screens (iPhone in Safari) the small "Locality" and "Health Visiting team" labels above the menus are hidden from view, as the instruction just above names both; screen readers still hear them. The first menu now shows "Locality" rather than "Choose". The smallest map height is 100 px (was 130 px) so the map view fits on iPhone SE.
+- Every team (23) checked in both views on both pages at every iPhone size, plus every page of the guide. Offline copy renamed `ey-guide-v2.85`. Built by `scripts/make285.py`.
+
 ## 18 November 2026 – guide version 2.84 is live
 
 - **Section 4 · Your Health Visiting team title boxes** (David): same design as NHS login – a dark blue strip at the top with the NHS logo and **Health Visiting team**, then the title and underline on the NHS login blue. The NHS logo in the corner and the faint ABC blocks are gone. Both Section 4 pages.
