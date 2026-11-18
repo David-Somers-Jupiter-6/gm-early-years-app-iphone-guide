@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 18 November 2026 – guide version 2.90 is live
+
+- **Step 1 title** (David): **Signing in to NHS login** (was "Go to NHS login").
+- **Section 3 pages 3 and 4 deleted** (David): Step 2 "Sign-in page opens" and its note ("If you already have an NHS login account … do not tap Create NHS account"). Step 1 now leads straight to Email and password.
+- The NHS login steps are now **1 to 7**: band labels, progress bars, hidden step text, Search titles and the Step 3 note's "continue at Step 6" all renumbered. Section 3 is 14 pages; the guide is 69 pages.
+- Checked on eight iPhone sizes in Safari and as a Home Screen app, plus 375×637, 360×640 and 320×664. Offline copy renamed `ey-guide-v2.90`. Built by `scripts/make290.py`.
+
 ## 18 November 2026 – guide version 2.89 is live
 
 - **Before you sign in (Section 3 page 1) is now the worked example** (David – the diagram was confusing). The words come first: "Your details must be **exactly the same** in **NHS login** and the **GM Early Years App**." Then, with more space: "✓ **Same details:** you can sign in." / "✗ **Different details:** ask your HV team." Then "For example:" and two quiet example account cards – NHS login = GM Early Years App – with made-up details (Charlotte Somers, 485 777 3456, 07700 900123, c.somers@example.com). The cards have tinted headers and a thin coloured top edge so the text leads. Screen readers hear the example as one sentence.
