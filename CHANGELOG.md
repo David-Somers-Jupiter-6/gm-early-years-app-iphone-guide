@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 18 November 2026 – guide version 2.89 is live
+
+- **Before you sign in (Section 3 page 1) is now the worked example** (David – the diagram was confusing). The words come first: "Your details must be **exactly the same** in **NHS login** and the **GM Early Years App**." Then, with more space: "✓ **Same details:** you can sign in." / "✗ **Different details:** ask your HV team." Then "For example:" and two quiet example account cards – NHS login = GM Early Years App – with made-up details (Charlotte Somers, 485 777 3456, 07700 900123, c.somers@example.com). The cards have tinted headers and a thin coloured top edge so the text leads. Screen readers hear the example as one sentence.
+- The "Sign in to check your details" button is removed; Next leads to Step 1. The 2.87 diagram styles are removed.
+- Checked on eight iPhone sizes in Safari and as a Home Screen app, plus 375×637, 360×640 and 320×664. Offline copy renamed `ey-guide-v2.89`. Built by `scripts/make289.py`.
+
 ## 18 November 2026 – guide version 2.88 is live
 
 - **NHS login pages 2 and 3 combined** (David): "Signing in to NHS login" and "Step 1 · Go to NHS login" are now one Step 1 page that flows top to bottom – why ("Sign in to your own NHS login account to check your details. You use the same email address and password for the GM Early Years App."), what to do ("Open this website in Safari on your iPhone, or on any computer:"), the full-width **settings.login.nhs.uk** button, then below a divider "**Cannot sign in?** See NHS login account issues in Section 7. (The GMDP Support team cannot assist …)".
