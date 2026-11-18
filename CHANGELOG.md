@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 18 November 2026 – guide version 2.86 is live
+
+- **Section 4 page 1 title** (David): **Contact your HV team** (was "Contact your team"). One line on every iPhone, same position as every other title.
+- **Team cards** (Section 4 and Section 8): "Tap the **contact number** to **call**." – the key words in bold.
+- Every team checked in both views on both pages at the tightest sizes; nothing moved. Offline copy renamed `ey-guide-v2.86`. Built by `scripts/make286.py`.
+
 ## 18 November 2026 – guide version 2.85 is live
 
 - **Health Visiting team finder** (David) – Section 4 Contact your team, and the same finder in Section 8:
