@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 18 November 2026 – guide version 2.87 is live
+
+- **Section 3 · NHS login now opens with the key message** (David): the start page is **Before you sign in** (band "NHS login | Start here"). A diagram – NHS login | must match | GM Early Years App – puts a tick on both sides of each detail: Given name, Surname, NHS number, Mobile phone number ("Gets your security codes"), Email address ("Used to sign in to NHS login"). Then **Same? You can sign in** / **Different? Ask your HV team** (links to Section 4), and a button **Sign in to check your details →** that leads into the NHS login sign-in steps. Chosen from four mockups (checklist, side-by-side diagram, worked example, Yes/No diagram): the diagram with the Yes/No ending.
+- The "This section has two parts" list and the separate Part a page are gone; the sign-in start page band is "NHS login | Signing in" again. Section 3 is 17 pages; the guide is 72 pages.
+- **Fix:** 2.85 left a style block open, so the print styles and the Contact details / Map fade on screens taller than 700 px were not applying. Corrected, and every build now checks that the stylesheet is balanced.
+- Checked on eight iPhone sizes in Safari and as a Home Screen app, plus 375×637, 360×640 and 320×664; Health Visiting team finder rechecked. Offline copy renamed `ey-guide-v2.87`. Built by `scripts/make287.py`.
+
 ## 18 November 2026 – guide version 2.86 is live
 
 - **Section 4 page 1 title** (David): **Contact your HV team** (was "Contact your team"). One line on every iPhone, same position as every other title.

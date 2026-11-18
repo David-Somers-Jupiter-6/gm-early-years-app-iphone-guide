@@ -73,7 +73,6 @@ CSS = '''/* 2.85 Health Visiting team finder: instruction stays, more space, swi
 #app :is(#hv,#s5-hv) .hv-tap{margin-top:7px;padding-top:6px}
 }
 @media screen and (max-height:700px){
-@media screen and (max-height:700px){
 #app :is(#hv,#s5-hv) .hv-f>label{position:absolute!important;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 }
 @media screen and (max-height:640px){
