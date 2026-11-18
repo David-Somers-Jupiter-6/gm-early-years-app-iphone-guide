@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 18 November 2026 – guide version 2.88 is live
+
+- **NHS login pages 2 and 3 combined** (David): "Signing in to NHS login" and "Step 1 · Go to NHS login" are now one Step 1 page that flows top to bottom – why ("Sign in to your own NHS login account to check your details. You use the same email address and password for the GM Early Years App."), what to do ("Open this website in Safari on your iPhone, or on any computer:"), the full-width **settings.login.nhs.uk** button, then below a divider "**Cannot sign in?** See NHS login account issues in Section 7. (The GMDP Support team cannot assist …)".
+- "Sign in to check your details" and Next on page 1 go straight to Step 1; Back on Step 1 returns to page 1. Section 3 is 16 pages; the guide is 71 pages.
+- Checked on eight iPhone sizes in Safari and as a Home Screen app, plus 375×637, 360×640 and 320×664. Offline copy renamed `ey-guide-v2.88`. Built by `scripts/make288.py`.
+
 ## 18 November 2026 – guide version 2.87 is live
 
 - **Section 3 · NHS login now opens with the key message** (David): the start page is **Before you sign in** (band "NHS login | Start here"). A diagram – NHS login | must match | GM Early Years App – puts a tick on both sides of each detail: Given name, Surname, NHS number, Mobile phone number ("Gets your security codes"), Email address ("Used to sign in to NHS login"). Then **Same? You can sign in** / **Different? Ask your HV team** (links to Section 4), and a button **Sign in to check your details →** that leads into the NHS login sign-in steps. Chosen from four mockups (checklist, side-by-side diagram, worked example, Yes/No diagram): the diagram with the Yes/No ending.
