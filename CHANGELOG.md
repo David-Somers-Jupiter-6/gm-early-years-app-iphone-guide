@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 18 November 2026 – guide version 2.83 is live
+
+- **Section 3 · NHS login titles on one line** (David): Step 1 Go to NHS login · 2 Sign-in page opens · 3 Email and password · 4 Security code page · 5 Get your security code · 6 Enter the security code · 7 Checking your details · 8 Your NHS account page (tips use their step's title). Part a is now titled **Information needed**; the band on the two part pages reads "NHS login | Part a" and "Part b". All fit on one line at 375 px wide and above; at 320 px (Display Zoom) a few wrap, as some Signing in titles do.
+- **Title boxes match Section 6 Signing in**: the NHS login step boxes are now 110 px (were 128 px) with the title and underline in exactly the same place; the NHS login band stays on top with the progress bar under it. On iPhone SE in Safari they match the Signing in boxes too. Every title box in the guide is now the same size at 375 px and above.
+- **Wording**: the Signing in to NHS login page no longer sends people back to the checklist (it now comes later); it says the same email address and password are used for the GM Early Years App, links to NHS login account issues, and adds the GMDP Support team note. Step 4 no longer repeats its tip. Step 6 and 7 tips both say "(see Section 8 · Contact & support)". Step 8's note now ends "Tap Next to go to Section 4 · Contact your Health Visiting team". "NHS login Support team" is spelled one way throughout.
+- Checked on eight iPhone sizes in Safari and as a Home Screen app, plus 375×637, 360×640 and 320×664. Offline copy renamed `ey-guide-v2.83`. Built by `scripts/make283.py`.
+
 ## 17 November 2026 – guide version 2.82 is live
 
 - **Skeleton of the new structure** (David), so each section can be worked on step by step: I Introduction · 1 How this guide works · 2 About your account · 3 NHS login (a Information needed from NHS login, b Signing in to NHS login) · 4 Contact your Health Visiting team · 5 Run through the Checklist · 6 Signing in to the GM Early Years App · 7 Troubleshooting · 8 Contact & support · 9 About this guide · Accessibility.
