@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 19 November 2026 – guide version 3.04 is live
+
+- **Checklist progress on the right** (David, from mock-up): on the four question pages and the checklist summary, the progress bar and "Question N of 4" now sit on the right-hand side of the title box, so they read differently from "Stage N of 3" on the left of a section's first page. Signing in and the NHS login steps are unchanged (left).
+- Checked at 390, 320, 440 and 375×548. Offline copy renamed `ey-guide-v3.04`. Built by `scripts/make304.py`. `/preview/` updated to 3.04 too.
+
 ## 19 November 2026 – guide version 3.03 is live
 
 - **Checklist progress bar** (David): now the same size and colours as the Signing in bar. Each of the four segments is the width of one Signing in step segment (so the bar is short, not full width). Colours as Signing in: green for questions answered (Yes or No – no red), white for the current question (it stays white after answering), faint for questions to come. Dark Mode matches Signing in too.
