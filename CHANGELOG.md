@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 19 November 2026 – guide version 2.94 is live
+
+- **Contact & support – who to contact for what** (David, from mockup): "Who to contact depends on the problem:" then three cards with logos – **Your Health Visiting team** (For: your App account – your details and Activation Link) · **NHS login Support team** (For: your NHS login – setting up, signing in, security codes) · **GMDP Support Team** (For: problems with the App itself, once NHS login works). Accessibility is a quieter line underneath ("Large print, easy-read and other formats"). Logos are embedded once in the styles.
+- **Checklist summary** (David, from mockup): a headline banner at the top – amber "**2 things to sort out first**" (the number follows the answers), grey "**Not quite finished**", or green "**You are ready to sign in**" with a **Go to Signing in** button. Problems are red cards with a solid **Get help** button; ticked items are one quiet line. On screens up to 700 px tall the banner's second line is hidden so even four problems fit. Still works without JavaScript (the banner then says "Some things").
+- Checked on eight iPhone sizes in Safari and as a Home Screen app, plus 375×637, 360×640 and 320×664; five answer combinations on the summary; every card link. Offline copy renamed `ey-guide-v2.94`. Built by `scripts/make294.py`.
+
 ## 19 November 2026 – guide version 2.93 is live
 
 - **Team finder** (David – the instruction changed after a team was chosen, which looked like the page jumping): one layout that never changes – "Find your team's contact details:" then numbered labels over the two menus, **① Locality** and **② Health Visiting team** (② "HV team" on 320 px wide screens). The labels now show on every screen; the Locality menu says "Choose". Section 2 and the Section 8 copy (Section 8 still hides its one-line instruction once a team is chosen, as before).
