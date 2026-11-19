@@ -22,7 +22,8 @@ self.addEventListener('fetch', function (e) {
   var isGuide = u.pathname === scope.pathname || u.pathname === scope.pathname + 'index.html';
   if (r.mode === 'navigate' || isGuide) {
     if (!isGuide) return;                                      /* other pages, such as /preview/: not kept */
-    e.respondWith(fetch(r).then(function (res) {
+    /* always ask the website whether there is a newer guide (skips the phone's 10-minute browser cache) */
+    e.respondWith(fetch(u.href, { cache: 'no-cache', credentials: 'same-origin' }).then(function (res) {
       if (res && res.ok) { var copy = res.clone(); caches.open(CACHE).then(function (c) { c.put('./', copy); }); }
       return res;
     }).catch(function () { return caches.match('./'); }));

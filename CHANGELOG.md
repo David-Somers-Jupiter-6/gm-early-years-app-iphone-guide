@@ -2,6 +2,10 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 20 November 2026 – faster updates on iPhones (website only, guide still 3.07)
+
+- `sw.js`: when there is a signal, the guide is now always checked with the website (`cache: 'no-cache'`) instead of possibly using the browser's saved copy, which GitHub Pages lets phones keep for up to 10 minutes. New versions should show the next time the guide is opened (after this change has been picked up once). The offline copy for no signal is unchanged.
+
 ## 19 November 2026 – guide version 3.07 is live
 
 - **Checklist progress bar colours** (David): the current question's segment now turns **green for Yes** and **red for No** as soon as an answer is chosen (no need to tap Next), and changes straight away if the answer is changed. Earlier questions stay green (Yes) or red (No), including on the summary. Unanswered: white for the current question, faint for questions to come. Segment size (3.03) and right-hand position (3.04) unchanged. Dark Mode checked.
