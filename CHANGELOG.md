@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 19 November 2026 – guide version 2.93 is live
+
+- **Team finder** (David – the instruction changed after a team was chosen, which looked like the page jumping): one layout that never changes – "Find your team's contact details:" then numbered labels over the two menus, **① Locality** and **② Health Visiting team** (② "HV team" on 320 px wide screens). The labels now show on every screen; the Locality menu says "Choose". Section 2 and the Section 8 copy (Section 8 still hides its one-line instruction once a team is chosen, as before).
+- **About your account – headings** (David): **Who will be set up with an account?** · **Who will be able to access the account?** · **Who will not be able to access the account?** (the last answered by the yellow note). New reusable in-page heading style for information pages.
+- **Section 4 page retitled "Your account details"** with a GM Early Years App title box (was "Before you sign in" in an NHS login box).
+- Checked on eight iPhone sizes in Safari and as a Home Screen app, plus 375×637, 360×640 and 320×664; every team on both finder pages. Offline copy renamed `ey-guide-v2.93`. Built by `scripts/make293.py`.
+
 ## 19 November 2026 – guide version 2.92 is live
 
 - **New order** (David): 1 How this guide works · **2 Contact your Health Visiting team** · 3 About your account · 4 NHS login · 5 Checklist · 6 Signing in · 7 Troubleshooting · 8 Contact & support · 9 About this guide. Contents, roadmap, page order, section labels and cross-references all follow.
