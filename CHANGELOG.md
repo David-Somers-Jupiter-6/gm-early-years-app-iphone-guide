@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 19 November 2026 – guide version 3.06 is live
+
+- **How to install the App** (David): the A4 guide "GM Early Years App – How to install the App on a mobile phone (iOS) – Carer Role v1.04" is now inside Troubleshooting > GM Early Years App issues (first item, "How to install the App"), in the Signing in design: an introduction (You will need: Apple ID signed in, internet connection; GMDP Support Team for help), 7 step pages (progress bar, "Installing the App" label, instruction, Tap chip, screenshot 248 wide cropped to the highlighted part, Tap to enlarge), a helpful tip after Step 4 (the button says **Get** the first time, with Face ID / Touch ID / Apple ID password) and an "Installation complete" page linking to Section 5 · Signing in.
+- Screenshots from the A4 guide, stored in `scripts/assets/install/`. All Signing in screenshot and step rules now also apply to install pages (`[data-inst]`); Signing in pages are unchanged (checked).
+- Guide is now 80 pages; Troubleshooting 40. Checked at every iPhone size: every page fits, the same 10 px above the buttons as Signing in. Offline copy renamed `ey-guide-v3.06`. Built by `scripts/make306.py`. `/preview/` updated to 3.06 too.
+
 ## 19 November 2026 – guide version 3.05 is live
 
 - **Troubleshooting: GM Early Years App issues** (David): the "Activation Link issues" card on the Troubleshooting menu is now **GM Early Years App issues** (user icon; tile and left highlight in the GM Early Years App colours; "For issues with access to the app"). It opens a new page, **GM Early Years App issues** (Section 6, page 23 of 30): app title box with a round white user icon, "For issues with access to the GM Early Years App.", and a list in the NHS login account issues style but in the app colours. The first item is **Activation Link issues** (the existing Activation Link pages). More items to follow from David.
