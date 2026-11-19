@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 19 November 2026 – guide version 2.95 is live
+
+- **Troubleshooting help pages as three blocks** (David, from mockup) – all 12 help pages: **The issue** (amber card) · **Who can help** (blue card with the team's logo – NHS for NHS login Support and Health Visiting teams, ABC for GMDP Support) · **What to do** (green card, with the help buttons inside it as blue pills). Icons sit beside the small headings so the text uses the full card width. Spacing tightens on shorter screens so every page still fits.
+- **Signing in overview** (David, from mockup): the three parts as a connected strip of tiles – Get started (Steps 1–3) → NHS login (Steps 4–9) → GM Early Years App (Steps 10–15) – and "You will need" as three icon rows (email address, password, iPhone for text messages).
+- **Stage marker** (David, from mockup): on each section's first page, three bars and "Stage N of 3 · What you need / How to sign in / Who can help" sit inside the title box above the title (no extra height; titles stay in place). On the Health Visiting team page the NHS band says "Stage 1 of 3". Hidden on iPhone SE in Safari, where title boxes are compact. (Built inside the title box rather than below it, as two pages had no room below.)
+- Checked on eight iPhone sizes in Safari and as a Home Screen app, plus 375×637, 360×640 and 320×664. Offline copy renamed `ey-guide-v2.95`. Built by `scripts/make295.py`.
+
 ## 19 November 2026 – guide version 2.94 is live
 
 - **Contact & support – who to contact for what** (David, from mockup): "Who to contact depends on the problem:" then three cards with logos – **Your Health Visiting team** (For: your App account – your details and Activation Link) · **NHS login Support team** (For: your NHS login – setting up, signing in, security codes) · **GMDP Support Team** (For: problems with the App itself, once NHS login works). Accessibility is a quieter line underneath ("Large print, easy-read and other formats"). Logos are embedded once in the styles.
