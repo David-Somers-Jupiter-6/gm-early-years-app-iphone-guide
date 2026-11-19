@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 19 November 2026 – guide version 2.91 is live
+
+- **How this guide works** (David): now David's description – "Sometimes connecting to things online does not go the way we hope, and that can be frustrating. **This guide is designed to help.** Working through the steps in this guide will: 1 Show you **what you need** to access the app · 2 Show you **examples** of how to access the app · 3 Show you **who can help**, and what to do, when there are problems."
+- **Your roadmap** (new, Section 1 page 2): what happens next, in the same three stages, each section one tap away – **1 What you need**: About your account, NHS login, Contact your HV team, Checklist · **2 How to sign in**: Signing in to the GM Early Years App · **3 Who can help**: Troubleshooting, Contact & support. (The section list moved here from page 1.) The guide is 70 pages.
+- Checked on eight iPhone sizes in Safari and as a Home Screen app, plus 375×637, 360×640 and 320×664; every roadmap link tested. Offline copy renamed `ey-guide-v2.91`. Built by `scripts/make291.py`.
+
 ## 18 November 2026 – guide version 2.90 is live
 
 - **Step 1 title** (David): **Signing in to NHS login** (was "Go to NHS login").
