@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 19 November 2026 – guide version 2.98 is live
+
+- **Removed "Confirm your details"** (Section 2 · Your Health Visiting team, page 2 of 2) – David: that is being done somewhere else. Section 2 is now one page (Contact your HV team), which goes straight on to Section 3 · About your account. The guide has 69 pages.
+- The trial at `/preview/` is updated to 2.98 too, still with the new Home Screen icon. The live guide keeps the old icon until David approves the new one.
+
 ## 19 November 2026 – trial: guide version 2.97 at /preview/
 
 - **New Home Screen icon (trial)** – David chose "B+F 1" from the icon mockups: the ABC blocks from the guide's title boxes with a yellow GUIDE label, on the guide's magenta gradient. Icons (180, 192, 512 and maskable 512) made by `scripts/make_icons.py` with the guide's own Archivo font. On the trial at `/preview/` only; the live guide still has the old icon.
