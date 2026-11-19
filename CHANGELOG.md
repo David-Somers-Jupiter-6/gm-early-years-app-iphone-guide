@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 19 November 2026 – guide version 2.96 is live
+
+- GMDP Support Team page: round white headset icon in the title box, matching the NHS login Support team page (in the GM Early Years colour).
+- Contact & support > Your Health Visiting team: the instruction line now always stays, so the page no longer moves when a locality and team are chosen. On shorter screens (iPhone SE, mini, 12–16 in Safari) the lead line "Your team can check your account and link." is left out to make room — the Contact & support card already says what the team is for.
+- All pages checked at every iPhone size; all 23 teams checked in both views.
+
 ## 19 November 2026 – guide version 2.95 is live
 
 - **Troubleshooting help pages as three blocks** (David, from mockup) – all 12 help pages: **The issue** (amber card) · **Who can help** (blue card with the team's logo – NHS for NHS login Support and Health Visiting teams, ABC for GMDP Support) · **What to do** (green card, with the help buttons inside it as blue pills). Icons sit beside the small headings so the text uses the full card width. Spacing tightens on shorter screens so every page still fits.
