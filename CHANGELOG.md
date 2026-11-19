@@ -2,6 +2,14 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 19 November 2026 – guide version 2.99 is live
+
+- **Troubleshooting menus with icons, in the Contact & support style** (David, from mockup):
+  - Troubleshooting start page: four cards with icon tiles, a short line and "Help from:" (NHS login Support team / your HV team); "Still need help?" has the GMDP tile. Descriptions shortened; lead now "What is the problem?". On the smallest screens the short lines are hidden (except "Contact the GMDP Support Team").
+  - NHS login account issues: the eight options as one list with a small blue icon each.
+  - Common sign-in problems: three cards with icons.
+- All pages checked at every iPhone size. `/preview/` updated to 2.99 too (still with the new Home Screen icon).
+
 ## 19 November 2026 – guide version 2.98 is live
 
 - **Removed "Confirm your details"** (Section 2 · Your Health Visiting team, page 2 of 2) – David: that is being done somewhere else. Section 2 is now one page (Contact your HV team), which goes straight on to Section 3 · About your account. The guide has 69 pages.
