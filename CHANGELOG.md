@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 19 November 2026 – guide version 3.02 is live
+
+- **How this guide works** (David): "This guide is designed to help." now sits on its own line, in bold. On shorter screens (iPhone SE and similar) the gaps between paragraphs and the three cards are slightly tighter so the page still fits without scrolling.
+- Checked at every iPhone size. Offline copy renamed `ey-guide-v3.02`. Built by `scripts/make302.py`. `/preview/` updated to 3.02 too.
+
 ## 19 November 2026 – guide version 3.01 is live
 
 - **Contact your HV team** (Section 2): the title box is now the GM Early Years App title box (app colours with the faint ABC blocks) instead of the NHS-blue Health Visiting team band, with the usual "Stage 1 of 3 · What you need" marker, matching About your account. The Contact & support copy of the team finder is unchanged.
