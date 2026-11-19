@@ -2,6 +2,14 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 19 November 2026 – guide version 2.92 is live
+
+- **New order** (David): 1 How this guide works · **2 Contact your Health Visiting team** · 3 About your account · 4 NHS login · 5 Checklist · 6 Signing in · 7 Troubleshooting · 8 Contact & support · 9 About this guide. Contents, roadmap, page order, section labels and cross-references all follow.
+- **Signing in to NHS login moves to Troubleshooting** (David): NHS login Steps 1–7 and their tips now follow "NHS login account issues" and are option **1 Signing in to NHS login** on that list. Section 4 NHS login keeps "Before you sign in", whose Next now goes to the Checklist. Step 1 now says "Cannot sign in? See the other NHS login account issues"; the Step 7 note now ends "If any of these details are different from your GM Early Years App account, contact your Health Visiting team".
+- **Roadmap options listed vertically** (David), one per row in each stage; the "Tap a section" line dropped for room.
+- **Team finder wording** (David), Section 2 and the Section 8 copy: "If you need to contact your Health Visiting team, you can find their contact details by: • selecting your **Locality** • then selecting your **Health Visiting team**". On Section 2, once a team is chosen, the same instruction shows on one line ("Select your Locality, then your Health Visiting team.") so the team card fits.
+- Checked on eight iPhone sizes in Safari and as a Home Screen app, plus 375×637, 360×640 and 320×664; every team on both finder pages; every roadmap and Contents link; Next route. Offline copy renamed `ey-guide-v2.92`. Built by `scripts/make292.py`.
+
 ## 19 November 2026 – guide version 2.91 is live
 
 - **How this guide works** (David): now David's description – "Sometimes connecting to things online does not go the way we hope, and that can be frustrating. **This guide is designed to help.** Working through the steps in this guide will: 1 Show you **what you need** to access the app · 2 Show you **examples** of how to access the app · 3 Show you **who can help**, and what to do, when there are problems."
