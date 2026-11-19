@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 19 November 2026 – guide version 3.03 is live
+
+- **Checklist progress bar** (David): now the same size and colours as the Signing in bar. Each of the four segments is the width of one Signing in step segment (so the bar is short, not full width). Colours as Signing in: green for questions answered (Yes or No – no red), white for the current question (it stays white after answering), faint for questions to come. Dark Mode matches Signing in too.
+- Checked at 390, 320 and 375×548 in light and Dark Mode. Offline copy renamed `ey-guide-v3.03`. Built by `scripts/make303.py`. `/preview/` updated to 3.03 too.
+
 ## 19 November 2026 – guide version 3.02 is live
 
 - **How this guide works** (David): "This guide is designed to help." now sits on its own line, in bold. On shorter screens (iPhone SE and similar) the gaps between paragraphs and the three cards are slightly tighter so the page still fits without scrolling.
