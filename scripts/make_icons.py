@@ -1,4 +1,4 @@
-"""Home Screen icon: ABC blocks with the yellow GUIDE label (David chose "B+F 1", 19 Nov 2026).
+"""Home Screen icon: ABC blocks only, larger (David chose "New 2", 19 Nov 2026; replaces "B+F 1" with the GUIDE label).
 Writes icon-source.svg and renders icon-180/192/512 + icon-maskable-512 PNGs into OUTDIR,
 using the Archivo font embedded in the guide (so the letters match the guide's headings).
 usage: python3 make_icons.py guide.html OUTDIR"""
@@ -11,10 +11,8 @@ def block(x, y, s, L):
     return (f'<rect x="{x}" y="{y+8}" width="{s}" height="{s}" rx="{s*.16:.0f}" fill="#000" opacity=".16"/>'
             f'<rect x="{x}" y="{y}" width="{s}" height="{s}" rx="{s*.16:.0f}" fill="#fff"/>'
             f'<text x="{x+s/2}" y="{y+s*.74:.0f}" text-anchor="middle" font-family="Archivo" font-weight="800" font-size="{s*.66:.0f}" fill="{MAG}">{L}</text>')
-s, ax, ay, gap = 116, 198, 62, 22
-GLYPH = (block(ax, ay, s, 'A') + block(ax - s//2 - gap//2, ay + s + gap, s, 'B') + block(ax + s//2 + gap//2, ay + s + gap, s, 'C')
-         + '<rect x="106" y="354" width="300" height="86" rx="43" fill="#ffd23f"/>'
-         + f'<text x="256" y="418" text-anchor="middle" font-family="Archivo" font-weight="800" font-size="58" letter-spacing="6" fill="{NAVY}">GUIDE</text>')
+s, ax, ay, gap = 160, 176, 82, 20
+GLYPH = block(ax, ay, s, 'A') + block(ax - s//2 - gap//2, ay + s + gap, s, 'B') + block(ax + s//2 + gap//2, ay + s + gap, s, 'C')
 def svg(scale=1.0):
     g = GLYPH if scale == 1 else f'<g transform="translate(256 256) scale({scale}) translate(-256 -256)">{GLYPH}</g>'
     return ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">'
@@ -27,7 +25,7 @@ with sync_playwright() as p:
         pg = b.new_page(viewport={'width': size, 'height': size})
         pg.set_content(f'<style>{font}html,body{{margin:0}}svg{{display:block;width:{size}px;height:{size}px}}</style>{svg(sc)}')
         pg.evaluate('document.fonts.ready'); pg.wait_for_timeout(300)
-        assert pg.evaluate("document.fonts.check('800 58px Archivo')")
+        assert pg.evaluate("document.fonts.check('800 100px Archivo')")
         pg.screenshot(path=os.path.join(out, name)); pg.close()
     b.close()
 print('icons written to', out)

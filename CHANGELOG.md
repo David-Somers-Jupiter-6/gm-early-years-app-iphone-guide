@@ -2,6 +2,10 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 19 November 2026 – trial icon updated at /preview/
+
+- **Home Screen icon (trial)** – David chose "New 2" from the mockups: the ABC blocks only, larger, on the magenta gradient (the yellow GUIDE label is gone). `scripts/make_icons.py` updated. On `/preview/` only; the live guide still has the old icon.
+
 ## 19 November 2026 – guide version 2.99 is live
 
 - **Troubleshooting menus with icons, in the Contact & support style** (David, from mockup):
