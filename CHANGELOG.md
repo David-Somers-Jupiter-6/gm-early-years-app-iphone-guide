@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 19 November 2026 – guide version 3.05 is live
+
+- **Troubleshooting: GM Early Years App issues** (David): the "Activation Link issues" card on the Troubleshooting menu is now **GM Early Years App issues** (user icon; tile and left highlight in the GM Early Years App colours; "For issues with access to the app"). It opens a new page, **GM Early Years App issues** (Section 6, page 23 of 30): app title box with a round white user icon, "For issues with access to the GM Early Years App.", and a list in the NHS login account issues style but in the app colours. The first item is **Activation Link issues** (the existing Activation Link pages). More items to follow from David.
+- Guide is now 70 pages; Troubleshooting 30. Back/Next, page numbers and Contents counters updated. Checked at every size: no page needs scrolling, nothing else moved. Offline copy renamed `ey-guide-v3.05`. Built by `scripts/make305.py`. `/preview/` updated to 3.05 too.
+
 ## 19 November 2026 – guide version 3.04 is live
 
 - **Checklist progress on the right** (David, from mock-up): on the four question pages and the checklist summary, the progress bar and "Question N of 4" now sit on the right-hand side of the title box, so they read differently from "Stage N of 3" on the left of a section's first page. Signing in and the NHS login steps are unchanged (left).
