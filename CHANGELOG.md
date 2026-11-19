@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 19 November 2026 – guide version 3.01 is live
+
+- **Contact your HV team** (Section 2): the title box is now the GM Early Years App title box (app colours with the faint ABC blocks) instead of the NHS-blue Health Visiting team band, with the usual "Stage 1 of 3 · What you need" marker, matching About your account. The Contact & support copy of the team finder is unchanged.
+- Checked at every iPhone size with every team in both views: no scrolling needed; title in the same place. Offline copy renamed `ey-guide-v3.01`. Built by `scripts/make301.py`. `/preview/` updated to 3.01 too.
+
 ## 19 November 2026 – guide version 3.00 is live
 
 - **Your account details is now part of About your account** (David): Section 3 · About your account has two pages – About your account (page 1 of 2) and Your account details (page 2 of 2). The separate "NHS login" section is gone, so the sections after it move up one: 4 Checklist · 5 Signing in · 6 Troubleshooting · 7 Contact & support · 8 About this guide. Contents, roadmap, section labels, title-box numbers and cross-references all follow. Your account details no longer shows a stage marker (that is only on a section's first page).
