@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 19 November 2026 – guide version 3.07 is live
+
+- **Checklist progress bar colours** (David): the current question's segment now turns **green for Yes** and **red for No** as soon as an answer is chosen (no need to tap Next), and changes straight away if the answer is changed. Earlier questions stay green (Yes) or red (No), including on the summary. Unanswered: white for the current question, faint for questions to come. Segment size (3.03) and right-hand position (3.04) unchanged. Dark Mode checked.
+- Offline copy renamed `ey-guide-v3.07`. Built by `scripts/make307.py`. `/preview/` updated to 3.07 too.
+
 ## 19 November 2026 – guide version 3.06 is live
 
 - **How to install the App** (David): the A4 guide "GM Early Years App – How to install the App on a mobile phone (iOS) – Carer Role v1.04" is now inside Troubleshooting > GM Early Years App issues (first item, "How to install the App"), in the Signing in design: an introduction (You will need: Apple ID signed in, internet connection; GMDP Support Team for help), 7 step pages (progress bar, "Installing the App" label, instruction, Tap chip, screenshot 248 wide cropped to the highlighted part, Tap to enlarge), a helpful tip after Step 4 (the button says **Get** the first time, with Face ID / Touch ID / Apple ID password) and an "Installation complete" page linking to Section 5 · Signing in.
