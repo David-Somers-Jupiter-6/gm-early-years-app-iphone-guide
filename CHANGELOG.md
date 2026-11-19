@@ -2,6 +2,10 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 19 November 2026 – trial: guide version 2.97 at /preview/
+
+- **New Home Screen icon (trial)** – David chose "B+F 1" from the icon mockups: the ABC blocks from the guide's title boxes with a yellow GUIDE label, on the guide's magenta gradient. Icons (180, 192, 512 and maskable 512) made by `scripts/make_icons.py` with the guide's own Archivo font. On the trial at `/preview/` only; the live guide still has the old icon.
+
 ## 19 November 2026 – guide version 2.96 is live
 
 - GMDP Support Team page: round white headset icon in the title box, matching the NHS login Support team page (in the GM Early Years colour).
