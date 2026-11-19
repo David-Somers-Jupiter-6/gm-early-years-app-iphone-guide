@@ -2,6 +2,14 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 19 November 2026 – guide version 3.00 is live
+
+- **Your account details is now part of About your account** (David): Section 3 · About your account has two pages – About your account (page 1 of 2) and Your account details (page 2 of 2). The separate "NHS login" section is gone, so the sections after it move up one: 4 Checklist · 5 Signing in · 6 Troubleshooting · 7 Contact & support · 8 About this guide. Contents, roadmap, section labels, title-box numbers and cross-references all follow. Your account details no longer shows a stage marker (that is only on a section's first page).
+- **Contents: "Cover page" is the first row** (David), with a small page icon; it goes back to the front cover.
+- **Still need help?** (Troubleshooting): the round headset icon in the title box, as on Contact & support > GMDP Support Team.
+- **Title-box labels stay in one place** (David): "Question 1 of 4", "Part 1 of 3 · Get started" and the tip labels now sit at the top under the progress bar on every page, in the same place as "Stage N of 3" on a section's first page. Before, the label sat lower when the title was one line and higher when it wrapped to two, so it jumped between pages (for example Restart your iPhone → Open your Activation Link). Titles and underlines are unchanged.
+- All pages checked at every iPhone size (no page needs scrolling; no label cut off). Offline copy renamed `ey-guide-v3.00`. Built by `scripts/make300.py`. `/preview/` updated to 3.00 too (still with the new Home Screen icon).
+
 ## 19 November 2026 – trial icon updated at /preview/
 
 - **Home Screen icon (trial)** – David chose "New 2" from the mockups: the ABC blocks only, larger, on the magenta gradient (the yellow GUIDE label is gone). `scripts/make_icons.py` updated. On `/preview/` only; the live guide still has the old icon.
