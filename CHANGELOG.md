@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 20 November 2026 – guide version 3.08 is live
+
+- **Add to Home Screen helper** (David): new item **Add to Home Screen** in Troubleshooting > GM Early Years App issues, and a page with numbered steps and pictures of the Safari buttons. The guide shows the right steps for the iPhone: iOS 26 or later (More ••• > Share > Add to Home Screen > Add, with Open as Web App on), or older iPhones (Share > Add to Home Screen > Add). Opened from the Home Screen already, it just says so (green tick). Opened as a downloaded copy or in the Claude app, it asks the carer to open the guide website in Safari, with a button.
+- Guide is now 81 pages; Troubleshooting 41. Checked at every iPhone size and in Dark Mode. Offline copy renamed `ey-guide-v3.08`. Built by `scripts/make308.py`. `/preview/` updated to 3.08 too.
+
 ## 20 November 2026 – faster updates on iPhones (website only, guide still 3.07)
 
 - `sw.js`: when there is a signal, the guide is now always checked with the website (`cache: 'no-cache'`) instead of possibly using the browser's saved copy, which GitHub Pages lets phones keep for up to 10 minutes. New versions should show the next time the guide is opened (after this change has been picked up once). The offline copy for no signal is unchanged.
