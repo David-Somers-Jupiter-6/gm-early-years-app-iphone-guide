@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 20 November 2026 – guide version 3.10 on the TRIAL link only (/preview/); live stays 3.09
+
+- **Calmer design for frustrated carers** (David, from mock-ups): gentler blue-grey "i" for The issue; a reassuring first line on every Troubleshooting help page; light grey pages with white cards and soft shadows (light mode); "Part 1 done", "Part 2 done – nearly there" and a "You're signed in" finish in Signing in; a **Still stuck?** bar at the bottom of every help page (NHS login pages: Contact NHS login, replacing the duplicate contact button; HV pages: Get help → Still need help?); "Tap" wording everywhere (no "Select"); shorter text (GMDP note, Introduction, Checklist start, Activation Link page).
+- **Front of the guide**: cover ("Help signing in to your account on an iPhone", a calm line, quick links Help with a problem / Search); Contents as white cards grouped by stage; Introduction ("You are not alone", second-screen tip as three icon rows, Need help now? link); Run through the Checklist lists the four questions up front.
+- When a page would otherwise need scrolling (small iPhones), the extras (reassuring line, Part done line, tips) give way automatically (`fit()` adds `.tight`). Checked: all 82 pages at 13 sizes, nothing needs scrolling; Dark Mode; walk-through cover → checklist summary. Built by `scripts/make310.py`.
+
 ## 20 November 2026 – guide version 3.09 is live
 
 - **Better Search** (David): everyday words find the guide's words (log in → sign in, text → message, lost/forgot → forgotten/reset, phone → mobile, download → install, shortcut/desktop → Home Screen, wife/husband → partner …), word endings (signed, changed, codes) and everyday filler words are handled; misspellings are matched to the closest word in the guide ("pasword" → "Showing results for password"); sentences with no page containing every word show the pages with most of them. **Popular topics** buttons under the box (Forgotten password, No Activation Link, Security code, Install the App, Add to Home Screen, Contact your HV team). No results: **Troubleshooting** and **Still need help?** buttons. Revision history and Document control are left out of results.
