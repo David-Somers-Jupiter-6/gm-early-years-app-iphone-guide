@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 20 November 2026 – guide version 3.09 is live
+
+- **Better Search** (David): everyday words find the guide's words (log in → sign in, text → message, lost/forgot → forgotten/reset, phone → mobile, download → install, shortcut/desktop → Home Screen, wife/husband → partner …), word endings (signed, changed, codes) and everyday filler words are handled; misspellings are matched to the closest word in the guide ("pasword" → "Showing results for password"); sentences with no page containing every word show the pages with most of them. **Popular topics** buttons under the box (Forgotten password, No Activation Link, Security code, Install the App, Add to Home Screen, Contact your HV team). No results: **Troubleshooting** and **Still need help?** buttons. Revision history and Document control are left out of results.
+- **Voice search**: a microphone button in the search box on the website in Safari (Apple's speech service, with the iPhone's own permission prompts; listening shows a red pulsing button). Where voice search cannot run (Home Screen app, Claude app, permission refused) the button is hidden and carers are told to use the microphone on the iPhone keyboard.
+- Tested with everyday questions, a simulated speech engine (results, refusal) and at every iPhone size. Offline copy renamed `ey-guide-v3.09`. Built by `scripts/make309.py`. `/preview/` updated to 3.09 too.
+
 ## 20 November 2026 – guide version 3.08 is live
 
 - **Add to Home Screen helper** (David): new item **Add to Home Screen** in Troubleshooting > GM Early Years App issues, and a page with numbered steps and pictures of the Safari buttons. The guide shows the right steps for the iPhone: iOS 26 or later (More ••• > Share > Add to Home Screen > Add, with Open as Web App on), or older iPhones (Share > Add to Home Screen > Add). Opened from the Home Screen already, it just says so (green tick). Opened as a downloaded copy or in the Claude app, it asks the carer to open the guide website in Safari, with a button.
