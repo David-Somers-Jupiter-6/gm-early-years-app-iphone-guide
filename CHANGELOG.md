@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 20 November 2026 – guide version 3.12 is live (trial improvements made live + new cover)
+
+- **Everything from the trial is now live**: 3.10 (calmer design: gentler issue icon, reassuring first lines, grey pages with white cards, Part done / You're signed in, Still stuck?, Tap wording, shorter text, new Contents, Introduction and Checklist start) and 3.11 (accessibility statement, Your privacy, contrast fixes).
+- **New cover "C3·6 All GMCA"** (David, from the cover mock-ups): solid GMCA slate logo band with the GMCA and Greater Manchester – Doing Digital Differently logos (nothing behind them); photo; white panel with a faint hexagon pattern and the large App icon; "For parents and carers · Version", title and "Help signing in to your account on an iPhone"; three choices with square icons in GMCA colours – Start the guide, Help with a problem, Search; "For families in Bury · Rochdale · Stockport"; Start button in GMCA slate. Dark Mode version. The old blue header is no longer shown.
+- Checked: every page at 13 iPhone sizes (nothing needs scrolling), the cover in light and Dark Mode, accessibility check on the cover (no issues), the three choices open the right pages. Offline copy renamed `ey-guide-v3.12`. Built by `scripts/make312.py` (App icon in `scripts/assets/app-icon-cover.png`).
+
 ## 20 November 2026 – guide version 3.11 on the TRIAL link only (/preview/); live stays 3.09
 
 - **Accessibility statement** (David): four pages in Section 8 · About this guide (Accessibility statement; Known issues; Feedback and contact; How it was tested), following the GOV.UK sample statement: what carers should be able to do, compliance status (partially compliant until a full independent audit), known limitations, other formats and reporting problems (GMDP Support), EHRC / EASS, and how and when it was checked. The Accessibility page in Section 7 links to it.
