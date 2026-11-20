@@ -2,6 +2,20 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 20 November 2026 – guide version 3.15 is live (Troubleshooting choices go back to the Troubleshooting menu)
+
+- **NHS login account issues, GM Early Years App issues, Common sign-in problems**: Next now says **Done** and goes back to the Troubleshooting menu (in 3.14 it went sideways to the next menu).
+- **Still need help?**: Next now says **Done** and goes back to Troubleshooting, or to the page whose Get help link you tapped (was: straight on to Section 7).
+- **Troubleshooting menu**: Next goes on to Section 7 · Contact & support (was: NHS login account issues), so reading straight through still reaches the end and nothing loops. Back from Troubleshooting goes to where you were before it (for example the cover).
+- Checked: 13 click-through routes (each choice, the NHS login walk-through, the install steps, Get help from a topic, from the cover, the Checklist summary, Search, opened directly, end of Signing in); no script errors. Offline copy renamed `ey-guide-v3.15`. Built by `scripts/make315.py`.
+
+## 20 November 2026 – guide version 3.14 (sent for review, published with 3.15): all Troubleshooting topics go back to where you chose them
+
+- Review of the other Troubleshooting pages found the same run-on in two more menus. **NHS login account issues**: its 8 topics ran into each other, and the last one ran into GM Early Years App issues. **Common sign-in problems**: its 3 topics ran into each other, and the last one ran into Still need help?. The last page of every topic now has **Done**.
+- **Done goes back to where you chose the topic**: the menu, or the Checklist summary or Search if you came from there. If the page was opened directly, Done opens the topic's menu. This also fixes 3.13, where Back on the menu after Done stepped back into the topic you had just finished.
+- **Menus no longer run into their first topic** (that made a loop now that topics return to the menu). Next on a menu goes to the next menu: Troubleshooting → NHS login account issues → GM Early Years App issues → Common sign-in problems → Still need help? → Section 7.
+- Checked: clicked through 10 routes (each menu, the NHS login walk-through, the install steps, from the Checklist summary, from Search, opened directly, arrow keys); no script errors. Offline copy renamed `ey-guide-v3.14`. Built by `scripts/make314.py`.
+
 ## 20 November 2026 – guide version 3.13 is live (GM Early Years App issues: back to the menu)
 
 - **Troubleshooting > GM Early Years App issues**: each choice is a separate topic, so finishing one now goes back to the GM Early Years App issues menu instead of running on into the next topic. On the last page of How to install the App, Add to Home Screen and Activation Link issues the Next button now says **Done** and opens the menu. Back on the first page of each topic also opens the menu.
