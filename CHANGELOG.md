@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 20 November 2026 – guide version 3.11 on the TRIAL link only (/preview/); live stays 3.09
+
+- **Accessibility statement** (David): four pages in Section 8 · About this guide (Accessibility statement; Known issues; Feedback and contact; How it was tested), following the GOV.UK sample statement: what carers should be able to do, compliance status (partially compliant until a full independent audit), known limitations, other formats and reporting problems (GMDP Support), EHRC / EASS, and how and when it was checked. The Accessibility page in Section 7 links to it.
+- **Your privacy** (David): one page – the guide collects nothing; what you type and choose stays on the iPhone; voice search uses Apple's speech service only when used; the host (GitHub) may keep technical details such as IP addresses.
+- **Contrast fixes** from an axe-core check of every page in light and Dark Mode: cover quick links, green Start/Begin/Yes buttons (now #00703c), Dark Mode card headings and "Help from" names, link captions on Contact & support pages; the greyed-out Next is marked `aria-disabled`. Re-check: no failures.
+- Checked at 200% zoom and in landscape (pages scroll, nothing cut off) and at 13 iPhone sizes. Guide is 86 pages; About this guide 8. Built by `scripts/make311.py`. `validate_site.py` allows the EASS link.
+
 ## 20 November 2026 – guide version 3.10 on the TRIAL link only (/preview/); live stays 3.09
 
 - **Calmer design for frustrated carers** (David, from mock-ups): gentler blue-grey "i" for The issue; a reassuring first line on every Troubleshooting help page; light grey pages with white cards and soft shadows (light mode); "Part 1 done", "Part 2 done – nearly there" and a "You're signed in" finish in Signing in; a **Still stuck?** bar at the bottom of every help page (NHS login pages: Contact NHS login, replacing the duplicate contact button; HV pages: Get help → Still need help?); "Tap" wording everywhere (no "Select"); shorter text (GMDP note, Introduction, Checklist start, Activation Link page).
