@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 20 November 2026 – guide version 3.13 is live (GM Early Years App issues: back to the menu)
+
+- **Troubleshooting > GM Early Years App issues**: each choice is a separate topic, so finishing one now goes back to the GM Early Years App issues menu instead of running on into the next topic. On the last page of How to install the App, Add to Home Screen and Activation Link issues the Next button now says **Done** and opens the menu. Back on the first page of each topic also opens the menu.
+- The GM Early Years App issues menu and Common sign-in problems now go Back to the Troubleshooting menu. Swipe and the arrow keys follow the same links.
+- Checked: clicked through every topic at 3 iPhone sizes; the Done button fits. Offline copy renamed `ey-guide-v3.13`. Built by `scripts/make313.py`.
+
 ## 20 November 2026 – guide version 3.12 is live (trial improvements made live + new cover)
 
 - **Everything from the trial is now live**: 3.10 (calmer design: gentler issue icon, reassuring first lines, grey pages with white cards, Part done / You're signed in, Still stuck?, Tap wording, shorter text, new Contents, Introduction and Checklist start) and 3.11 (accessibility statement, Your privacy, contrast fixes).
