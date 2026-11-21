@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 21 November 2026 – guide version 3.25 on the trial page only (/preview/): section badges (mock-up)
+
+- The title box of each section's opening page has a badge on the right with its Contents icon, so people can see where they are: Introduction (i), How this guide works (1), How to contact your HV team (2), About your account (3), Run through the Checklist (4), **Signing in (the App's ABC block icon)**, Troubleshooting (6), Contact & support (7), Accessibility (its icon), About this guide (book).
+- Same white circle as the Troubleshooter and NHS login Support badges. Hidden on the shortest screens (600 px tall or less) and the narrowest (under 370 px wide), where titles need the room; no title gains an extra line anywhere.
+- Includes 3.23 (Troubleshooter) and 3.24 (Contents order). Live stays at 3.22. Built by `scripts/make325.py`.
+
 ## 21 November 2026 – guide version 3.24 on the trial page only (/preview/)
 
 - **Contents in page order**: 7 Contact & support, then **Accessibility**, then **About this guide**, which now has an open-book icon instead of the number 8 (the pages run Contact & support → Accessibility → About this guide).
