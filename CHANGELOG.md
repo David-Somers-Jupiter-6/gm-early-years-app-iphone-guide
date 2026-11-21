@@ -2,6 +2,16 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 21 November 2026 – guide version 3.27 on the trial page only (/preview/): mock-ups
+
+- **Introduction as a conversation**: the reader's words on the right ("I'm having trouble signing in…", "I have tried before, and it did not work."), the guide's replies on the left with the App icon ("You are not alone, and it is not your fault.", "It usually comes down to one small detail. We will find it together, one step at a time."), appearing one after another. On shorter screens the second-screen tip becomes one line.
+- **Section badges** a little smaller and lower so the number sits level with the title's last line (option C of three compared).
+- **Troubleshooter questions**: a subheading states the answer first (e.g. "The child's mother or primary carer"), then each point on its own line. "Tap an answer, then tap Next" always shown (not on the iPhone SE in Safari). The explanation and question areas are the same height on all five pages, so the question and the Yes / No answers stay in exactly the same place. A checklist rule that gave every paragraph three lines' height is switched off here. Answer messages are one line; some answers and messages are shorter so they fit on one line.
+- **Do your details match?**: the example is a clear "See an example · Tap here" card with a gentle glow.
+- **Your results**: a traffic-light badge in the title box (green tick, amber "!", grey while unanswered); the title box keeps the guide's colours.
+- **Quicker-feeling taps**: buttons, answers, cards and links show a pressed state the moment they are touched; pages fade in faster.
+- Checked at all 13 sizes; no script errors. Live stays at 3.26. Built by `scripts/make327.py`.
+
 ## 21 November 2026 – guide version 3.26 is live (section badges; Contents in page order)
 
 - **Section badges** (from trial 3.25): each section's opening page has its Contents icon in a white badge on the right of the title box; Signing in shows the App's ABC block icon. Hidden on the shortest and narrowest screens.
