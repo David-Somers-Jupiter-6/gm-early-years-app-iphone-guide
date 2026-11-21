@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 21 November 2026 – guide version 3.24 on the trial page only (/preview/)
+
+- **Contents in page order**: 7 Contact & support, then **Accessibility**, then **About this guide**, which now has an open-book icon instead of the number 8 (the pages run Contact & support → Accessibility → About this guide).
+- About this guide is no longer numbered elsewhere: page strips say "About this guide" (was "Section 8 · About this guide").
+- Includes the 3.23 Troubleshooter. Checked: Contents and About this guide fit at the small, narrow and large sizes. Live stays at 3.22. Built by `scripts/make324.py`.
+
 ## 21 November 2026 – guide version 3.23 on the trial page only (/preview/): Troubleshooter
 
 - **Troubleshooting** has a new first card, **Troubleshooter** ("Find out what is stopping you"), in the App colours.
