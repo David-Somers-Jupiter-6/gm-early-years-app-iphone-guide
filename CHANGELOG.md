@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 21 November 2026 – guide version 3.22 on the trial page only (/preview/); replaces trials 3.20 and 3.21
+
+- Contact your HV team finder put back as it was in 3.19 ("Find your team's contact details:", Locality and Health Visiting team side by side).
+- Section 2 page title mock-up: **"How to contact your HV team"** (was "Contact your HV team"). It fits the title box on every iPhone, but on 375-wide screens and smaller (SE, mini, 12/13 Home Screen, 320/360) it goes onto two lines; one line on 390-wide and larger. Built from 3.19 by `scripts/make322.py`. Live stays at 3.16 until approved.
+
 ## 21 November 2026 – guide version 3.21 on the trial page only (/preview/); replaces trial 3.20
 
 - 3.20's two steps one under the other made Contact your HV team too long with the **Map** chosen (the map shrank to about 100 px on small iPhones and the page still scrolled). 3.21 keeps the new lead line, "If you need to contact your Health Visiting team, you can find their contact details below.", and puts **1 Locality** and **2 Health Visiting team** back side by side. Same on Section 7 · Contact your HV team.
