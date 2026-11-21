@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 21 November 2026 – guide version 3.16 is live (GM Early Years App issues: Activation Link issues first)
+
+- **Troubleshooting > GM Early Years App issues** now lists Activation Link issues first, How to install the App second and Add to Home Screen third. The two Activation Link issues pages moved to just after the menu, so the page numbers follow the same order (Troubleshooting pages 24–25; How to install the App now starts on page 26).
+- Checked every Troubleshooting topic again: all 14 topics end with Done back to their menu, the four Troubleshooting choices end with Done back to Troubleshooting, and Troubleshooting's Next goes on to Section 7. No script errors. Offline copy renamed `ey-guide-v3.16`. Built by `scripts/make316.py`.
+
 ## 20 November 2026 – guide version 3.15 is live (Troubleshooting choices go back to the Troubleshooting menu)
 
 - **NHS login account issues, GM Early Years App issues, Common sign-in problems**: Next now says **Done** and goes back to the Troubleshooting menu (in 3.14 it went sideways to the next menu).
