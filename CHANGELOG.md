@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 21 November 2026 – guide version 3.28 on the trial page only (/preview/)
+
+- **Introduction**: back to the original (the conversation mock-up is withdrawn), with "You are not alone, and it is not your fault." on its own line in bold.
+- **Troubleshooter: six questions**, short titles that fit on one line: Who is the account for? · Who can sign in? · Do you have NHS login? · Can you use NHS login? · Do your details match? · Has your link arrived? Which system each is about shows in colour under the title box (GM Early Years App / NHS login / NHS login and the App).
+- **Clearer wording** on each question: a subheading that gives the answer, one or two short plain sentences, then the question. Results have six rows (Get help: A partner is signing in, Partner's details used, Set up NHS login, Cannot sign in, Details do not match, Activation Link issues).
+- Comparison page list updated. Checked: positions identical on all six questions, fits at all sizes checked, results and Get help links correct; no script errors. 93 pages. Live stays at 3.26. Built by `scripts/make328.py`.
+
 ## 21 November 2026 – comparison page (/compare/)
 
 - New page `compare/index.html` shows the live guide and the trial side by side at a chosen iPhone size. Pick a page (or use ‹ ›), or tap through either guide: the other follows when the page exists in both; pages only in the trial (the Troubleshooter) show "Not in this version" on the live side. Not linked from the guide; `noindex`.
