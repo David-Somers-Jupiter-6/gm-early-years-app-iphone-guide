@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 21 November 2026 – guide version 3.20 on the trial page only (/preview/)
+
+- **Contact your HV team** (Section 2, and the same finder in Section 7): lead line now "If you need to contact your Health Visiting team, you can find their contact details below." The two choices are steps, one under the other: **1 Choose your area**, **2 Choose your Health Visiting team** (was Locality / Health Visiting team side by side). The team list says "Choose your area first" until an area is chosen.
+- When a team is chosen, the page re-fits: on shorter screens the lead line and "Tap the contact number to call" give way so the contact card fits without scrolling.
+- Checked: both pages at all 13 sizes, before and after choosing a team; no script errors. Live stays at 3.16 until approved. Built by `scripts/make320.py`.
+
 ## 21 November 2026 – guide version 3.19 on the trial page only (/preview/)
 
 - **Cover**: Start the guide now has a second line, "Step-by-step help to sign in", so it matches Search ("Type or say what you need"). Checked: cover fits at all 13 sizes, light and dark. Includes 3.17 and 3.18. Live stays at 3.16 until approved. Built by `scripts/make319.py`.
