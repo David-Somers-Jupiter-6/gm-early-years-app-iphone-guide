@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 21 November 2026 – guide version 3.21 on the trial page only (/preview/); replaces trial 3.20
+
+- 3.20's two steps one under the other made Contact your HV team too long with the **Map** chosen (the map shrank to about 100 px on small iPhones and the page still scrolled). 3.21 keeps the new lead line, "If you need to contact your Health Visiting team, you can find their contact details below.", and puts **1 Locality** and **2 Health Visiting team** back side by side. Same on Section 7 · Contact your HV team.
+- The page re-fits when a choice changes; "Tap the contact number to call" gives way if the screen is too short.
+- Checked: both pages at all 13 sizes with Contact details and with Map chosen; nothing scrolls. The map is about 20 px shorter than on the live version because the lead line is now two lines. Built from 3.19 by `scripts/make321.py`. Live stays at 3.16 until approved.
+
 ## 21 November 2026 – guide version 3.20 on the trial page only (/preview/)
 
 - **Contact your HV team** (Section 2, and the same finder in Section 7): lead line now "If you need to contact your Health Visiting team, you can find their contact details below." The two choices are steps, one under the other: **1 Choose your area**, **2 Choose your Health Visiting team** (was Locality / Health Visiting team side by side). The team list says "Choose your area first" until an area is chosen.
