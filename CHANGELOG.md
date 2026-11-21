@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 21 November 2026 – guide version 3.22 is live
+
+- The trial versions 3.17, 3.18, 3.19 and 3.22 are now live: cover without "Help with a problem"; Search by speaking (cover microphone, search-box microphone always shown); "Step-by-step help to sign in" under Start the guide; Start opens the calmer Introduction; How this guide works says what will happen; Your roadmap removed (85 pages); Section 2 title "How to contact your HV team". Trials 3.20 and 3.21 were not used.
+- Offline copy renamed `ey-guide-v3.22`.
+
 ## 21 November 2026 – guide version 3.22 on the trial page only (/preview/); replaces trials 3.20 and 3.21
 
 - Contact your HV team finder put back as it was in 3.19 ("Find your team's contact details:", Locality and Health Visiting team side by side).
