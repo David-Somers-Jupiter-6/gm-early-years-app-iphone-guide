@@ -2,6 +2,14 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 21 November 2026 – guide version 3.18 on the trial page only (/preview/): a calmer start
+
+- **Start opens the Introduction** (cover Start button and "Start the guide"), not Contents. Contents stays in the bottom bar.
+- **Introduction**: "You are not alone, and it is not your fault." plus "If you have tried before and it did not work, it usually comes down to one small detail. This guide will help you find it, one step at a time." The "Need help now? Go to Troubleshooting" link is removed, so people are led through the questions.
+- **How this guide works** now says what will happen: "You do not need to work out what is wrong. This guide does that with you." Then 3 parts: check what you need, sign in one step at a time, get the right help.
+- **Your roadmap page removed** (How this guide works now does its job). Path: Cover → Introduction → How this guide works → Contact your HV team → About your account → Checklist. 85 pages.
+- Includes 3.17 (cover without Help with a problem; Search by speaking). Checked: start path forwards and back, fit at all 13 sizes in light and dark, no script errors. Live stays at 3.16 until approved. Built by `scripts/make318.py`.
+
 ## 21 November 2026 – guide version 3.17 on the trial page only (/preview/)
 
 - **Cover**: "Help with a problem" removed, so Start leads people through the questions instead of asking them to guess what is wrong. The Search row now says "Type or say what you need" and has a round microphone button. Tapping it opens Search and starts listening.
