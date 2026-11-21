@@ -2,6 +2,10 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 21 November 2026 – guide version 3.19 on the trial page only (/preview/)
+
+- **Cover**: Start the guide now has a second line, "Step-by-step help to sign in", so it matches Search ("Type or say what you need"). Checked: cover fits at all 13 sizes, light and dark. Includes 3.17 and 3.18. Live stays at 3.16 until approved. Built by `scripts/make319.py`.
+
 ## 21 November 2026 – guide version 3.18 on the trial page only (/preview/): a calmer start
 
 - **Start opens the Introduction** (cover Start button and "Start the guide"), not Contents. Contents stays in the bottom bar.
