@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 21 November 2026 – guide version 3.17 on the trial page only (/preview/)
+
+- **Cover**: "Help with a problem" removed, so Start leads people through the questions instead of asking them to guess what is wrong. The Search row now says "Type or say what you need" and has a round microphone button. Tapping it opens Search and starts listening.
+- **Search page**: the microphone in the search box is always shown. Where Safari cannot listen (for example from the Home Screen), tapping it opens the keyboard and says "Now tap the microphone at the bottom of your keyboard". A web page cannot switch on the keyboard microphone itself.
+- Checked: cover and Search fit at all 13 sizes, light and dark; voice search tested with and without Safari speech; no script errors. Live stays at 3.16 until approved. Built by `scripts/make317.py`.
+
 ## 21 November 2026 – guide version 3.16 is live (GM Early Years App issues: Activation Link issues first)
 
 - **Troubleshooting > GM Early Years App issues** now lists Activation Link issues first, How to install the App second and Add to Home Screen third. The two Activation Link issues pages moved to just after the menu, so the page numbers follow the same order (Troubleshooting pages 24–25; How to install the App now starts on page 26).
