@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 21 November 2026 – guide version 3.26 is live (section badges; Contents in page order)
+
+- **Section badges** (from trial 3.25): each section's opening page has its Contents icon in a white badge on the right of the title box; Signing in shows the App's ABC block icon. Hidden on the shortest and narrowest screens.
+- **Contents in page order** (from trial 3.24): Contact & support, Accessibility, then About this guide (book icon instead of 8).
+- Built from live 3.22 by `scripts/make326.py`. The Troubleshooter (trial 3.23) is not in the live version; the trial page stays at 3.25. Offline copy renamed `ey-guide-v3.26`.
+
 ## 21 November 2026 – guide version 3.25 on the trial page only (/preview/): section badges (mock-up)
 
 - The title box of each section's opening page has a badge on the right with its Contents icon, so people can see where they are: Introduction (i), How this guide works (1), How to contact your HV team (2), About your account (3), Run through the Checklist (4), **Signing in (the App's ABC block icon)**, Troubleshooting (6), Contact & support (7), Accessibility (its icon), About this guide (book).
