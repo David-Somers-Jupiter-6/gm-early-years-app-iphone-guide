@@ -2,6 +2,19 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 21 November 2026 – guide version 3.23 on the trial page only (/preview/): Troubleshooter
+
+- **Troubleshooting** has a new first card, **Troubleshooter** ("Find out what is stopping you"), in the App colours.
+- The Troubleshooter brings together About your account, Your account details and the Checklist, in the checklist format: one question per page, Yes or No, the progress LEDs, and a results page.
+  1. Who has the account? (Are you the child's mother or primary carer?)
+  2. Who can sign in? (Only the account holder, with their own NHS login. Do you have your own NHS login account?)
+  3. Can you use NHS login?
+  4. Do your details match? (with the account details example: a small preview; tap to see the whole example)
+  5. Has your link arrived?
+- **Your results**: a tick for each Yes, and a Get help button for each No (A partner is signing in, Set up NHS login, Cannot sign in, Details do not match, Activation Link issues). All Yes: Next goes to Signing in. Any No: Done goes back to Troubleshooting. Get help pages come back to the results.
+- Begin starts with a clean set of answers; the Checklist keeps its own answers.
+- On smaller iPhones the "Help from" lines on the Troubleshooting cards give way so the menu fits; on the results page the explanation under each problem gives way. Checked at all 13 sizes, light and dark; no script errors. 92 pages. Live stays at 3.22. Built by `scripts/make323.py`.
+
 ## 21 November 2026 – guide version 3.22 is live
 
 - The trial versions 3.17, 3.18, 3.19 and 3.22 are now live: cover without "Help with a problem"; Search by speaking (cover microphone, search-box microphone always shown); "Step-by-step help to sign in" under Start the guide; Start opens the calmer Introduction; How this guide works says what will happen; Your roadmap removed (85 pages); Section 2 title "How to contact your HV team". Trials 3.20 and 3.21 were not used.
