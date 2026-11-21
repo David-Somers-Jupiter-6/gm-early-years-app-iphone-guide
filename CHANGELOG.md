@@ -2,6 +2,10 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 21 November 2026 – comparison page (/compare/)
+
+- New page `compare/index.html` shows the live guide and the trial side by side at a chosen iPhone size. Pick a page (or use ‹ ›), or tap through either guide: the other follows when the page exists in both; pages only in the trial (the Troubleshooter) show "Not in this version" on the live side. Not linked from the guide; `noindex`.
+
 ## 21 November 2026 – guide version 3.27 on the trial page only (/preview/): mock-ups
 
 - **Introduction as a conversation**: the reader's words on the right ("I'm having trouble signing in…", "I have tried before, and it did not work."), the guide's replies on the left with the App icon ("You are not alone, and it is not your fault.", "It usually comes down to one small detail. We will find it together, one step at a time."), appearing one after another. On shorter screens the second-screen tip becomes one line.

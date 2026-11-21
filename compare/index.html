@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<meta name="robots" content="noindex"/>
+<title>Compare: live guide and trial – GM Early Years App iPhone guide</title>
+<style>
+:root{--ink:#1d2b36;--sub:#55626b;--line:#d5dbe0;--bg:#eef1f4;--brand:#a3124d;--blue:#005eb8}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+header{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--line);padding:10px 12px calc(10px) 12px}
+h1{margin:0 0 8px;font-size:18px;line-height:1.25}
+h1 small{display:block;font-size:13px;font-weight:400;color:var(--sub)}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.bar label{font-size:13px;color:var(--sub)}
+select,button{font:inherit;font-size:15px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);padding:7px 10px;min-height:40px}
+button{background:var(--blue);border-color:var(--blue);color:#fff;font-weight:600;padding:7px 14px}
+button:active{transform:scale(.97)}
+#pg{flex:1 1 220px;min-width:0}
+.sync{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--ink)}
+.sync input{width:20px;height:20px}
+main{display:flex;gap:14px;justify-content:center;align-items:flex-start;padding:14px 8px 40px}
+.col{display:flex;flex-direction:column;align-items:center;min-width:0}
+.lbl{margin:0 0 6px;font-weight:700;font-size:15px;text-align:center}
+.lbl span{display:inline-block;padding:3px 10px;border-radius:999px;color:#fff}
+.live .lbl span{background:#2d5161}
+.trial .lbl span{background:var(--brand)}
+.phone{position:relative;border-radius:22px;background:#111;box-shadow:0 6px 20px rgba(0,0,0,.2);overflow:hidden}
+.phone iframe{position:absolute;left:0;top:0;border:0;transform-origin:0 0;background:#fff}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.phone.na::after{content:"Not in this version";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:20px;text-align:center;background:rgba(238,241,244,.94);color:var(--sub);font-weight:700;font-size:15px}
+.note{margin:6px 0 0;font-size:13px;color:var(--sub);text-align:center;max-width:260px;min-height:18px}
+</style>
+</head>
+<body>
+<header>
+<h1>Live guide and trial, side by side<small>Pick a page, or tap through either guide. The other one follows when the page exists in both.</small></h1>
+<div class="bar">
+<button type="button" id="prev" aria-label="Previous page">‹</button>
+<select id="pg" aria-label="Page"></select>
+<button type="button" id="next" aria-label="Next page">›</button>
+<label for="dev" class="vh">Phone size</label>
+<select id="dev" aria-label="Phone size">
+<option value="375x637" selected>375 × 637 (your Safari)</option>
+<option value="375x548">iPhone SE (Safari)</option>
+<option value="390x664">iPhone 12 / 13 / 14 (Safari)</option>
+<option value="402x681">iPhone 16 Pro / 17 (Safari)</option>
+<option value="440x760">iPhone 16 Pro Max (Safari)</option>
+</select>
+<label class="sync"><input type="checkbox" id="sync" checked/>Keep both on the same page</label>
+</div>
+</header>
+<main>
+<div class="col live"><p class="lbl"><span id="lv">Live</span></p><div class="phone" id="pl"><iframe id="fl" title="Live guide"></iframe></div><p class="note" id="nl"></p></div>
+<div class="col trial"><p class="lbl"><span id="tv">Trial</span></p><div class="phone" id="pt"><iframe id="ft" title="Trial guide"></iframe></div><p class="note" id="nt"></p></div>
+</main>
+<script>
+(function(){
+  var PAGES=[
+    ['cover','Cover'],['contents','Contents'],['intro','Introduction (conversation)'],['how','How this guide works'],
+    ['hv','How to contact your HV team (badge)'],['acct','About your account (badge)'],['s2','Run through the Checklist (badge)'],
+    ['s3','Signing in (App icon badge)'],['s4','Troubleshooting menu'],
+    ['ts','Troubleshooter – start'],['ts1','Troubleshooter – Q1 Who has the account?'],['ts2','Troubleshooter – Q2 Who can sign in?'],
+    ['ts3','Troubleshooter – Q3 Can you use NHS login?'],['ts4','Troubleshooter – Q4 Do your details match?'],
+    ['ts5','Troubleshooter – Q5 Has your link arrived?'],['tsum','Troubleshooter – Your results'],
+    ['s5','Contact & support (badge)'],['a11y','Accessibility (badge)'],['s6','About this guide (badge)']];
+  var d=document, sel=d.getElementById('pg'), dev=d.getElementById('dev'), sync=d.getElementById('sync');
+  var F={l:d.getElementById('fl'),t:d.getElementById('ft')}, P={l:d.getElementById('pl'),t:d.getElementById('pt')}, N={l:d.getElementById('nl'),t:d.getElementById('nt')};
+  PAGES.forEach(function(p){ var o=d.createElement('option'); o.value=p[0]; o.textContent=p[1]; sel.appendChild(o); });
+  var stamp=Date.now();
+  F.l.src='../?cmp='+stamp+'#cover'; F.t.src='../preview/?cmp='+stamp+'#cover';
+  function size(){ var wh=dev.value.split('x'), W=+wh[0], H=+wh[1];
+    var avail=Math.min(window.innerWidth,1100)-16-14, s=Math.min(1,(avail/2)/W);
+    ['l','t'].forEach(function(k){ var f=F[k]; f.style.width=W+'px'; f.style.height=H+'px'; f.style.transform='scale('+s+')';
+      P[k].style.width=Math.floor(W*s)+'px'; P[k].style.height=Math.floor(H*s)+'px'; P[k].style.borderRadius=Math.round(22*s)+'px'; }); }
+  function has(k,id){ try{ return !!F[k].contentDocument.getElementById(id); }catch(e){ return false; } }
+  function cur(k){ try{ return F[k].contentWindow.location.hash.slice(1); }catch(e){ return ''; } }
+  var busy=false;
+  function goTo(k,id){ if(!has(k,id)){ P[k].classList.add('na'); N[k].textContent=''; return; } P[k].classList.remove('na'); N[k].textContent=''; last[k]=id;
+    try{ if(cur(k)!==id){ busy=true; F[k].contentWindow.location.hash='#'+id; setTimeout(function(){ busy=false; },120); } }catch(e){} }
+  function both(id){ goTo('l',id); goTo('t',id); }
+  sel.addEventListener('change',function(){ both(sel.value); });
+  function step(n){ var i=Math.max(0,Math.min(PAGES.length-1,sel.selectedIndex+n)); sel.selectedIndex=i; both(sel.value); }
+  d.getElementById('prev').addEventListener('click',function(){ step(-1); });
+  d.getElementById('next').addEventListener('click',function(){ step(1); });
+  dev.addEventListener('change',function(){ size(); setTimeout(function(){ ['l','t'].forEach(function(k){ try{ F[k].contentWindow.dispatchEvent(new Event('resize')); }catch(e){} }); },60); });
+  window.addEventListener('resize',size); size();
+  function version(k,el){ try{ var t=F[k].contentDocument.body.innerText.match(/Version (\d+\.\d+)/); if(t) el.textContent=(k==='l'?'Live ':'Trial ')+t[1]; }catch(e){} }
+  /* follow taps: when one guide changes page, the other follows (if that page exists there) */
+  /* the guide changes its address with history.replaceState (no hashchange event), so check a few times a second */
+  var last={l:'cover',t:'cover'};
+  ['l','t'].forEach(function(k){ F[k].addEventListener('load',function(){ version(k,d.getElementById(k==='l'?'lv':'tv')); }); });
+  setInterval(function(){ if(busy) return;
+    ['l','t'].forEach(function(k){ var o=k==='l'?'t':'l', id=cur(k); if(!id||id===last[k]) return; last[k]=id; N[k].textContent='';
+      for(var i=0;i<PAGES.length;i++) if(PAGES[i][0]===id){ sel.selectedIndex=i; break; }
+      P[k].classList.remove('na');
+      if(sync.checked&&id!==cur(o)){ if(has(o,id)){ goTo(o,id); } else P[o].classList.add('na'); } }); },250);
+})();
+</script>
+</body>
+</html>
