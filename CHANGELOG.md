@@ -25,6 +25,9 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.56 – 22 November 2026 (trial)
+- Question 2 (Who has access?): the warning "A partner or family member cannot access the account." is removed.
+
 ## 3.55 – 22 November 2026 (trial)
 - Question 4 titled "Do you have NHS login?" (was "NHS login access"; "Do you have an NHS login?" took two lines on a 375-wide iPhone), also in the start page list. The "Not sure? Try it on the NHS website / Try signing in" box is removed.
 

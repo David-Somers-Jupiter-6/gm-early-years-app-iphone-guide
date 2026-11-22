@@ -3,6 +3,9 @@
 David, 22 Nov 2026: get the content in place first; fix layout later. Each build records here which pages scroll,
 at which iPhone sizes (Safari visible area, points) and by how much.
 
+## 3.56
+- Question 2 loses its warning line, so its explanation is shorter; the shared question position is still set by question 5, so positions are unchanged.
+
 ## 3.55
 - Removing question 4's Try signing in box cut its explanation from 190px to 114px. The shared question position is now set by question 5 (Do your details match?, 179px, because of the example card), so all questions still sit low: at 375×637 the worst scroll with an answer is Q1 37, Q2 37, Q3 61, Q4 74, Q5 74, Q6 83px. Next step: make question 5's example card smaller (or let each question set its own position).
 
