@@ -2,6 +2,14 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 22 November 2026 – guide version 3.32 is live (Troubleshooter; Contents after the Introduction)
+
+- **Troubleshooter live** (trials 3.23–3.31): Troubleshooting menu → Troubleshooter → seven questions → Your results, with Get help / Read more links that come back to the results.
+- **Contents (with Search) back in the route**, straight after the Introduction: Cover → Introduction → Contents → How this guide works.
+- **Questions 4 and 5 ask about the child's mother or primary carer**, like questions 1–3: "NHS login account" – "Does the child's mother or primary carer have an NHS login account?"; "NHS login access" – "Can the child's mother or primary carer sign in to NHS login?". Results say "They have NHS login", "They can sign in".
+- Also live from the trials: section badges level with the title, pressed state on taps, results traffic-light badge, example card on Do your details match?, Checklist questions that stay in place.
+- Checked at all sizes; no script errors. Offline copy renamed `ey-guide-v3.32`. Built by `scripts/make332.py`.
+
 ## 22 November 2026 – guide version 3.31 on the trial page only (/preview/)
 
 - Troubleshooter focuses on who can **access** the account. Q1 asks "Is it clear who the GM Early Years App account is for?". Q2 "Who has access?" / "Account access" / "Only the child's mother or primary carer can access the account that has been set up for them." / "Is it clear only the child's mother or primary carer can access it?". Q5 "NHS login access" / "Used to sign in to the App" / "NHS login is used to access the GM Early Years App account." / "Can the mother or primary carer sign in to NHS login?" (Try signing in kept).
