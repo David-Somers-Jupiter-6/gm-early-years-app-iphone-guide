@@ -18,8 +18,6 @@ select,button{font:inherit;font-size:15px;border:1px solid var(--line);border-ra
 button{background:var(--blue);border-color:var(--blue);color:#fff;font-weight:600;padding:7px 14px}
 button:active{transform:scale(.97)}
 #pg{flex:1 1 220px;min-width:0}
-.sync{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--ink)}
-.sync input{width:20px;height:20px}
 main{display:flex;gap:14px;justify-content:center;align-items:flex-start;padding:14px 8px 40px}
 .col{display:flex;flex-direction:column;align-items:center;min-width:0}
 .lbl{margin:0 0 6px;font-weight:700;font-size:15px;text-align:center}
@@ -30,16 +28,26 @@ main{display:flex;gap:14px;justify-content:center;align-items:flex-start;padding
 .phone iframe{position:absolute;left:0;top:0;border:0;transform-origin:0 0;background:#fff}
 .vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .phone.na::after{content:"Not in this version";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:20px;text-align:center;background:rgba(238,241,244,.94);color:var(--sub);font-weight:700;font-size:15px}
+.lock{display:inline-flex;align-items:center;gap:7px;background:#fff;color:var(--ink);border:1px solid var(--line);font-weight:600}
+.lock svg{width:18px;height:18px;flex:none}
+.lock[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+.lock .open{display:none}.lock[aria-pressed="false"] .open{display:block}.lock[aria-pressed="false"] .shut{display:none}
+.shared{display:contents}
+body.unlocked .shared{display:none}
+.own{display:none;gap:4px;align-items:center;margin:0 0 6px;width:100%}
+body.unlocked .own{display:flex}
+.own select{flex:1 1 auto;min-width:0;font-size:13px;padding:5px 6px;min-height:36px}
+.own button{padding:5px 9px;min-height:36px}
 .note{margin:6px 0 0;font-size:13px;color:var(--sub);text-align:center;max-width:260px;min-height:18px}
 </style>
 </head>
 <body>
 <header>
-<h1>Live guide and trial, side by side<small>Pick a page, or tap through either guide. The other one follows when the page exists in both.</small></h1>
+<h1>Live guide and trial, side by side<small id="hint">Locked: pick a page, or tap through either guide, and the other follows. Unlock to view a different page on each side.</small></h1>
 <div class="bar">
-<button type="button" id="prev" aria-label="Previous page">‹</button>
-<select id="pg" aria-label="Page"></select>
-<button type="button" id="next" aria-label="Next page">›</button>
+<span class="shared"><button type="button" id="prev" aria-label="Previous page">‹</button>
+<select id="pg" aria-label="Page (both guides)"></select>
+<button type="button" id="next" aria-label="Next page">›</button></span>
 <label for="dev" class="vh">Phone size</label>
 <select id="dev" aria-label="Phone size">
 <option value="375x637" selected>375 × 637 (your Safari)</option>
@@ -48,26 +56,32 @@ main{display:flex;gap:14px;justify-content:center;align-items:flex-start;padding
 <option value="402x681">iPhone 16 Pro / 17 (Safari)</option>
 <option value="440x760">iPhone 16 Pro Max (Safari)</option>
 </select>
-<label class="sync"><input type="checkbox" id="sync" checked/>Keep both on the same page</label>
+<button type="button" class="lock" id="lock" aria-pressed="true"><svg class="shut" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><svg class="open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 7.5-2"/></svg><span id="lockt">Pages locked together</span></button>
 </div>
 </header>
 <main>
-<div class="col live"><p class="lbl"><span id="lv">Live</span></p><div class="phone" id="pl"><iframe id="fl" title="Live guide"></iframe></div><p class="note" id="nl"></p></div>
-<div class="col trial"><p class="lbl"><span id="tv">Trial</span></p><div class="phone" id="pt"><iframe id="ft" title="Trial guide"></iframe></div><p class="note" id="nt"></p></div>
+<div class="col live"><p class="lbl"><span id="lv">Live</span></p><div class="own"><button type="button" data-k="l" data-n="-1" aria-label="Previous page (live)">‹</button><select id="pgl" aria-label="Page (live)"></select><button type="button" data-k="l" data-n="1" aria-label="Next page (live)">›</button></div><div class="phone" id="pl"><iframe id="fl" title="Live guide"></iframe></div><p class="note" id="nl"></p></div>
+<div class="col trial"><p class="lbl"><span id="tv">Trial</span></p><div class="own"><button type="button" data-k="t" data-n="-1" aria-label="Previous page (trial)">‹</button><select id="pgt" aria-label="Page (trial)"></select><button type="button" data-k="t" data-n="1" aria-label="Next page (trial)">›</button></div><div class="phone" id="pt"><iframe id="ft" title="Trial guide"></iframe></div><p class="note" id="nt"></p></div>
 </main>
 <script>
 (function(){
   var PAGES=[
     ['cover','Cover'],['contents','Contents'],['intro','Introduction'],['how','How this guide works'],
-    ['hv','How to contact your HV team (badge)'],['acct','About your account (badge)'],['s4-who','Who the account is for'],['s2','Run through the Checklist (badge)'],['c1','Checklist – Q1'],['c2','Checklist – Q2'],['c3','Checklist – Q3'],['c4','Checklist – Q4'],
-    ['s3','Signing in (App icon badge)'],['s4','Troubleshooting menu'],
+    ['hv','How to contact your HV team (badge)'],['acct','About your account (badge)'],['s2','Run through the Checklist (badge)'],['c1','Checklist – Q1'],['c2','Checklist – Q2'],['c3','Checklist – Q3'],['c4','Checklist – Q4'],
+    ['s3','Signing in (App icon badge)'],['s4','Troubleshooting menu'],['s4-nhs','NHS login account help'],['s4-gm','GM Early Years App help'],['s4-who','Who the account is for'],['s4-reasons','Common sign-in problems'],['s4-problems','Details do not match'],['s4-1b','Partner’s details used'],['s4-2','A partner is signing in'],
     ['ts','Troubleshooter – start'],['ts1','Troubleshooter – Q1 Who is the account for?'],['ts1b','Troubleshooter – Q2 Who has access?'],
     ['ts1c','Troubleshooter – Q3 Is this you?'],['ts2','Troubleshooter – Q4 Do you have NHS login?'],['ts3','Troubleshooter – Q5 NHS login access'],
     ['ts4','Troubleshooter – Q6 Do your details match?'],['ts5','Troubleshooter – Q7 Has your link arrived?'],['tsum','Troubleshooter – Your results'],
     ['s5','Contact & support (badge)'],['a11y','Accessibility (badge)'],['s6','About this guide (badge)']];
-  var d=document, sel=d.getElementById('pg'), dev=d.getElementById('dev'), sync=d.getElementById('sync');
+  var d=document, sel=d.getElementById('pg'), dev=d.getElementById('dev'), lockB=d.getElementById('lock'), S={l:d.getElementById('pgl'),t:d.getElementById('pgt')};
+  var locked=true; try{ locked=localStorage.getItem('cmpLock')!=='off'; }catch(e){}
   var F={l:d.getElementById('fl'),t:d.getElementById('ft')}, P={l:d.getElementById('pl'),t:d.getElementById('pt')}, N={l:d.getElementById('nl'),t:d.getElementById('nt')};
-  PAGES.forEach(function(p){ var o=d.createElement('option'); o.value=p[0]; o.textContent=p[1]; sel.appendChild(o); });
+  [sel,S.l,S.t].forEach(function(s){ PAGES.forEach(function(p){ var o=d.createElement('option'); o.value=p[0]; o.textContent=p[1]; s.appendChild(o); }); });
+  /* a page that is not in the list (for example a help topic) shows as an extra choice */
+  function show(s,k,id){ var i, o; for(i=0;i<s.options.length;i++) if(s.options[i].value===id){ s.selectedIndex=i; return; }
+    o=s.querySelector('option.x'); if(!o){ o=d.createElement('option'); o.className='x'; s.insertBefore(o,s.firstChild); }
+    var t=id; try{ var sec=F[k].contentDocument.getElementById(id); if(sec) t=sec.getAttribute('data-title')||id; }catch(e){}
+    o.value=id; o.textContent='This page: '+t; s.selectedIndex=0; }
   var stamp=Date.now();
   F.l.src='../?cmp='+stamp+'#cover'; F.t.src='../preview/?cmp='+stamp+'#cover';
   function size(){ var wh=dev.value.split('x'), W=+wh[0], H=+wh[1];
@@ -77,11 +91,19 @@ main{display:flex;gap:14px;justify-content:center;align-items:flex-start;padding
   function has(k,id){ try{ return !!F[k].contentDocument.getElementById(id); }catch(e){ return false; } }
   function cur(k){ try{ return F[k].contentWindow.location.hash.slice(1); }catch(e){ return ''; } }
   var busy=false;
-  function goTo(k,id){ if(!has(k,id)){ P[k].classList.add('na'); N[k].textContent=''; return; } P[k].classList.remove('na'); N[k].textContent=''; last[k]=id;
+  function goTo(k,id){ if(!has(k,id)){ P[k].classList.add('na'); N[k].textContent=''; return; } P[k].classList.remove('na'); N[k].textContent=''; last[k]=id; show(S[k],k,id);
     try{ if(cur(k)!==id){ busy=true; F[k].contentWindow.location.hash='#'+id; setTimeout(function(){ busy=false; },120); } }catch(e){} }
   function both(id){ goTo('l',id); goTo('t',id); }
   sel.addEventListener('change',function(){ both(sel.value); });
-  function step(n){ var i=Math.max(0,Math.min(PAGES.length-1,sel.selectedIndex+n)); sel.selectedIndex=i; both(sel.value); }
+  ['l','t'].forEach(function(k){ S[k].addEventListener('change',function(){ goTo(k,S[k].value); }); });
+  [].forEach.call(d.querySelectorAll('.own button'),function(b){ b.addEventListener('click',function(){ var k=b.getAttribute('data-k'), s=S[k];
+    var i=s.selectedIndex, n=+b.getAttribute('data-n'); if(s.options[0].className==='x'&&i===0) i=0; i=Math.max(0,Math.min(s.options.length-1,i+n)); if(s.options[i].className==='x') i=Math.max(0,Math.min(s.options.length-1,i+n));
+    s.selectedIndex=i; goTo(k,s.value); }); });
+  function setLock(v){ locked=v; lockB.setAttribute('aria-pressed',v?'true':'false'); d.getElementById('lockt').textContent=v?'Pages locked together':'Pages unlocked';
+    d.body.classList.toggle('unlocked',!v); try{ localStorage.setItem('cmpLock',v?'on':'off'); }catch(e){}
+    if(v){ var id=cur('l')||last.l; show(sel,'l',id); both(id); } else { ['l','t'].forEach(function(k){ P[k].classList.remove('na'); show(S[k],k,cur(k)||last[k]); }); } }
+  lockB.addEventListener('click',function(){ setLock(!locked); });
+  function step(n){ var i=sel.selectedIndex; if(sel.options[i].className==='x') i=0; i=Math.max(0,Math.min(sel.options.length-1,i+n)); if(sel.options[i].className==='x') i=Math.max(0,Math.min(sel.options.length-1,i+n)); sel.selectedIndex=i; both(sel.value); }
   d.getElementById('prev').addEventListener('click',function(){ step(-1); });
   d.getElementById('next').addEventListener('click',function(){ step(1); });
   dev.addEventListener('change',function(){ size(); setTimeout(function(){ ['l','t'].forEach(function(k){ try{ F[k].contentWindow.dispatchEvent(new Event('resize')); }catch(e){} }); },60); });
@@ -91,11 +113,12 @@ main{display:flex;gap:14px;justify-content:center;align-items:flex-start;padding
   /* the guide changes its address with history.replaceState (no hashchange event), so check a few times a second */
   var last={l:'cover',t:'cover'};
   ['l','t'].forEach(function(k){ F[k].addEventListener('load',function(){ version(k,d.getElementById(k==='l'?'lv':'tv')); }); });
+  setLock(locked);
   setInterval(function(){ if(busy) return;
     ['l','t'].forEach(function(k){ var o=k==='l'?'t':'l', id=cur(k); if(!id||id===last[k]) return; last[k]=id; N[k].textContent='';
-      for(var i=0;i<PAGES.length;i++) if(PAGES[i][0]===id){ sel.selectedIndex=i; break; }
-      P[k].classList.remove('na');
-      if(sync.checked&&id!==cur(o)){ if(has(o,id)){ goTo(o,id); } else P[o].classList.add('na'); } }); },250);
+      show(S[k],k,id); P[k].classList.remove('na');
+      if(locked) show(sel,k,id);
+      if(locked&&id!==cur(o)){ if(has(o,id)){ goTo(o,id); } else P[o].classList.add('na'); } }); },250);
 })();
 </script>
 </body>
