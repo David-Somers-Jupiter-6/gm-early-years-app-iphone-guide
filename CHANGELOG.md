@@ -21,6 +21,10 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+
+## 3.52 – 22 November 2026 (trial)
+- Who will be set up with an account: What to do reads "If an account has been set up for the wrong person, please contact your Health Visiting team.", followed by the Find your Health Visiting team button.
+
 ## 3.51 – 22 November 2026 (live)
 - 3.51 published to the live site (from 3.32). Brings live all changes in 3.33–3.51: NHS login account help and GM Early Years App help (Common sign-in problems merged), the reworked Troubleshooter (6 questions, help links on every No, account names spelled out), renamed help pages, and the fix for "That is clear" on the No answers to questions 1 and 2.
 
