@@ -15,6 +15,11 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+
+## 3.47 – 22 November 2026 (trial)
+- Troubleshooter: question 3 "Is this you?" removed. Six questions: after "Who has access?" comes "NHS login account". Start page list ("6 quick questions"), steppers, question numbers, Your results (the Account holder row) and the page code updated. Section 6 has 49 pages.
+- The help page "Only the account holder can access" is still reached from question 2.
+
 ## 3.46 – 22 November 2026 (trial)
 - Help page renamed "Only the account holder can access" (title, GM Early Years App help card, question 2's No link: "Please see Only the account holder can access for more information.").
 - On that page, What to do ends "ask your Health Visiting team", followed by the Find your Health Visiting team button. The "Still stuck? Get help" bar is removed.
