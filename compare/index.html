@@ -9,16 +9,16 @@
 :root{--ink:#1d2b36;--sub:#55626b;--line:#d5dbe0;--bg:#eef1f4;--brand:#a3124d;--blue:#005eb8}
 *{box-sizing:border-box}
 html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
-header{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--line);padding:10px 12px calc(10px) 12px}
-h1{margin:0 0 8px;font-size:18px;line-height:1.25}
+header{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--line);padding:8px 12px;display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px}
+h1{margin:0;font-size:17px;line-height:1.25;flex:0 1 auto}
 h1 small{display:block;font-size:13px;font-weight:400;color:var(--sub)}
-.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-left:auto}
 .bar label{font-size:13px;color:var(--sub)}
 select,button{font:inherit;font-size:15px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);padding:7px 10px;min-height:40px}
 button{background:var(--blue);border-color:var(--blue);color:#fff;font-weight:600;padding:7px 14px}
 button:active{transform:scale(.97)}
-#pg{flex:1 1 220px;min-width:0}
-main{display:flex;gap:14px;justify-content:center;align-items:flex-start;padding:14px 8px 40px}
+#pg{flex:0 1 260px;min-width:0}
+main{display:flex;gap:14px;justify-content:center;align-items:flex-start;padding:10px 8px 30px}
 .col{display:flex;flex-direction:column;align-items:center;min-width:0}
 .lbl{margin:0 0 6px;font-weight:700;font-size:15px;text-align:center}
 .lbl span{display:inline-block;padding:3px 10px;border-radius:999px;color:#fff}
@@ -43,7 +43,7 @@ body.unlocked .own{display:flex}
 </head>
 <body>
 <header>
-<h1>Live guide and trial, side by side<small id="hint">Locked: pick a page, or tap through either guide, and the other follows. Unlock to view a different page on each side.</small></h1>
+<h1>Live guide and trial, side by side<small id="hint">Unlock to view a different page on each side.</small></h1>
 <div class="bar">
 <span class="shared"><button type="button" id="prev" aria-label="Previous page">‹</button>
 <select id="pg" aria-label="Page (both guides)"></select>
@@ -99,8 +99,8 @@ body.unlocked .own{display:flex}
   [].forEach.call(d.querySelectorAll('.own button'),function(b){ b.addEventListener('click',function(){ var k=b.getAttribute('data-k'), s=S[k];
     var i=s.selectedIndex, n=+b.getAttribute('data-n'); if(s.options[0].className==='x'&&i===0) i=0; i=Math.max(0,Math.min(s.options.length-1,i+n)); if(s.options[i].className==='x') i=Math.max(0,Math.min(s.options.length-1,i+n));
     s.selectedIndex=i; goTo(k,s.value); }); });
-  function setLock(v){ locked=v; lockB.setAttribute('aria-pressed',v?'true':'false'); d.getElementById('lockt').textContent=v?'Pages locked together':'Pages unlocked';
-    d.body.classList.toggle('unlocked',!v); try{ localStorage.setItem('cmpLock',v?'on':'off'); }catch(e){}
+  function setLock(v,init){ locked=v; lockB.setAttribute('aria-pressed',v?'true':'false'); d.getElementById('lockt').textContent=v?'Pages locked together':'Pages unlocked';
+    d.body.classList.toggle('unlocked',!v); d.getElementById('hint').textContent=v?'Unlock to view a different page on each side.':'Lock to keep both on the same page.'; if(init) return; try{ localStorage.setItem('cmpLock',v?'on':'off'); }catch(e){}
     if(v){ var id=cur('l')||last.l; show(sel,'l',id); both(id); } else { ['l','t'].forEach(function(k){ P[k].classList.remove('na'); show(S[k],k,cur(k)||last[k]); }); } }
   lockB.addEventListener('click',function(){ setLock(!locked); });
   function step(n){ var i=sel.selectedIndex; if(sel.options[i].className==='x') i=0; i=Math.max(0,Math.min(sel.options.length-1,i+n)); if(sel.options[i].className==='x') i=Math.max(0,Math.min(sel.options.length-1,i+n)); sel.selectedIndex=i; both(sel.value); }
@@ -112,8 +112,8 @@ body.unlocked .own{display:flex}
   /* follow taps: when one guide changes page, the other follows (if that page exists there) */
   /* the guide changes its address with history.replaceState (no hashchange event), so check a few times a second */
   var last={l:'cover',t:'cover'};
-  ['l','t'].forEach(function(k){ F[k].addEventListener('load',function(){ version(k,d.getElementById(k==='l'?'lv':'tv')); }); });
-  setLock(locked);
+  ['l','t'].forEach(function(k){ F[k].addEventListener('load',function(){ version(k,d.getElementById(k==='l'?'lv':'tv')); P[k].classList.remove('na'); show(S[k],k,cur(k)||'cover'); }); });
+  setLock(locked,true);
   setInterval(function(){ if(busy) return;
     ['l','t'].forEach(function(k){ var o=k==='l'?'t':'l', id=cur(k); if(!id||id===last[k]) return; last[k]=id; N[k].textContent='';
       show(S[k],k,id); P[k].classList.remove('na');
