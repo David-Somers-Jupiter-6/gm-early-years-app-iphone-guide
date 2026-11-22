@@ -23,6 +23,10 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+
+## 3.54 – 22 November 2026 (trial)
+- Question 2: warning reads "A partner or family member cannot access the account." (one line shorter). The question still sits lower because question 4's explanation is the tallest; see notes/overflow-to-fix.md.
+
 ## 3.53 – 22 November 2026 (trial)
 - Question 2: subheading "Who will be able to access the account?"; text "Only the account holder can access the GM Early Years App account that has been set up for them."
 

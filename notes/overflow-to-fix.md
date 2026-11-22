@@ -3,6 +3,9 @@
 David, 22 Nov 2026: get the content in place first; fix layout later. Each build records here which pages scroll,
 at which iPhone sizes (Safari visible area, points) and by how much.
 
+## 3.54
+- All six questions share one question position, set by the tallest explanation: question 4 (NHS login access) 190px, question 5 179px, question 2 152px, question 1 140px (at 375×637). With an answer chosen, question 2 scrolls 44-58px on 375-wide phones. Fix: trim questions 4 and 5 (target about 145px).
+
 ## 3.49
 No answers on questions 3-6 now carry a help link (three lines), so they scroll on smaller iPhones:
 - Question 3 (ts2), No: 375×548 22px · 375×629 23px · 375×647 9px · 375×637 15px · 360×640 30px · 320×664 27px
