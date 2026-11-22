@@ -18,6 +18,10 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+
+## 3.50 – 22 November 2026 (trial)
+- Troubleshooter always names the account: "the GM Early Years App account" or "your NHS login account" (start page, questions 1-6, question 5's label, question 6's No message). Question 1's title stays "Who is set up with an account?" to keep it short; its question already names the GM Early Years App account.
+
 ## 3.49 – 22 November 2026 (trial)
 - Troubleshooter review fixes. Questions 3 and 4 use "you" ("Do you have an NHS login account?", "Can you sign in to NHS login?"). Question 4 explains: "You sign in to the App with the same email address and password as your NHS login."
 - Every No on questions 3-6 says what it means and links straight to its help page: Set up NHS login, Cannot sign in, Details do not match, Activation Link not received. Done on those pages returns to the question.
