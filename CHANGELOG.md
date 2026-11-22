@@ -9,6 +9,10 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+
+## 3.41 – 22 November 2026 (trial)
+- Question 1 is titled "Who is set up with an account?" (was "Who is the account for?"), also in the start page list. Its second line reads "In this guide, we call this person the account holder." On the iPhone SE the title is set slightly smaller so it stays on one line.
+
 ## 3.40 – 22 November 2026 (trial)
 - Troubleshooter start page: after the list, "This troubleshooter should be answered by the child's mother or primary carer, not a partner or family member." "Answer Yes or No. It takes a minute or two." stays at the end. List rows a little tighter. Scrolls slightly on the smallest iPhones (agreed for now; the page will be cut down).
 
