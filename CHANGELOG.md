@@ -11,6 +11,11 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+
+## 3.43 – 22 November 2026 (trial)
+- Question 1: No shows "Please see Who is set up with an account for more information." The page name links to that help page; its Back and Done return to question 1 with the answer kept.
+- The help page "Who the account is for" is renamed "Who is set up with an account" (title, GM Early Years App help card, Your results row).
+
 ## 3.42 – 22 November 2026 (trial)
 - Question 1: Yes shows "Yes, the child's mother or primary carer" (was "That is clear").
 
