@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+
+## 3.34 – 22 November 2026 (trial)
+- Question 1 asks "Is it clear who has been set up with a GM Early Years App account?" The explanation adds "This troubleshooter should be answered by the child's mother or primary carer, not a partner or family member."
+- New page in GM Early Years App help: "Who the account is for", in the same style as "A partner is signing in". Question 1's Read more on Your results now opens it.
+- Fix: since 3.31, the No answers on questions 1 and 2 said "That is clear". They now say "That is OK. We will help."
+- Section 6 has 50 pages.
+
 ## 3.33 – 22 November 2026 (trial)
 - Troubleshooting: "NHS login account issues" is now "NHS login account help" (menu, page title and the NHS login band).
 - "GM Early Years App issues" is now "GM Early Years App help".
