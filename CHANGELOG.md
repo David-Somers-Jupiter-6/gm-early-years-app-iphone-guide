@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 22 November 2026 – guide version 3.29 on the trial page only (/preview/)
+
+- Troubleshooter questions 1–4 say exactly who and what: Q1 "Is it clear that the account is for the child's mother or primary carer?"; Q2 "Only the child's mother or primary carer" (a partner or relative cannot sign in for them; we call this person the account holder) and "Is it clear that only the child's mother or primary carer can sign in?"; Q3 "The GM Early Years App uses an NHS login account to sign you in."; Q4 "Can you access your NHS login account?" with email address and password, a Tip box, and "Can you sign in to your NHS login account?". Results rows 1–2 follow (Get help: About your account / A partner is signing in).
+- Checked at 8 sizes: positions identical on all six questions; everything fits. Built by `scripts/make329.py`.
+
 ## 21 November 2026 – guide version 3.28 on the trial page only (/preview/)
 
 - **Introduction**: back to the original (the conversation mock-up is withdrawn), with "You are not alone, and it is not your fault." on its own line in bold.
