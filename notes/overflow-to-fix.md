@@ -3,6 +3,9 @@
 David, 22 Nov 2026: get the content in place first; fix layout later. Each build records here which pages scroll,
 at which iPhone sizes (Safari visible area, points) and by how much.
 
+## 3.55
+- Removing question 4's Try signing in box cut its explanation from 190px to 114px. The shared question position is now set by question 5 (Do your details match?, 179px, because of the example card), so all questions still sit low: at 375×637 the worst scroll with an answer is Q1 37, Q2 37, Q3 61, Q4 74, Q5 74, Q6 83px. Next step: make question 5's example card smaller (or let each question set its own position).
+
 ## 3.54
 - All six questions share one question position, set by the tallest explanation: question 4 (NHS login access) 190px, question 5 179px, question 2 152px, question 1 140px (at 375×637). With an answer chosen, question 2 scrolls 44-58px on 375-wide phones. Fix: trim questions 4 and 5 (target about 145px).
 

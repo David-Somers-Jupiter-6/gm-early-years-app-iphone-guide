@@ -24,6 +24,10 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+
+## 3.55 – 22 November 2026 (trial)
+- Question 4 titled "Do you have NHS login?" (was "NHS login access"; "Do you have an NHS login?" took two lines on a 375-wide iPhone), also in the start page list. The "Not sure? Try it on the NHS website / Try signing in" box is removed.
+
 ## 3.54 – 22 November 2026 (trial)
 - Question 2: warning reads "A partner or family member cannot access the account." (one line shorter). The question still sits lower because question 4's explanation is the tallest; see notes/overflow-to-fix.md.
 
