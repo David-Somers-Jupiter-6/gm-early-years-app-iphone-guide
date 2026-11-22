@@ -25,6 +25,9 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.57 – 22 November 2026 (trial)
+- Question 1 (About your account): subheading "Who will be set up with an account?"; explanation is one paragraph ("Your Health Visiting team sets up a GM Early Years App account for the child's mother or primary carer. In this guide, we call this person the account holder."); question "Is it clear who will be set up with a GM Early Years App account?".
+
 ## 3.56 – 22 November 2026 (trial)
 - Question 2 (Who has access?): the warning "A partner or family member cannot access the account." is removed.
 
