@@ -25,6 +25,9 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.59 – 22 November 2026 (trial)
+- Question 2 titled "Who will be able to access the account?" (was "Who has access?"), also in the start page list and on the results page; subheading removed; body "Only the account holder (the child's mother or primary carer) can access the GM Early Years App account that has been set up for them."; question "Is it clear that only the account holder can access the GM Early Years App account?".
+
 ## 3.58 – 22 November 2026 (trial)
 - Question 1 titled "Who will be set up with an account?" (was "About your account"), also in the start page list and on the results page; its subheading is removed, leaving the explanation as the body.
 
