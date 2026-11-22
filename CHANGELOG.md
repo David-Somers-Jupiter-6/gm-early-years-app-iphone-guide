@@ -25,6 +25,9 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.60 – 22 November 2026 (trial)
+- Question 5 (Do your details match?): subheading removed; body "Your GM Early Years App account must use the same contact details as your NHS login account."; question "Do both accounts use the same contact details?". Example card unchanged.
+
 ## 3.59 – 22 November 2026 (trial)
 - Question 2 titled "Who will be able to access the account?" (was "Who has access?"), also in the start page list and on the results page; subheading removed; body "Only the account holder (the child's mother or primary carer) can access the GM Early Years App account that has been set up for them."; question "Is it clear that only the account holder can access the GM Early Years App account?".
 
