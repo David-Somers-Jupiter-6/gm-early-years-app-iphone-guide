@@ -22,6 +22,10 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+
+## 3.53 – 22 November 2026 (trial)
+- Question 2: subheading "Who will be able to access the account?"; text "Only the account holder can access the GM Early Years App account that has been set up for them."
+
 ## 3.52 – 22 November 2026 (trial)
 - Who will be set up with an account: What to do reads "If an account has been set up for the wrong person, please contact your Health Visiting team.", followed by the Find your Health Visiting team button.
 
