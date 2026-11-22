@@ -25,6 +25,9 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.61 – 22 November 2026 (trial)
+- Question 3 titled "Do you have an NHS login?" (was "NHS login account"), also in the start page list and on the results page; subheading removed; body "You need your own NHS login account to use the GM Early Years App. NHS login confirms who you are."; answers "Yes, I have an NHS login account" / "No, I have not set up an NHS login account".
+
 ## 3.60 – 22 November 2026 (trial)
 - Question 5 (Do your details match?): subheading removed; body "Your GM Early Years App account must use the same contact details as your NHS login account."; question "Do both accounts use the same contact details?". Example card unchanged.
 
