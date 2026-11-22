@@ -14,6 +14,11 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+
+## 3.46 – 22 November 2026 (trial)
+- Help page renamed "Only the account holder can access" (title, GM Early Years App help card, question 2's No link: "Please see Only the account holder can access for more information.").
+- On that page, What to do ends "ask your Health Visiting team", followed by the Find your Health Visiting team button. The "Still stuck? Get help" bar is removed.
+
 ## 3.45 – 22 November 2026 (trial)
 - GM Early Years App help, new order: Who is set up with an account; Only the child's mother or primary carer can access; Partner's details used; Details do not match; Activation Link issues; How to install the App; Add to Home Screen.
 
