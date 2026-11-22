@@ -5,6 +5,10 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+
+## 3.37 – 22 November 2026 (trial)
+- GM Early Years App help: all seven topic cards use the GM Early Years App colours (four were blue).
+
 ## 3.36 – 22 November 2026 (trial)
 - Question 7: subheading "Your Activation Link", so it no longer repeats the question.
 
