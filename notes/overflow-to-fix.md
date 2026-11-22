@@ -1,0 +1,10 @@
+# Pages that scroll (to fix in the layout pass)
+
+David, 22 Nov 2026: get the content in place first; fix layout later. Each build records here which pages scroll,
+at which iPhone sizes (Safari visible area, points) and by how much.
+
+## 3.44
+- Question 2 (ts1b), No selected: 375×548 33px · 375×629 38px · 390×664 7px · 393×659 12px · 402×681 4px · 375×647 24px · 375×637 30px · 360×640 33px · 320×664 43px
+- Question 2 (ts1b), Yes selected: 375×548 8px · 375×629 13px · 375×637 5px · 360×640 8px
+- GM Early Years App help (s4-gm): 375×548 18px · 375×629 14px · 375×637 6px · 320×664 5px (the renamed card title wraps)
+- Troubleshooter start page (ts), from 3.40: 375×548 24px · 375×629 5px · 390×664 12px · 320×664 8px

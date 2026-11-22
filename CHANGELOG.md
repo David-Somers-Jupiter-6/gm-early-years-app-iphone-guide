@@ -12,6 +12,12 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+
+## 3.44 – 22 November 2026 (trial)
+- Question 2: subheading "Who will be able to access the account?"; Yes "Yes, the child's mother or primary carer"; No "Please see Only the child's mother or primary carer can access for more information." with a link to that page.
+- Help page "A partner is signing in" renamed "Only the child's mother or primary carer can access"; its card line reads "Not a partner or family member".
+- No layout fitting in this build; pages that scroll are listed in notes/overflow-to-fix.md.
+
 ## 3.43 – 22 November 2026 (trial)
 - Question 1: No shows "Please see Who is set up with an account for more information." The page name links to that help page; its Back and Done return to question 1 with the answer kept.
 - The help page "Who the account is for" is renamed "Who is set up with an account" (title, GM Early Years App help card, Your results row).
