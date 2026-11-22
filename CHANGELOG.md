@@ -4,6 +4,10 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+
+## 3.36 – 22 November 2026 (trial)
+- Question 7: subheading "Your Activation Link", so it no longer repeats the question.
+
 ## 3.35 – 22 November 2026 (trial)
 - Question 2 (Who has access?): Yes says "You are the account holder".
 - Question 3 (Is this you?): No ("No, I am a partner or relative") says "Only the account holder can sign in to the account".
