@@ -7,6 +7,10 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+
+## 3.39 – 22 November 2026 (trial)
+- Who the account is for: new line "In this guide, we call this person the account holder." What to do now reads "The account holder signs in with their own NHS login. Not sure? Ask the team." On the smallest screens "Still stuck?" gives way so the page does not scroll.
+
 ## 3.38 – 22 November 2026 (trial)
 - Who the account is for: "Your Health Visiting team creates the GM Early Years App account for the child's mother or primary carer." (was "the App account").
 
