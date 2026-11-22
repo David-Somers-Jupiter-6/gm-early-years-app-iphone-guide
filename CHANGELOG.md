@@ -19,6 +19,11 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+
+## 3.51 – 22 November 2026 (trial)
+- Question 1 titled "About your account" (start page list and Your results too). Subheading "Who will be set up with an account"; text "Your Health Visiting team sets up a GM Early Years App account for the child's mother or primary carer." then "In this guide, we call this person the account holder."; question "Is it clear who will be set up with an account?". No: "Please see Who will be set up with an account for more information."
+- Help page renamed "Who will be set up with an account" (title, GM Early Years App help card, Your results link text).
+
 ## 3.50 – 22 November 2026 (trial)
 - Troubleshooter always names the account: "the GM Early Years App account" or "your NHS login account" (start page, questions 1-6, question 5's label, question 6's No message). Question 1's title stays "Who is set up with an account?" to keep it short; its question already names the GM Early Years App account.
 
