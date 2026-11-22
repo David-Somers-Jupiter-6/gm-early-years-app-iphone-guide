@@ -6,6 +6,10 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+
+## 3.38 – 22 November 2026 (trial)
+- Who the account is for: "Your Health Visiting team creates the GM Early Years App account for the child's mother or primary carer." (was "the App account").
+
 ## 3.37 – 22 November 2026 (trial)
 - GM Early Years App help: all seven topic cards use the GM Early Years App colours (four were blue).
 
