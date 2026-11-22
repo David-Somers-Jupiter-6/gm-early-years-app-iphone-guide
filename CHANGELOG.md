@@ -3,6 +3,14 @@
 Changes to the published website. The guide's own revision history is on its last page.
 
 
+
+## 3.35 – 22 November 2026 (trial)
+- Question 2 (Who has access?): Yes says "You are the account holder".
+- Question 3 (Is this you?): No ("No, I am a partner or relative") says "Only the account holder can sign in to the account".
+- Question 4 (NHS login account): subheading "An NHS login account is needed"; explanation "The account holder signs in to the GM Early Years App with their own NHS login account." Yes says "The account holder has an NHS login account"; No says "The account holder needs an NHS login account".
+- Question 7: subheading "Have you received your Activation Link?" (was "Sent to you by text message").
+- Your results wording matches.
+
 ## 3.34 – 22 November 2026 (trial)
 - Question 1 asks "Is it clear who has been set up with a GM Early Years App account?" The explanation adds "This troubleshooter should be answered by the child's mother or primary carer, not a partner or family member."
 - New page in GM Early Years App help: "Who the account is for", in the same style as "A partner is signing in". Question 1's Read more on Your results now opens it.
