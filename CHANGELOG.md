@@ -13,6 +13,10 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+
+## 3.45 – 22 November 2026 (trial)
+- GM Early Years App help, new order: Who is set up with an account; Only the child's mother or primary carer can access; Partner's details used; Details do not match; Activation Link issues; How to install the App; Add to Home Screen.
+
 ## 3.44 – 22 November 2026 (trial)
 - Question 2: subheading "Who will be able to access the account?"; Yes "Yes, the child's mother or primary carer"; No "Please see Only the child's mother or primary carer can access for more information." with a link to that page.
 - Help page "A partner is signing in" renamed "Only the child's mother or primary carer can access"; its card line reads "Not a partner or family member".
