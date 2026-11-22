@@ -26,7 +26,7 @@ checks = {
     'every internal link has a target': targets <= ids,
     'every image has alt text': all('alt=' in i for i in images),
     'external links use HTTPS': all(u.startswith('https://') for u in external),
-    'external links go to NHS login, Apple Maps, EASS or the guide website only': all(re.match(r'https://((help|settings)\.login\.nhs\.uk|maps\.apple\.com|www\.equalityadvisoryservice\.com)(/|$)|https://david-somers-jupiter-6\.github\.io/gm-early-years-app-iphone-guide/$', u) for u in external),
+    'external links go to NHS login, the NHS website log in page, Apple Maps, EASS or the guide website only': all(re.match(r'https://((help|settings)\.login\.nhs\.uk|www\.nhs\.uk/nhs-app/account/|maps\.apple\.com|www\.equalityadvisoryservice\.com)(/|$)|https://david-somers-jupiter-6\.github\.io/gm-early-years-app-iphone-guide/$', u) for u in external),
     'team maps load from Google Maps only, and only when opened': all(u.startswith('https://maps.google.com/maps?') for u in re.findall(r'data-map="([^"]+)"', html)) and not re.search(r'<iframe[^>]+\ssrc=', html, re.I),
     'self-contained: no external stylesheets': not re.search(r'<link[^>]+rel=["\']stylesheet', html, re.I),
     'self-contained: no remote JavaScript': not re.search(r'<script[^>]+src=', html, re.I),

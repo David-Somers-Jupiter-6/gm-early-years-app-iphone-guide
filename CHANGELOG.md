@@ -2,6 +2,15 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 22 November 2026 – guide version 3.30 on the trial page only (/preview/)
+
+- **Troubleshooter: seven questions.** New question 3 "Is this you?" ("Are you the child's mother or primary carer?") so a partner is still found after the two "is it clear" questions.
+- **Kinder "not sure"** on questions 1 and 2: blue "That is OK. We will help." message, amber light instead of red, and on the results a blue "i" with **Read more** (About your account / A partner is signing in).
+- **Question 5 Can you use NHS login?**: "Can you access NHS login?" with a Tip box "Not sure? Try it on the NHS website." and a **Try signing in** button (opens www.nhs.uk/nhs-app/account/ in a new tab; the validator now allows that page).
+- **Answer messages in one style**, one line each.
+- **Checklist questions (c1–c4) line up** too: the question and answers sit in the same place on all four pages on every size (they moved on the iPhone SE). The alignment code handles both sets of questions.
+- Checked at all 13 sizes: positions identical, everything fits, results and links correct; no script errors. 94 pages. Comparison page lists the new questions and the Checklist. Built by `scripts/make330.py`.
+
 ## 22 November 2026 – guide version 3.29 on the trial page only (/preview/)
 
 - Troubleshooter questions 1–4 say exactly who and what: Q1 "Is it clear that the account is for the child's mother or primary carer?"; Q2 "Only the child's mother or primary carer" (a partner or relative cannot sign in for them; we call this person the account holder) and "Is it clear that only the child's mother or primary carer can sign in?"; Q3 "The GM Early Years App uses an NHS login account to sign you in."; Q4 "Can you access your NHS login account?" with email address and password, a Tip box, and "Can you sign in to your NHS login account?". Results rows 1–2 follow (Get help: About your account / A partner is signing in).
