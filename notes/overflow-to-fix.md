@@ -3,6 +3,14 @@
 David, 22 Nov 2026: get the content in place first; fix layout later. Each build records here which pages scroll,
 at which iPhone sizes (Safari visible area, points) and by how much.
 
+## 3.49
+No answers on questions 3-6 now carry a help link (three lines), so they scroll on smaller iPhones:
+- Question 3 (ts2), No: 375×548 22px · 375×629 23px · 375×647 9px · 375×637 15px · 360×640 30px · 320×664 27px
+- Question 4 (ts3), No: 375×548 35px · 375×629 36px · 390×664 5px · 393×659 10px · 402×681 2px · 375×647 22px · 375×637 28px · 360×640 43px · 320×664 40px
+- Question 5 (ts4), No: 375×548 35px · 375×629 36px · 390×664 5px · 393×659 10px · 402×681 2px · 375×647 22px · 375×637 28px · 360×640 43px · 320×664 61px
+- Question 6 (ts5), No: 375×548 43px · 375×629 45px · 390×664 14px · 393×659 19px · 375×647 31px · 375×637 37px · 360×640 52px · 320×664 49px
+- Questions 1-2, GM Early Years App help, start page: as 3.48.
+
 ## 3.48
 - Question 2 (ts1b): fits at every size except 360×640 (Yes 3px, No 6px).
 - GM Early Years App help (s4-gm): as 3.46.
