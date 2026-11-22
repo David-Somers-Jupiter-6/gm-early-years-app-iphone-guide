@@ -25,6 +25,9 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.58 – 22 November 2026 (trial)
+- Question 1 titled "Who will be set up with an account?" (was "About your account"), also in the start page list and on the results page; its subheading is removed, leaving the explanation as the body.
+
 ## 3.57 – 22 November 2026 (trial)
 - Question 1 (About your account): subheading "Who will be set up with an account?"; explanation is one paragraph ("Your Health Visiting team sets up a GM Early Years App account for the child's mother or primary carer. In this guide, we call this person the account holder."); question "Is it clear who will be set up with a GM Early Years App account?".
 
