@@ -20,6 +20,10 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+
+## 3.51 – 22 November 2026 (live)
+- 3.51 published to the live site (from 3.32). Brings live all changes in 3.33–3.51: NHS login account help and GM Early Years App help (Common sign-in problems merged), the reworked Troubleshooter (6 questions, help links on every No, account names spelled out), renamed help pages, and the fix for "That is clear" on the No answers to questions 1 and 2.
+
 ## 3.51 – 22 November 2026 (trial)
 - Question 1 titled "About your account" (start page list and Your results too). Subheading "Who will be set up with an account"; text "Your Health Visiting team sets up a GM Early Years App account for the child's mother or primary carer." then "In this guide, we call this person the account holder."; question "Is it clear who will be set up with an account?". No: "Please see Who will be set up with an account for more information."
 - Help page renamed "Who will be set up with an account" (title, GM Early Years App help card, Your results link text).
