@@ -17,6 +17,12 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+
+## 3.49 – 22 November 2026 (trial)
+- Troubleshooter review fixes. Questions 3 and 4 use "you" ("Do you have an NHS login account?", "Can you sign in to NHS login?"). Question 4 explains: "You sign in to the App with the same email address and password as your NHS login."
+- Every No on questions 3-6 says what it means and links straight to its help page: Set up NHS login, Cannot sign in, Details do not match, Activation Link not received. Done on those pages returns to the question.
+- Your results (hidden summary lines): "All six checks are done"; Yes lines match the questions; "you" wording.
+
 ## 3.48 – 22 November 2026 (trial)
 - Question 2: "In this guide, we call this person the account holder." replaced by a warning, "A partner or family member cannot sign in to the account." No reads "See Only the account holder can access for help." (two lines). Compact messages; fits at every size except 360×640.
 
