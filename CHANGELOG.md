@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 22 November 2026 – guide version 3.31 on the trial page only (/preview/)
+
+- Troubleshooter focuses on who can **access** the account. Q1 asks "Is it clear who the GM Early Years App account is for?". Q2 "Who has access?" / "Account access" / "Only the child's mother or primary carer can access the account that has been set up for them." / "Is it clear only the child's mother or primary carer can access it?". Q5 "NHS login access" / "Used to sign in to the App" / "NHS login is used to access the GM Early Years App account." / "Can the mother or primary carer sign in to NHS login?" (Try signing in kept).
+- Titles and questions worded to fit on one / two lines ("Who can access the account?" and "Can you access NHS login?" wrapped to two lines on most iPhones). Checked at 7 sizes: positions identical, everything fits. Built by `scripts/make331.py`.
+
 ## 22 November 2026 – guide version 3.30 on the trial page only (/preview/)
 
 - **Troubleshooter: seven questions.** New question 3 "Is this you?" ("Are you the child's mother or primary carer?") so a partner is still found after the two "is it clear" questions.
