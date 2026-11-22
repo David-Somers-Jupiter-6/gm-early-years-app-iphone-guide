@@ -2,6 +2,12 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 3.33 – 22 November 2026 (trial)
+- Troubleshooting: "NHS login account issues" is now "NHS login account help" (menu, page title and the NHS login band).
+- "GM Early Years App issues" is now "GM Early Years App help".
+- "Common sign-in problems" is merged into GM Early Years App help. All six topics use cards with a title and a short explanation underneath. Details do not match, Partner's details used and A partner is signing in now go Back and Done to GM Early Years App help.
+- Section 6 has 49 pages.
+
 ## 22 November 2026 – guide version 3.32 is live (Troubleshooter; Contents after the Introduction)
 
 - **Troubleshooter live** (trials 3.23–3.31): Troubleshooting menu → Troubleshooter → seven questions → Your results, with Get help / Read more links that come back to the results.
