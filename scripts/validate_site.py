@@ -22,7 +22,7 @@ checks = {
     'version shown on cover and document control': version is not None and html.count(f'Version {version}') >= 2,
     'guide pages present (60 or more)': len(pages) >= 60,
     'page ids are unique': len(pages) == len(set(pages)),
-    'cover, contents and the four sections present': {'cover', 'contents', 's2', 's3', 's4', 's5'} <= set(pages),
+    'cover, contents and the main sections present': {'cover', 'contents', 'how', 'hv', 'ts', 'tsum', 's3', 's4', 's5', 's6'} <= set(pages),
     'every internal link has a target': targets <= ids,
     'every image has alt text': all('alt=' in i for i in images),
     'external links use HTTPS': all(u.startswith('https://') for u in external),

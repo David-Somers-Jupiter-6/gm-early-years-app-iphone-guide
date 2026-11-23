@@ -25,6 +25,16 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.77 – 23 November 2026 (trial)
+- New structure. Contents: Cover page, Introduction, 1 How this guide works | 2 Contact your Health Visiting team (own band) | 3 Troubleshooter (own band) | 4 Signing in to the GM Early Years App | 5 Troubleshooting, 6 Contact & support | Accessibility, About this guide.
+- Removed Section 3 About your account (acct, nhs) and Section 4 Checklist (s2, c1–c4, sum) – the Troubleshooter replaces them – and their script references (Checklist reset, summary count, answer dots, question alignment).
+- The Troubleshooter (ts, ts1, ts1b, ts2–ts5, tsum) moved straight after Contact your Health Visiting team as Section 3 (labels, strip, aria label). Signing in is now Section 4, Troubleshooting 5, Contact & support 6 (labels, badges, aria labels, "see Section 6" mentions).
+- Back / Next: Contact your HV team → Troubleshooter; Troubleshooter Back → Contact your HV team; Signing in Back → Troubleshooter results. Results Next goes to Signing in (all clear) or Troubleshooting (something to sort out) as before.
+- Activation Link "When you have your link": "Return to the Troubleshooter – answer question 6, then follow the sign-in instructions."
+- How this guide works: step 1 now "your Health Visiting team, then the Troubleshooter's 6 quick Yes or No questions".
+- Page counters recomputed: 85 pages (Welcome 3, 1, 1, Troubleshooter 8, Signing in 18, Troubleshooting 41, Contact & support 5, About this guide 8).
+- Checked: every internal link has a target; nothing refers to the removed pages; clicking Next from the cover runs cover → intro → contents → how → hv → Troubleshooter → results → Signing in; every Contents row opens the right page; Back links at every join; no script errors. validate_site.py now expects the Troubleshooter instead of the Checklist.
+
 ## 3.76 – 23 November 2026 (live)
 - 3.76 published to the live site (from 3.51). Brings live all changes in 3.52–3.76: the Troubleshooter reworked into information boxes and Question windows (clearer titles, Does that make sense? on questions 1–2, Who can help / STOP replies lined up with the answers, same-size reply boxes, nothing moves when an answer is tapped, every question in the same place), who should answer at the top of the start page, question 5 version B (name, NHS number, mobile number and email address), Apple text sizes, shorter wording for 375-wide iPhones, and results rows showing the question title only.
 
