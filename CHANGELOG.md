@@ -25,6 +25,10 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.70 – 23 November 2026 (trial)
+- Question 3 titled "Do you have NHS login?" (one line; "Do you have an NHS login?" took two), also in the start page list and on the results page. What you need: "You can only sign in to the GM Early Years App with your own NHS login account." Laid out like questions 1–2 (question window straight under the information, no gap under the question, reply slot kept so nothing moves). Yes: "You need your own NHS login to use the GM Early Years App." No (STOP): "You need one to use the GM Early Years App. See Set up NHS login." Both two lines on every iPhone. Who can help window kept for now.
+- Questions 1–3: reply icons sit in the middle of their box; a chosen answer turning bold no longer changes its height.
+
 ## 3.69 – 23 November 2026 (trial)
 - Question 2 (Who will be able to access the account?) laid out exactly like question 1: Who can help window removed; question window straight under the information; no space under the question; reply slot kept so nothing moves; Yes "Only the account holder can access the GM Early Years App account." (two lines on every iPhone); No is the NHS logo, WHO CAN HELP and "Contact Your Health Visiting team" (link); icons and text in line with the answers.
 

@@ -3,6 +3,9 @@
 David, 22 Nov 2026: get the content in place first; fix layout later. Each build records here which pages scroll,
 at which iPhone sizes (Safari visible area, points) and by how much.
 
+## 3.70
+- Question 3 (still has its Who can help window): spare 91 px mini Home Screen, 130 standard Home Screen, 218 Plus/Max Home Screen, 26 Plus/Max Safari. Short: standard Safari 25 px, SE Home Screen 30, mini Safari 64, SE Safari 64.
+
 ## 3.69
 - Question 2: spare 93 px mini Home Screen, 147 standard Home Screen, 281 Plus/Max Home Screen, 89 Plus/Max Safari, 3 standard Safari. Short: SE Home Screen 25 px, mini Safari 59, SE Safari 89 (its two-line title).
 
