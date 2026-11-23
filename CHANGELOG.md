@@ -25,6 +25,9 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.76 – 23 November 2026 (live)
+- 3.76 published to the live site (from 3.51). Brings live all changes in 3.52–3.76: the Troubleshooter reworked into information boxes and Question windows (clearer titles, Does that make sense? on questions 1–2, Who can help / STOP replies lined up with the answers, same-size reply boxes, nothing moves when an answer is tapped, every question in the same place), who should answer at the top of the start page, question 5 version B (name, NHS number, mobile number and email address), Apple text sizes, shorter wording for 375-wide iPhones, and results rows showing the question title only.
+
 ## 3.76 – 23 November 2026 (trial)
 - Troubleshooter results: each row shows only the question title (the second line, e.g. "Read who can access the account", "You need an NHS login account", "Not answered yet", is hidden), so every row is at most three lines. The icon and button (Get help / Read more / Answer) still show the result. The page now fits without scrolling on a 375-wide iPhone from the Home Screen even with all six answers needing help.
 
