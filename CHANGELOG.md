@@ -25,6 +25,9 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.76 – 23 November 2026 (trial)
+- Troubleshooter results: each row shows only the question title (the second line, e.g. "Read who can access the account", "You need an NHS login account", "Not answered yet", is hidden), so every row is at most three lines. The icon and button (Get help / Read more / Answer) still show the result. The page now fits without scrolling on a 375-wide iPhone from the Home Screen even with all six answers needing help.
+
 ## 3.75 – 23 November 2026 (trial)
 - Fix for iPhones that show the guide 375 points wide (iPhone 11 with Display Zoom, X/XS/11 Pro, 12/13 mini), opened from the Home Screen: question 5 now reads "Did you give your Health Visiting team these same details?" (two lines; it was three, which made every question reserve three lines) and question 2's Yes reply "Only the account holder can access the account." (two lines; it was three, which made every reply box three lines tall). Fit tests now subtract the status bar (Home Screen) as well as Safari's bars. 375-wide Home Screen: 37 pt over → 5 pt over.
 
