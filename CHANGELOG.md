@@ -25,6 +25,10 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.74 – 23 November 2026 (trial)
+- Troubleshooter titles (also start page list, results page and data-title): 1 "Who is the account for?", 2 "Who can sign in to the account?", 3 "Do you have an NHS login account?", 4 "Can you sign in to your NHS login account?", 5 "Are your details the same in both accounts?", 6 "Has your Activation Link arrived?". The title box is the same size for one- and two-line titles, so nothing moves.
+- Information boxes have two short sections under a thin line: 1 Who it is for / If it is for the wrong person; 2 Who can access it / How they sign in; 3 What you need ("You need to have set up your own NHS login account. You use it to sign in to the GM Early Years App.") / Who must set it up (the account holder); 4 Signing in / Whose NHS login (the account holder's); 6 How it arrives / What it does. Everything still lines up on all six questions (375, 390, 430 wide); at 430 wide question 3's box sets the shared height (+6 px on every question).
+
 ## 3.73 – 23 November 2026 (trial)
 - Troubleshooter questions 1–6: the ? QUESTION label, the question, "Tap an answer, then tap Next.", the Yes and No answer boxes and the reply boxes are in exactly the same place on every question (tsAlign now shares .ts-info, .ts-qa, .radios and .ts-replies; hint spacing the same on all six). Checked after Yes and after No at 375, 390 and 430 wide. Questions with a one-line question have a line's space before the hint. (3.72 did not deploy – GitHub Pages artifact error – and is included here.)
 
