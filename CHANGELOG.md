@@ -25,6 +25,10 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.80 – 23 November 2026 (trial)
+- Fix: after 3.77 renumbered the sections, the Signing in pages lost their slim progress lights (numbered circles ran over "Part N of 3"), their screenshot sizing, the "Tap to enlarge" position and their title box height, while the Support NHS login step pages picked those styles up. 20 style rules picked out Signing in by its label 'Section 5'; they now use a permanent marker on the 18 Signing in pages (data-signin), so renumbering or renaming sections cannot break them again. Checked: all 85 pages lay out exactly as in 3.76 (3.79 differed on 30).
+- Support menu order: NHS login account help, GM Early Years App help, Still need help?, Troubleshooter.
+
 ## 3.79 – 23 November 2026 (live)
 - 3.79 published to the live site (from 3.78): Section 5 renamed Support, Section 6 renamed Contacts, and the Signing in step 13 tip fixed.
 
