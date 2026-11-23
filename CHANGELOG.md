@@ -25,6 +25,10 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.63 – 23 November 2026 (trial)
+- Question 1 titled "About your account" (was "Who will be set up with an account?"), also in the start page list and on the results page.
+- Questions 1–4: the question, hint, answers and the Yes / No reply sit together in their own "Question" card (slate edge, ? icon), styled like the information cards above it.
+
 ## 3.62 – 23 November 2026 (trial)
 - Troubleshooting: "Who will be set up with an account" and "Partner's details used" lose their Still stuck? bar; "Only the account holder can access" opens with "Here is how it works."
 - Troubleshooter questions 1–4 laid out like the help pages: "Here is how it works.", then an information card (what to know, then who can help), then the question. Replies after Yes / No now say what the answer means, keeping the existing help links.

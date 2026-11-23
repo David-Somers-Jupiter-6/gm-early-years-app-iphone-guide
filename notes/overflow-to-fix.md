@@ -3,6 +3,9 @@
 David, 22 Nov 2026: get the content in place first; fix layout later. Each build records here which pages scroll,
 at which iPhone sizes (Safari visible area, points) and by how much.
 
+## 3.63
+- Troubleshooter questions 1–4 now overflow at 390 × 844 with a reply showing, so fit() hides "Here is how it works."; the gaps above the Question card and under the question come from the shared positions (tallest info card is question 1, tallest question is question 2).
+
 ## 3.56
 - Question 2 loses its warning line, so its explanation is shorter; the shared question position is still set by question 5, so positions are unchanged.
 
