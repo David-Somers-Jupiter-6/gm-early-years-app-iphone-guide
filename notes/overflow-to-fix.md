@@ -3,6 +3,9 @@
 David, 22 Nov 2026: get the content in place first; fix layout later. Each build records here which pages scroll,
 at which iPhone sizes (Safari visible area, points) and by how much.
 
+## 3.66
+- Question 1 with its reply slot: fits as a Home Screen app on 375 × 812 (mini, 21 px spare), 390 × 844 (75 spare), 430 × 932. Short by 121 px on iPhone SE (375 × 667), 72 px in Safari on 390 × 664, 9 px in Safari on 430 × 740.
+
 ## 3.63
 - Troubleshooter questions 1–4 now overflow at 390 × 844 with a reply showing, so fit() hides "Here is how it works."; the gaps above the Question card and under the question come from the shared positions (tallest info card is question 1, tallest question is question 2).
 
