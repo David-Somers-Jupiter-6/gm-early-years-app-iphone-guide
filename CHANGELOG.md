@@ -25,6 +25,9 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.73 – 23 November 2026 (trial)
+- Troubleshooter questions 1–6: the ? QUESTION label, the question, "Tap an answer, then tap Next.", the Yes and No answer boxes and the reply boxes are in exactly the same place on every question (tsAlign now shares .ts-info, .ts-qa, .radios and .ts-replies; hint spacing the same on all six). Checked after Yes and after No at 375, 390 and 430 wide. Questions with a one-line question have a line's space before the hint. (3.72 did not deploy – GitHub Pages artifact error – and is included here.)
+
 ## 3.72 – 23 November 2026 (trial)
 - Questions 1–2 No reply: the NHS logo is placed exactly like the green tick (absolute, 8 px in, centred top to bottom), so its centre lines up with the answer circles, and WHO CAN HELP / Contact Your Health Visiting team starts where the answer text starts. Replaces the negative-margin layout, which could render differently on iPhone.
 
