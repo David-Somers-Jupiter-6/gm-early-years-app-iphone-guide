@@ -25,6 +25,9 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.67 – 23 November 2026 (trial)
+- Question 1 replies: Yes (green tick) is "The account is set up for the child's mother or primary carer." on two lines, no heading; No (blue i) is the information, then WHO CAN HELP / Your Health Visiting team with the NHS logo, no heading. Reply icons, the NHS logo and the "Please tap an answer" reminder icon sit in line with the answer circles; all reply text starts where the answer text starts.
+
 ## 3.66 – 23 November 2026 (trial)
 - Question 1 (About your account): the question window sits straight under "Who it is for" (question 1 no longer shares heights with questions 2–6); no space between the question and "Tap an answer, then tap Next."; the reply slot is kept from the start (Yes reply, No reply and "Please tap an answer" share it), so nothing moves when an answer is tapped.
 
