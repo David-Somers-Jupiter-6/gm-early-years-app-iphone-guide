@@ -25,6 +25,9 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.64 – 23 November 2026 (trial)
+- Troubleshooter questions: "Here is how it works." removed.
+
 ## 3.63 – 23 November 2026 (trial)
 - Question 1 titled "About your account" (was "Who will be set up with an account?"), also in the start page list and on the results page.
 - Questions 1–4: the question, hint, answers and the Yes / No reply sit together in their own "Question" card (slate edge, ? icon), styled like the information cards above it.
