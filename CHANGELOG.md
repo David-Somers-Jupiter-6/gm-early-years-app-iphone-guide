@@ -25,6 +25,10 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.65 – 23 November 2026 (trial)
+- Question 1 (About your account): Who can help window removed (the question window keeps its place). The No reply (blue) now ends with "Who can help: Your Health Visiting team" in place of its link; the results page still links to the help page. Yes reply (green) unchanged.
+- Questions 1–4: question windows slightly tighter (answer buttons 48 px, above Apple's 44) so both replies fit on a 390 × 844 iPhone.
+
 ## 3.64 – 23 November 2026 (trial)
 - Troubleshooter questions: "Here is how it works." removed.
 
