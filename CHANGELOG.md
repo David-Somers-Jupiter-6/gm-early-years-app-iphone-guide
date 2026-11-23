@@ -25,6 +25,9 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.72 – 23 November 2026 (trial)
+- Questions 1–2 No reply: the NHS logo is placed exactly like the green tick (absolute, 8 px in, centred top to bottom), so its centre lines up with the answer circles, and WHO CAN HELP / Contact Your Health Visiting team starts where the answer text starts. Replaces the negative-margin layout, which could render differently on iPhone.
+
 ## 3.71 – 23 November 2026 (trial)
 - Troubleshooter start page: "Please answer as the child's mother or primary carer (the account holder)." now comes first; "Answer Yes or No. It takes a minute or two." stays at the end.
 - Questions 1–6: the Question window starts at the same height on every page, and every Yes / No reply box is the same size (tsAlign shares .ts-info and .ts-replies heights across the six); nothing moves when an answer is tapped (checked at 375, 390 and 430 wide).
