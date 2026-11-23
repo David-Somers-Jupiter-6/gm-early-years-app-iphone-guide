@@ -25,6 +25,9 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.79 – 23 November 2026 (live)
+- 3.79 published to the live site (from 3.78): Section 5 renamed Support, Section 6 renamed Contacts, and the Signing in step 13 tip fixed.
+
 ## 3.79 – 23 November 2026 (trial)
 - Section 5 "Troubleshooting" renamed "Support" and Section 6 "Contact & support" renamed "Contacts": Contents, page titles, section labels and strips (82 + 12), aria labels, Done buttons ("Done – back to Support"), the search "no results" shortcut, the NHS login band on the NHS login Support team page, and the in-text mentions ("see Section 6 · Contacts", "Contact details for every team are in Section 6, Contacts").
 - Fix: the Signing in step 13 tip still said "go to Section 6 · Troubleshooting" after the 3.77 renumbering; it now says "Section 5 · Support".
