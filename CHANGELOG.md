@@ -25,6 +25,9 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.69 – 23 November 2026 (trial)
+- Question 2 (Who will be able to access the account?) laid out exactly like question 1: Who can help window removed; question window straight under the information; no space under the question; reply slot kept so nothing moves; Yes "Only the account holder can access the GM Early Years App account." (two lines on every iPhone); No is the NHS logo, WHO CAN HELP and "Contact Your Health Visiting team" (link); icons and text in line with the answers.
+
 ## 3.68 – 23 November 2026 (trial)
 - Question 1 No reply: only the NHS logo, WHO CAN HELP and "Contact Your Health Visiting team" (link to Contact your Health Visiting team; Back returns to question 1).
 
