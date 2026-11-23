@@ -3,6 +3,9 @@
 David, 22 Nov 2026: get the content in place first; fix layout later. Each build records here which pages scroll,
 at which iPhone sizes (Safari visible area, points) and by how much.
 
+## 3.71
+- All six questions share the information height set by question 5 (its example card), so questions 1–4 and 6 have a gap above the Question window. Fits at 390 × 844 and 430 × 932 (Home Screen); SE (375 × 667) is about 70–90 px short.
+
 ## 3.70
 - Question 3 (still has its Who can help window): spare 91 px mini Home Screen, 130 standard Home Screen, 218 Plus/Max Home Screen, 26 Plus/Max Safari. Short: standard Safari 25 px, SE Home Screen 30, mini Safari 64, SE Safari 64.
 

@@ -25,6 +25,16 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.71 – 23 November 2026 (trial)
+- Troubleshooter start page: "Please answer as the child's mother or primary carer (the account holder)." now comes first; "Answer Yes or No. It takes a minute or two." stays at the end.
+- Questions 1–6: the Question window starts at the same height on every page, and every Yes / No reply box is the same size (tsAlign shares .ts-info and .ts-replies heights across the six); nothing moves when an answer is tapped (checked at 375, 390 and 430 wide).
+- Question 1: "In this guide, we call this person the account holder." joins the first sentence. Questions 1–2: "Does that make sense?" / "Yes, that makes sense" / "No, I'm not sure".
+- Question 3: "NHS login confirms who you are." joins the first sentence; Who can help window removed; No answer "No, I do not have NHS login" (one line, like Yes); Yes reply "You will use it to sign in to the GM Early Years App."
+- Question 4: new layout; Who can help removed; Signing in: "You need to be able to sign in to your own NHS login account before you can use the GM Early Years App."; Yes "You can use NHS login to sign in to the GM Early Years App."; No (STOP) "The NHS login Support team can help. See Cannot sign in."
+- Question 5: new layout, version B – What must match: name, NHS number, mobile number and email address; question "Did you give your Health Visiting team the same details you use for NHS login?"; answers "Yes, they are the same" / "No, or I'm not sure"; Yes "Your details should match, so you can sign in."; No (STOP) "Your details must match to sign in. See Details do not match."
+- Question 6: new layout; How it arrives; Yes "You have your Activation Link."; No (STOP) "You need it to sign in. See Activation Link not received."
+- Apple text sizes: start page list and end line 17 (Body), list numbers 15 (Subheadline), results heading 17 (Headline). All Troubleshooter text is now on Apple's scale.
+
 ## 3.70 – 23 November 2026 (trial)
 - Question 3 titled "Do you have NHS login?" (one line; "Do you have an NHS login?" took two), also in the start page list and on the results page. What you need: "You can only sign in to the GM Early Years App with your own NHS login account." Laid out like questions 1–2 (question window straight under the information, no gap under the question, reply slot kept so nothing moves). Yes: "You need your own NHS login to use the GM Early Years App." No (STOP): "You need one to use the GM Early Years App. See Set up NHS login." Both two lines on every iPhone. Who can help window kept for now.
 - Questions 1–3: reply icons sit in the middle of their box; a chosen answer turning bold no longer changes its height.
