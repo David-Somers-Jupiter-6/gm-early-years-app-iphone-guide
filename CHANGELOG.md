@@ -25,6 +25,11 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.62 – 23 November 2026 (trial)
+- Troubleshooting: "Who will be set up with an account" and "Partner's details used" lose their Still stuck? bar; "Only the account holder can access" opens with "Here is how it works."
+- Troubleshooter questions 1–4 laid out like the help pages: "Here is how it works.", then an information card (what to know, then who can help), then the question. Replies after Yes / No now say what the answer means, keeping the existing help links.
+- Question 4 titled "Can you sign in to NHS login?" (was "Do you have NHS login?"), also in the start page list and on the results page; its subheading removed.
+
 ## 3.61 – 22 November 2026 (trial)
 - Question 3 titled "Do you have an NHS login?" (was "NHS login account"), also in the start page list and on the results page; subheading removed; body "You need your own NHS login account to use the GM Early Years App. NHS login confirms who you are."; answers "Yes, I have an NHS login account" / "No, I have not set up an NHS login account".
 
