@@ -25,6 +25,12 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.78 – 23 November 2026 (live)
+- 3.78 published to the live site (from 3.76). Brings live the new structure from 3.77 (Troubleshooter as Section 3; About your account and the Checklist removed; Signing in 4, Troubleshooting 5, Contact & support 6) and the Contents fix below.
+
+## 3.78 – 23 November 2026 (trial)
+- Contents lists itself: Cover page, Introduction, Contents, How this guide works … (the Contents row uses the list icon and is marked as the current page).
+
 ## 3.77 – 23 November 2026 (trial)
 - New structure. Contents: Cover page, Introduction, 1 How this guide works | 2 Contact your Health Visiting team (own band) | 3 Troubleshooter (own band) | 4 Signing in to the GM Early Years App | 5 Troubleshooting, 6 Contact & support | Accessibility, About this guide.
 - Removed Section 3 About your account (acct, nhs) and Section 4 Checklist (s2, c1–c4, sum) – the Troubleshooter replaces them – and their script references (Checklist reset, summary count, answer dots, question alignment).
