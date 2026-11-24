@@ -25,6 +25,15 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.84 – 24 November 2026 (live and trial)
+- "Troubleshooter" renamed "Sign-in check" everywhere carers see it (Contents, title boxes, section labels, Support menu, search, "Return to the sign-in check").
+- Sign-in check start page (option B): "Who should answer" box with a person icon; the six questions as light, one-line rows grouped under Your App account, Your NHS login and Both accounts; "Answer Yes or No. It takes about 2 minutes." On short screens the headings and the time line give way.
+- Questions 1 and 2: the No reply reads "Who can help · contact" with the "Your Health Visiting team" link on the next line (two lines, was three).
+- Your results: shorter row titles (Who can sign in? · Do you have NHS login? · Can you sign in to NHS login? · Do your details match? · Has your link arrived?) so no row goes over two lines; on short screens all six answered rows now fit (the last was hidden behind the bottom bar).
+- Next: a second tap within 450 ms is ignored (a quick double tap turned two pages). From the Home Screen on iPhones with a home indicator, the bottom bar sits higher, above the swipe-up area, so taps near the bottom edge are not lost.
+- Checked: no broken links or script errors; every page lays out as in 3.83; nothing newly cut off; contrast of all 2,750 text items in light and Dark Mode at WCAG AA.
+- Build: scripts/make384.py runs scripts/review384/changes.py and start_page.py (option B).
+
 ## 3.83 – 24 November 2026 (live and trial)
 - Dark Mode: the Troubleshooter information box (all six questions) stayed light while its text turned light, so it was almost unreadable; it is now dark navy with light text. Links and the "Who can help" label in the Troubleshooter replies are now light blue.
 - Both modes: small labels on the coloured title boxes (Part / Question / Stage / Installing the App) are white instead of pale blue; a Next button waiting for an answer has dark grey text on light grey in Light Mode so it can be read.
