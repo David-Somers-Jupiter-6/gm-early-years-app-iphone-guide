@@ -25,6 +25,13 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.82 – 24 November 2026 (live and trial)
+- Search: the results list can no longer be dragged sideways off the page (it was 8px wider than its box, so iPhone let it scroll sideways); a sideways swipe no longer leaves Search (swipe right counted as Back); GM Early Years App icon in the title box; result snippets no longer start with title-box text ("NHS login Step 5 of 15:") and labels end with a full stop; topic "Contact your Health Visiting team"; greyed-out Next hidden.
+- Contents: search button styled like the cover's Search row (green magnifier, Search, red microphone that starts voice search) on a white pill with a shadow; Cover page, Introduction and Contents as a row of tiles; sections grouped under Stage 1 · What you need (2, 3), Stage 2 · How to sign in (4), Stage 3 · Who can help (5, 6).
+- Fix: 3.81 cut off the bottom of Contents by 10px on 375×635 screens. Contents now fits at every test size.
+- Checked: no broken links or script errors; every page lays out as in 3.81 apart from the Search title; swipe still turns pages elsewhere; Contents links.
+- Build: scripts/make382.py runs scripts/review382/search_contents.py (option B).
+
 ## 3.81 – 24 November 2026 (live and trial)
 - 3.81 published to the live site (from 3.80), bringing 3.80's fixes live too. A text and UX review of every main page, for clearer, calmer wording for frustrated carers.
 - Cover: subtitle "A guide to signing in on your iPhone"; Start the guide "One step at a time"; Bury, Rochdale and Stockport as soft labels (no border, not tappable) with a map pin before "For families in"; no greyed-out Back. Version kept.
