@@ -25,6 +25,9 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## Publishing setup – 24 November 2026
+- GitHub Actions workflow moved off the deprecated Node.js 20 actions: actions/checkout v4 → v6, actions/configure-pages v5 → v6, actions/upload-pages-artifact v4 → v5, actions/deploy-pages v4 → v5. The guide itself is unchanged (still 3.84).
+
 ## 3.84 – 24 November 2026 (live and trial)
 - "Troubleshooter" renamed "Sign-in check" everywhere carers see it (Contents, title boxes, section labels, Support menu, search, "Return to the sign-in check").
 - Sign-in check start page (option B): "Who should answer" box with a person icon; the six questions as light, one-line rows grouped under Your App account, Your NHS login and Both accounts; "Answer Yes or No. It takes about 2 minutes." On short screens the headings and the time line give way.
