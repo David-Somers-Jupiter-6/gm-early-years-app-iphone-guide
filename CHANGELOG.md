@@ -25,6 +25,17 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.81 – 24 November 2026 (live and trial)
+- 3.81 published to the live site (from 3.80), bringing 3.80's fixes live too. A text and UX review of every main page, for clearer, calmer wording for frustrated carers.
+- Cover: subtitle "A guide to signing in on your iPhone"; Start the guide "One step at a time"; Bury, Rochdale and Stockport as soft labels (no border, not tappable) with a map pin before "For families in"; no greyed-out Back. Version kept.
+- Introduction: example of the "one small detail" (a mobile number that does not match); "Tip: read this guide on another screen"; a line for carers with only their iPhone. Contents: short lines under Troubleshooter, Support and Contacts; How this guide works in its own card. How this guide works: the three stages use the same names as the Stage markers, plus a note that the stage is shown at the top of each page.
+- Contact your Health Visiting team: title matches Contents; "Choose your area, then your team"; "Locality" → "Area"; every team says what to say when calling.
+- Signing in (18 → 16 pages): "You will need" lists the Activation Link text; restart steps say how; help if the text cannot be found; clearer titles (Enter your email and password; Wait for / Enter the security code; Get / Wait for / Enter your App code); "Two different codes" box; don't tap the code message; TAP chips on steps 7 and 12; "Not your number?" links to the team finder; the two Helpful tip pages folded into steps 12 and 13 ("Stuck on this screen?" → Support, no section number).
+- Support: "What do you need help with?"; the NHS login and App cards no longer overlap (App codes on the App card); NHS logo on the NHS login card. Contacts: team icon for Your Health Visiting team; plainer "For:" lines; GMDP email address breaks after the @.
+- Accessibility: "Other formats" box; "you can ask for it in…"; email as a button; "Text too small?" tip. About this guide: "You do not need these pages to sign in." Accessibility statement: "Accessibility statement · N of 4" marker; GOV.UK compliance wording; clearer screenshots issue. Privacy: NHS login and the App have their own privacy notices; "GMDP Support Team".
+- Page counters recomputed: 83 pages (Signing in 16). Checked: no broken links or script errors; every page's title box, progress lights, strip and navigation bar in the same place as 3.80; Signing in Back/Next 1–16; Dark Mode.
+- Build: scripts/make381.py runs the review patches in scripts/review381.
+
 ## 3.80 – 23 November 2026 (trial)
 - Fix: after 3.77 renumbered the sections, the Signing in pages lost their slim progress lights (numbered circles ran over "Part N of 3"), their screenshot sizing, the "Tap to enlarge" position and their title box height, while the Support NHS login step pages picked those styles up. 20 style rules picked out Signing in by its label 'Section 5'; they now use a permanent marker on the 18 Signing in pages (data-signin), so renumbering or renaming sections cannot break them again. Checked: all 85 pages lay out exactly as in 3.76 (3.79 differed on 30).
 - Support menu order: NHS login account help, GM Early Years App help, Still need help?, Troubleshooter.
