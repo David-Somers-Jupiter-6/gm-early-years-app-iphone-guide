@@ -25,6 +25,13 @@ Changes to the published website. The guide's own revision history is on its las
 
 
 
+## 3.83 – 24 November 2026 (live and trial)
+- Dark Mode: the Troubleshooter information box (all six questions) stayed light while its text turned light, so it was almost unreadable; it is now dark navy with light text. Links and the "Who can help" label in the Troubleshooter replies are now light blue.
+- Both modes: small labels on the coloured title boxes (Part / Question / Stage / Installing the App) are white instead of pale blue; a Next button waiting for an answer has dark grey text on light grey in Light Mode so it can be read.
+- Menus on Apple text sizes: cover (title 28, subtitle 17, labels 12, Start/For families 15, area labels 13), Contents tiles 15, Signing in overview 15, Support menu titles 17, GM Early Years App help 16/15, NHS login help list 17, stage labels 12, section badges 22. Short screens (Safari): GM Early Years App help 15/13 and Your results 15 so no row hides behind the bottom bar; the How this guide works note gives way.
+- Wording: "go to Section 5 · Signing in" (wrong since 3.77) → "Signing in"; "(see Section 6 · Contacts)" → "(see Contacts)"; Contacts' team finder says Area.
+- Checked: contrast of all 2,750 text items on every page (plus search results, team chosen, Troubleshooter replies) in light and Dark Mode – none below WCAG AA; every page lays out as in 3.82; nothing newly cut off at any test size.
+
 ## 3.82 – 24 November 2026 (live and trial)
 - Search: the results list can no longer be dragged sideways off the page (it was 8px wider than its box, so iPhone let it scroll sideways); a sideways swipe no longer leaves Search (swipe right counted as Back); GM Early Years App icon in the title box; result snippets no longer start with title-box text ("NHS login Step 5 of 15:") and labels end with a full stop; topic "Contact your Health Visiting team"; greyed-out Next hidden.
 - Contents: search button styled like the cover's Search row (green magnifier, Search, red microphone that starts voice search) on a white pill with a shadow; Cover page, Introduction and Contents as a row of tiles; sections grouped under Stage 1 · What you need (2, 3), Stage 2 · How to sign in (4), Stage 3 · Who can help (5, 6).
