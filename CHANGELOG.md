@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 3.87 – 24 November 2026 (live and trial)
+- Sign-in check results: the bottom button is always Next and always goes to Section 4 Signing in, whatever the answers. Before, with anything red it said Done and went to Support, and Back from Support then went to "You are signed in" (step 15) because the trail had been reset.
+- Get help / Answer / Read more on the results page: Next (or Done) keeps bringing you back to the results; Back too (unchanged, now tested).
+- Side trips: the Health Visiting team and Contacts pages (hv, s5-hv, s5-2, s5-gmdp), when opened from a link on a Sign-in check, Signing in or Support page, now have a Done button back to where you were (as the GMDP help page already had). Before, Next from there carried on through Contacts and About this guide. Reached from Contents, Search or in page order they work as before.
+- Checked: every results route (all Yes, one No, mixed, all No; every Get help link; every link inside each help page; every question reply link), Contacts in page order and from Contents; 16 iPhone sizes all fit; no script errors; contrast 2,436 text items at WCAG AA.
+- Build: scripts/make387.py runs scripts/review387/nav_fix.py.
+
 ## 3.86 – 24 November 2026 (live and trial)
 - Every page now fits on 16 iPhone sizes, from iPhone SE in Safari (375×548) to iPhone 16 Pro Max on the Home Screen (440×896), including Sign-in check questions after an answer, the results page (all Yes, all No, mixed) and the Health Visiting team finder (contact details and map).
 - Sign-in check questions: after Yes or No, the reply was partly or fully hidden behind the bottom bar in Safari on every iPhone except the largest (since 3.78 or earlier). On screens 760 px high and under, the "?" icon now sits on the question's line and "Tap an answer, then tap Next." gives way; on 650 px and under the answer boxes are 44 px. Safety net: if a reply still opens below the bottom bar (iPhone SE in Safari), the page scrolls just enough to show it.
