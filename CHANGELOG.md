@@ -2,6 +2,9 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## Publishing setup – 24 November 2026 (evening)
+- The deploy step now waits 15 seconds after the files are uploaded, and tries again up to twice (after 45 and 90 seconds) if GitHub has not registered the upload yet ("Found 0 artifact(s)" / "No artifacts named github-pages"). The guide itself is unchanged (3.87).
+
 ## 3.87 – 24 November 2026 (live and trial)
 - Sign-in check results: the bottom button is always Next and always goes to Section 4 Signing in, whatever the answers. Before, with anything red it said Done and went to Support, and Back from Support then went to "You are signed in" (step 15) because the trail had been reset.
 - Get help / Answer / Read more on the results page: Next (or Done) keeps bringing you back to the results; Back too (unchanged, now tested).
