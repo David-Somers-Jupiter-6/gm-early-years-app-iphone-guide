@@ -2,28 +2,17 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## 3.85 – 24 November 2026 (live and trial)
+- Design review, points 1–4 (as chosen in the mock-ups), plus tinted step numbers on How this guide works.
+- Page titles: plain title on the grey background (no blue box or underline), with a small location label above it ("Section 3", "Your App account · Question 1 of 6", "Installing the App · Step 2 of 7"). The thin coloured strip stays on the cover only.
+- One list style everywhere (Contents, Sign-in check start page, Contacts, Support, Your results): a white grouped panel, 44–52 px rows, 30 px icon tiles and grey chevrons.
+- List icons as soft tints: pale pink with deep magenta, pale blue with NHS blue, grey for Accessibility.
+- Buttons: Begin, Yes and "Stuck?" in one calm blue, with no pulse or glow (cover unchanged).
+- Fewer capitals and less bold: in-page labels in sentence case at 15 px semibold; 36 bold words made regular ("child's mother or primary carer" stays bold).
+- How this guide works: step numbers as tinted squares.
+- Help icons (Who is it for, The issue, Who can help, What to do) stay solid for now.
+- Checked: all 23 site checks pass; no script errors; nothing newly cut off (fits the same as or better than 3.84); contrast of all text in light and Dark Mode at WCAG AA.
+- Build: scripts/make385.py runs the six scripts in scripts/review385. Not yet chosen: scripts/drafts/shape_spacing_draft.py (point 5) and tinted_help_icons_parked.py.
 
 ## Publishing setup – 24 November 2026
 - GitHub Actions workflow moved off the deprecated Node.js 20 actions: actions/checkout v4 → v6, actions/configure-pages v5 → v6, actions/upload-pages-artifact v4 → v5, actions/deploy-pages v4 → v5. The guide itself is unchanged (still 3.84).
