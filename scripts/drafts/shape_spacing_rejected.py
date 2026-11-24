@@ -1,4 +1,4 @@
-"""Design review 5: fixed rules for shape and spacing.
+"""REJECTED by David (24 Nov 2026): looked worse. Design review 5: fixed rules for shape and spacing.
 Corners: 16 (screenshots), 12 (cards and panels), 8 (small items), capsules for buttons.
 Cards: shadow only in light, a hairline border only in Dark Mode. Answer boxes and inputs: border only.
 Left stripes kept only where they signal a status (answers, warnings). Spacing on an 8 step (16/8/4).

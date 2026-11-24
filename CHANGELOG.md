@@ -2,9 +2,19 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 3.86 – 24 November 2026 (live and trial)
+- Every page now fits on 16 iPhone sizes, from iPhone SE in Safari (375×548) to iPhone 16 Pro Max on the Home Screen (440×896), including Sign-in check questions after an answer, the results page (all Yes, all No, mixed) and the Health Visiting team finder (contact details and map).
+- Sign-in check questions: after Yes or No, the reply was partly or fully hidden behind the bottom bar in Safari on every iPhone except the largest (since 3.78 or earlier). On screens 760 px high and under, the "?" icon now sits on the question's line and "Tap an answer, then tap Next." gives way; on 650 px and under the answer boxes are 44 px. Safety net: if a reply still opens below the bottom bar (iPhone SE in Safari), the page scrolls just enough to show it.
+- Sign-in check start page: the compact list also on 701–730 px high screens (iPhone 11/XR in Safari, where question 6 was hidden).
+- iPhone SE in Safari (600 px high and under): the location label sits above the title (3.85 drew it over the title); Contents leaves out the Cover/Introduction/Contents tiles and row subtitles; slightly shorter cover photo; NHS login account help, Sign-in check start page and Document control slightly tighter.
+- Revision history: the 3.85 line now reads "calmer title boxes" (was "plain page titles").
+- Checked: scripts/check_iphone_sizes.py (1,856 checks at 16 sizes: nothing cut off, nothing too wide); every page laid out as in 3.85 on screens 760 px and taller; no script errors; contrast of all 2,436 text items in light and Dark Mode at WCAG AA.
+- Known: Health Visiting team picker shows "Ramsbottom, Tottington and North M…" and "Cheadle Hulme and Bram…" shortened (the full name shows in the card under it).
+- Build: scripts/make386.py runs scripts/review386/fit_all_iphones.py.
+
 ## 3.85 – 24 November 2026 (live and trial)
 - Design review, points 1–4 (as chosen in the mock-ups), plus tinted step numbers on How this guide works.
-- Page titles: plain title on the grey background (no blue box or underline), with a small location label above it ("Section 3", "Your App account · Question 1 of 6", "Installing the App · Step 2 of 7"). The thin coloured strip stays on the cover only.
+- Title box: calmer – no underline, fainter ABC blocks in the background, a location label in the box ("Section 3", "Your App account · Question 1 of 6", "Installing the App · Step 2 of 7"); the thin coloured strip at the top of the page stays on the cover only.
 - One list style everywhere (Contents, Sign-in check start page, Contacts, Support, Your results): a white grouped panel, 44–52 px rows, 30 px icon tiles and grey chevrons.
 - List icons as soft tints: pale pink with deep magenta, pale blue with NHS blue, grey for Accessibility.
 - Buttons: Begin, Yes and "Stuck?" in one calm blue, with no pulse or glow (cover unchanged).

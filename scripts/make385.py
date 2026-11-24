@@ -1,5 +1,5 @@
 """Guide 3.85 (from 3.84) – Design review, points 1-4 plus How numbers (24 Nov 2026).
-- Title box: plain page title on the grey background (no blue box, no underline); a small location label above
+- Title box: calmer (no underline, fainter ABC blocks); a location label in the box
   ("Section N", "Your App account · Question 1 of 6", "Installing the App · Step N of 7"); thin top strip on the cover only.
 - One list style for Contents, Sign-in check start page, Contacts, Support and results: white grouped panel,
   44-52 px rows, 30 px icon tiles, grey chevrons.
