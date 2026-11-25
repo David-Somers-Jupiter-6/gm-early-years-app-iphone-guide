@@ -1,7 +1,7 @@
 /* GM Early Years App iPhone guide: keeps a copy of the guide on the phone so it opens without a signal.
    The guide itself is fetched fresh whenever there is a connection; the saved copy is used only when there is not.
    Change CACHE with every release so old copies are cleared. */
-var CACHE = 'ey-guide-v3.87';
+var CACHE = 'ey-guide-v3.88';
 var FILES = ['./', './manifest.webmanifest', './icons/icon-180.png', './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png'];
 
 self.addEventListener('install', function (e) {

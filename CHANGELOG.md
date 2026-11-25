@@ -2,10 +2,22 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## 3.88 – 25 November 2026 (live and trial)
+Fixes 4, 5, 6, 7, 9, 10 and 11 from the problems-and-fixes doc, as chosen by David.
+- You are signed in (step 15): the right-hand button is Finish and goes back to the cover. The green box now says "You can close this guide now", and one line covers notifications and where to find help later. The screenshot keeps its 3.87 size on every iPhone.
+- One set of counting words in the title boxes: Stage, Step and Question. How this guide works: "Before you start" (was "Section 1"); Sign-in check: "Stage 1 of 3 · What you need" (was "Section 3"); Signing in: "Step 5 of 15 · NHS login" (was "Part 2 of 3 · NHS login"). Contents, Search and the navigation are unchanged.
+- Cannot get into your email: on iPhone SE in Safari the "Lost access to your email" button keeps its side padding (the icon touched the edge and the last letter was clipped).
+- Your results: the "Sign-in check" label lines up with the right edge of the progress bar.
+- Sign-in check questions: "Please tap an answer, then tap Next." shows in the space kept for the reply until an answer is tapped; the reply then takes its place, so nothing moves. Tapping Next without an answer still highlights it in blue. iPhone SE in Safari keeps the 3.87 behaviour (the reply space is under the bottom bar there).
+- "No" replies: a round amber "!" icon in place of the red STOP sign.
+- Set up NHS login and Cannot sign in: the main link is the same solid blue button inside "What to do" as on the other NHS login help pages.
+- Checked: scripts/check_iphone_sizes.py (1,856 checks at 16 sizes: nothing cut off, nothing too wide; only the known team-picker names shortened); no script errors; results, help and side-trip navigation tests give the same results as 3.87; Finish goes to the cover; hint contrast 11.7:1 (light) and 12.2:1 (Dark Mode).
+- Build: scripts/make388.py runs scripts/review388/fixes.py.
+
 ## Publishing setup – 24 November 2026 (evening)
 - The deploy step now waits 15 seconds after the files are uploaded, and tries again up to twice (after 45 and 90 seconds) if GitHub has not registered the upload yet ("Found 0 artifact(s)" / "No artifacts named github-pages"). The guide itself is unchanged (3.87).
 
-## 3.87 – 24 November 2026 (live and trial)
+## 3.87 – 24 November 2026
 - Sign-in check results: the bottom button is always Next and always goes to Section 4 Signing in, whatever the answers. Before, with anything red it said Done and went to Support, and Back from Support then went to "You are signed in" (step 15) because the trail had been reset.
 - Get help / Answer / Read more on the results page: Next (or Done) keeps bringing you back to the results; Back too (unchanged, now tested).
 - Side trips: the Health Visiting team and Contacts pages (hv, s5-hv, s5-2, s5-gmdp), when opened from a link on a Sign-in check, Signing in or Support page, now have a Done button back to where you were (as the GMDP help page already had). Before, Next from there carried on through Contacts and About this guide. Reached from Contents, Search or in page order they work as before.
