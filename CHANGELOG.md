@@ -2,7 +2,14 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
-## 3.88 – 25 November 2026 (live and trial)
+## 3.89 – 25 November 2026 (live and trial)
+- Sign-in check start page: each of the 6 questions has a round "?" button on the right that opens the help page for that question – the same pages the results page uses (1 Who the account is for, 2 Who can sign in, 3 Set up NHS login, 4 Cannot sign in, 5 Common sign-in problems, 6 Activation Link issues). Back or Done on the help page returns to the start page. Its tap area is the full height of its row, so neighbouring buttons never overlap. "?" contrast 5.8:1 (light) and 7.9:1 (Dark Mode).
+- Sign-in check start page: the 6 questions sit on the page background instead of white cards, so only real menus have white rows (fix 12 from the problems-and-fixes doc).
+- Sign-in check questions: the "i" beside "Please tap an answer, then tap Next." is centred in its circle (it sat about 4 px high; now within 1 px, like the ✓ and ! icons).
+- Checked: scripts/check_iphone_sizes.py (1,856 checks at 16 sizes: nothing cut off, nothing too wide; only the known team-picker names shortened); no script errors; results, help and side-trip navigation tests the same as 3.88; every "?" button tested by tapping at SE, iPhone 12–16 and Pro Max sizes.
+- Build: scripts/make389.py runs scripts/review389/fixes.py.
+
+## 3.88 – 25 November 2026
 Fixes 4, 5, 6, 7, 9, 10 and 11 from the problems-and-fixes doc, as chosen by David.
 - You are signed in (step 15): the right-hand button is Finish and goes back to the cover. The green box now says "You can close this guide now", and one line covers notifications and where to find help later. The screenshot keeps its 3.87 size on every iPhone.
 - One set of counting words in the title boxes: Stage, Step and Question. How this guide works: "Before you start" (was "Section 1"); Sign-in check: "Stage 1 of 3 · What you need" (was "Section 3"); Signing in: "Step 5 of 15 · NHS login" (was "Part 2 of 3 · NHS login"). Contents, Search and the navigation are unchanged.
