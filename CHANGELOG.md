@@ -2,7 +2,22 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
-## 3.89 – 25 November 2026 (live and trial)
+## 3.90 – 25 November 2026 (live and trial)
+Points 3, 9, 11, 13, 14, 15, 16, 17 and 19 from the problems-and-solutions doc, as chosen by David.
+- Sign-in check questions 1 and 2 ask something real: "Is the account for you?" (Are you the child's mother or primary carer? Yes, I am / No, I am not) and "Will you sign in yourself?" (Will you be the one signing in? Yes, I will / No, someone else will). The "Please tap an answer, then tap Next." strip is kept exactly as it was. Start page, results and Search use the new names; on the results a No to either is now a ✗ with Get help (counted), not a soft "i" with Read more.
+- Sign-in check questions on iPhone SE in Safari: question 1 now lines up with 2–6 (it sat 27 px higher, already so in 3.89). Question 5 asks "Are your details the same in both accounts?", so on larger iPhones all six questions sit 23 px higher than in 3.89 (still identical on every question).
+- Help pages: the main action in "What to do" is a full-width solid button (at least 44 px); "Still stuck?" is an outlined button (contrast 5.2:1 light, 9.1:1 Dark Mode).
+- One set of example details: the step 5 and NHS login step 2 screenshots show c.somers@example.com (were a real email domain); the phone number in 8 screenshots ends 0123 / XXX-XXX-00123 to match the Question 5 example (07700 900123); the example NHS number is 123 456 7890 as in the step 7 screenshot.
+- "Find your Health Visiting team" (was "Contact"), in Contents and Search too. Under the pickers: "You do not need to call them now. Keep their number handy in case the sign-in check finds a problem." – it gives way to the team's card once a team is chosen, so nothing above moves.
+- Step 1: "Open Safari to come back to this guide." added as a fourth line; the filler sentence removed.
+- "Check your NHS login details" (was "Signing in to NHS login"): the tips of steps 2–6 and Install step 4 are on their step pages; 6 tip pages removed (83 → 77 pages); Back/Next and page counts renumbered. Step 7's Note page and "Installation complete" stay.
+- NHS login help says once, positively, who can help: the menu opens "NHS login is run by the NHS. Only its Support team can see or change your account."; under "Who can help · NHS login Support team" on 7 help pages: "Only they can see or change your NHS login account." (David's full sentence took 3 lines and pushed pages off an iPhone SE.) The GMDP line on NHS login step 1 removed.
+- Wording: step 3, step 5, Question 5; curly apostrophes (Partner's, child's).
+- Safari tab title "GM Early Years App – help signing in"; Home Screen name "EY App help"; "REVIEW DRAFT" removed from Document control and the page description.
+- Checked: scripts/check_iphone_sizes.py (1,760 checks at 16 sizes: nothing cut off, nothing too wide; only the known team-picker names shortened); all 6 questions aligned at 16 sizes; no script errors; results, help and side-trip navigation tests the same as 3.89; NHS login check and install steps walked with Next and Back.
+- Build: scripts/make390.py runs scripts/review390/fixes.py, fixes2.py and example_details_images.py.
+
+## 3.89 – 25 November 2026
 - Sign-in check start page: each of the 6 questions has a round "?" button on the right that opens the help page for that question – the same pages the results page uses (1 Who the account is for, 2 Who can sign in, 3 Set up NHS login, 4 Cannot sign in, 5 Common sign-in problems, 6 Activation Link issues). Back or Done on the help page returns to the start page. Its tap area is the full height of its row, so neighbouring buttons never overlap. "?" contrast 5.8:1 (light) and 7.9:1 (Dark Mode).
 - Sign-in check start page: the 6 questions sit on the page background instead of white cards, so only real menus have white rows (fix 12 from the problems-and-fixes doc).
 - Sign-in check questions: the "i" beside "Please tap an answer, then tap Next." is centred in its circle (it sat about 4 px high; now within 1 px, like the ✓ and ! icons).

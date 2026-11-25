@@ -5,7 +5,8 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 html = (ROOT / 'index.html').read_text(encoding='utf-8')
-version = re.search(r'<title>[^<]*\bv(\d+\.\d+)', html)
+# 3.90: the tab title no longer carries the version (point 19); read it from the cover
+version = re.search(r'<span class="cv-ver">Version (\d+\.\d+)</span>', html)
 version = version.group(1) if version else None
 pages = re.findall(r'<section class="screen[^"]*" id="([^"]+)"', html)
 ids = set(re.findall(r'\bid="([^"]+)"', html))
@@ -18,7 +19,7 @@ checks = {
     'HTML doctype': html.lstrip().lower().startswith('<!doctype html>'),
     'language set to en-GB': '<html lang="en-GB">' in html,
     'mobile viewport': 'name="viewport"' in html and 'width=device-width' in html,
-    'version found in title': version is not None,
+    'version found on the cover': version is not None,
     'version shown on cover and document control': version is not None and html.count(f'Version {version}') >= 2,
     'guide pages present (60 or more)': len(pages) >= 60,
     'page ids are unique': len(pages) == len(set(pages)),
