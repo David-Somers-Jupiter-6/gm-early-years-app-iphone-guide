@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## Simple guide 1.4 – 26 November 2026 (live and trial)
+Contacts and privacy (David).
+- Contacts: "2 Choose your team" laid out the same way as "1 Choose your area", so it stays on one line in Safari (it was wrapped in a label element; the team box is now named by the heading instead).
+- Contacts: the area note under the team box always keeps room for two lines, so the NHS login Support box no longer moves when switching between Bury, Rochdale (two lines) and Stockport (one line). Checked at 16 sizes: the box stays in exactly the same place. The Rochdale phone number no longer splits across lines.
+- Accessibility and privacy: removed the line about GitHub keeping technical details (prototype). The page now fits without scrolling on iPhone 11 in Safari.
+- Offline cache `ey-simple-v1.4`. Checked: 16 iPhone sizes plus Dark Mode (306 page states), no script errors, navigation tests pass.
+
 ## Simple guide 1.3 – 26 November 2026 (live and trial)
 Every "Get help" opens the problem for that step (David).
 - Steps 1, 3, 4, 5 and 6 already did. Step 2 and step 7 only opened the help page, as no problem covered them.

@@ -1,7 +1,7 @@
 /* GM Early Years App Simple guide: keeps a copy on the phone so it opens without a signal.
    The guide is fetched fresh whenever there is a connection; the saved copy is used only when there is not.
    Change CACHE with every release so old copies are cleared. Only touches caches named ey-simple-. */
-var CACHE = 'ey-simple-v1.3';
+var CACHE = 'ey-simple-v1.4';
 var FILES = ['./', './manifest.webmanifest'];
 
 self.addEventListener('install', function (e) {

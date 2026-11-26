@@ -227,8 +227,8 @@ contacts = f'''<section class="screen" id="contacts" aria-label="Contacts">
     <p class="clabel" id="area-l"><span class="num" aria-hidden="true">1</span>Choose your area</p>
     <div class="areas" role="group" aria-labelledby="area-l">{area_btns}</div>
     <div class="teamwrap" hidden>
-      <p class="clabel"><label for="team"><span class="num" aria-hidden="true">2</span>Choose your team</label></p>
-      <div class="sel"><select id="team"><option value="">Choose your team</option></select></div>
+      <p class="clabel" id="team-l"><span class="num" aria-hidden="true">2</span>Choose your team</p>
+      <div class="sel"><select id="team" aria-labelledby="team-l"><option value="">Choose your team</option></select></div>
       <p class="ahint" id="ahint"></p>
     </div>
     <div class="team" id="teamcard" aria-live="polite" hidden></div>
@@ -258,7 +258,7 @@ a11y = f'''<section class="screen" id="a11y" aria-label="Accessibility and priva
   </div>
   <div class="ccard tight">
     <h3>Your privacy</h3>
-    <p>This guide does not collect any information about you. No sign-in, cookies or tracking. The website host, GitHub, may keep technical details such as IP addresses.</p>
+    <p>This guide does not collect any information about you. No sign-in, cookies or tracking.</p>
   </div>
 </div>
 {bnav(back='contacts', nxt='cover', nxt_label='Done', help_btn=False, back_dyn=True, done=True)}
