@@ -1,0 +1,400 @@
+{
+ "teams": [
+  {
+   "area": "Bury",
+   "i": 0,
+   "name": "Bury Central (Town Centre) Health Visiting Team",
+   "addr": "Windsor House, 6 Little 66, Roach Bank Road, Pilsworth, Bury, BL9 8RN",
+   "tel": [
+    [
+     "tel:07736604762",
+     "07736 604762"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Windsor+House%2C+6+Little+66%2C+Roach+Bank+Road%2C+Pilsworth%2C+Bury%2C+BL9+8RN"
+  },
+  {
+   "area": "Bury",
+   "i": 1,
+   "name": "Enhanced and SEND Health Visiting Team",
+   "addr": "Radcliffe Primary Care Centre, 69 Church Street West, Radcliffe, Manchester, M26 2SP",
+   "tel": [
+    [
+     "tel:01612066166",
+     "0161 206 6166"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Radcliffe+Primary+Care+Centre%2C+69+Church+Street+West%2C+Radcliffe%2C+Manchester%2C+M26+2SP"
+  },
+  {
+   "area": "Bury",
+   "i": 2,
+   "name": "Prestwich Township Health Visiting Team",
+   "addr": "Prestwich Walk-in Centre (Prestwich Health Centre), Fairfax Road, Prestwich, Manchester, M25 1BT",
+   "tel": [
+    [
+     "tel:01617982721",
+     "0161 798 2721"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Prestwich+Walk-in+Centre+%28Prestwich+Health+Centre%29%2C+Fairfax+Road%2C+Prestwich%2C+Manchester%2C+M25+1BT"
+  },
+  {
+   "area": "Bury",
+   "i": 3,
+   "name": "Radcliffe Health Visiting Team",
+   "addr": "Radcliffe Primary Care Centre, 69 Church Street West, Radcliffe, Manchester, M26 2SP",
+   "tel": [
+    [
+     "tel:01612064411",
+     "0161 206 4411"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Radcliffe+Primary+Care+Centre%2C+69+Church+Street+West%2C+Radcliffe%2C+Manchester%2C+M26+2SP"
+  },
+  {
+   "area": "Bury",
+   "i": 4,
+   "name": "Ramsbottom, Tottington and North Manor Health Visiting Team",
+   "addr": "Ramsbottom Health Centre, Carr Street, Ramsbottom, Bury, BL0 9DD",
+   "tel": [
+    [
+     "tel:01612062300",
+     "0161 206 2300"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Ramsbottom+Health+Centre%2C+Carr+Street%2C+Ramsbottom%2C+Bury%2C+BL0+9DD"
+  },
+  {
+   "area": "Bury",
+   "i": 5,
+   "name": "Whitefield and Unsworth Health Visiting Team",
+   "addr": "Windsor House, 6 Little 66, Roach Bank Road, Pilsworth, Bury, BL9 8RN",
+   "tel": [
+    [
+     "tel:07955434907",
+     "07955 434907"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Windsor+House%2C+6+Little+66%2C+Roach+Bank+Road%2C+Pilsworth%2C+Bury%2C+BL9+8RN"
+  },
+  {
+   "area": "Rochdale",
+   "i": 0,
+   "name": "Heywood Neighbourhoods Health Visiting Team",
+   "addr": "Callaghan House, Cross Street (off Green Lane), Heywood, OL10 2DY",
+   "tel": [
+    [
+     "tel:01612062906",
+     "0161 206 2906"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Callaghan+House%2C+Cross+Street+%28off+Green+Lane%29%2C+Heywood%2C+OL10+2DY"
+  },
+  {
+   "area": "Rochdale",
+   "i": 1,
+   "name": "Middleton Neighbourhoods Health Visiting Team",
+   "addr": "Brook House, Oldham Road, Middleton, Manchester, M24 1AY",
+   "tel": [
+    [
+     "tel:01612062906",
+     "0161 206 2906"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Brook+House%2C+Oldham+Road%2C+Middleton%2C+Manchester%2C+M24+1AY"
+  },
+  {
+   "area": "Rochdale",
+   "i": 2,
+   "name": "Pennines Neighbourhoods Health Visiting Team",
+   "addr": "Milnrow Health Centre, Stonefield Street, Milnrow, Rochdale, OL16 4HZ",
+   "tel": [
+    [
+     "tel:01612062906",
+     "0161 206 2906"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Milnrow+Health+Centre%2C+Stonefield+Street%2C+Milnrow%2C+Rochdale%2C+OL16+4HZ"
+  },
+  {
+   "area": "Rochdale",
+   "i": 3,
+   "name": "Rochdale North Neighbourhoods Health Visiting Team",
+   "addr": "Spotland Bridge Mill, Mellor Street, Rochdale, OL11 5BU",
+   "tel": [
+    [
+     "tel:01612062906",
+     "0161 206 2906"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Spotland+Bridge+Mill%2C+Mellor+Street%2C+Rochdale%2C+OL11+5BU"
+  },
+  {
+   "area": "Rochdale",
+   "i": 4,
+   "name": "Rochdale South Neighbourhoods Health Visiting Team",
+   "addr": "Spotland Bridge Mill, Mellor Street, Rochdale, OL11 5BU",
+   "tel": [
+    [
+     "tel:01612062906",
+     "0161 206 2906"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Spotland+Bridge+Mill%2C+Mellor+Street%2C+Rochdale%2C+OL11+5BU"
+  },
+  {
+   "area": "Stockport",
+   "i": 0,
+   "name": "Adswood Start Well Health Visiting Team",
+   "addr": "Abacus Start Well Hub (One Stockport Family Hub), 120 Garners Lane, Adswood, Stockport, SK3 8QW",
+   "tel": [
+    [
+     "tel:01612044092",
+     "0161 204 4092"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Abacus+Start+Well+Hub+%28One+Stockport+Family+Hub%29%2C+120+Garners+Lane%2C+Adswood%2C+Stockport%2C+SK3+8QW"
+  },
+  {
+   "area": "Stockport",
+   "i": 1,
+   "name": "Brinnington Start Well Health Visiting Team",
+   "addr": "Brinnington Start Well Hub (One Stockport Family Hub), Westmorland Drive, Brinnington, Stockport, SK5 8HH",
+   "tel": [
+    [
+     "tel:01614069558",
+     "0161 406 9558"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Brinnington+Start+Well+Hub+%28One+Stockport+Family+Hub%29%2C+Westmorland+Drive%2C+Brinnington%2C+Stockport%2C+SK5+8HH"
+  },
+  {
+   "area": "Stockport",
+   "i": 2,
+   "name": "Cheadle Heath and Edgeley Start Well Health Visiting Team",
+   "addr": "Abacus Start Well Hub (One Stockport Family Hub), 120 Garners Lane, Adswood, Stockport, SK3 8QW",
+   "tel": [
+    [
+     "tel:01612044092",
+     "0161 204 4092"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Abacus+Start+Well+Hub+%28One+Stockport+Family+Hub%29%2C+120+Garners+Lane%2C+Adswood%2C+Stockport%2C+SK3+8QW"
+  },
+  {
+   "area": "Stockport",
+   "i": 3,
+   "name": "Cheadle Hulme and Bramhall Start Well Health Visiting Team",
+   "addr": "Bramhall Health Centre, 66 Bramhall Lane South, Bramhall, Stockport, SK7 2DY",
+   "tel": [
+    [
+     "tel:01618356552",
+     "0161 835 6552"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Bramhall+Health+Centre%2C+66+Bramhall+Lane+South%2C+Bramhall%2C+Stockport%2C+SK7+2DY"
+  },
+  {
+   "area": "Stockport",
+   "i": 4,
+   "name": "Stockport Family Nurse Partnership",
+   "addr": "One Stockport Family Hub, 120 Garners Lane, Adswood, Stockport, SK3 8QW",
+   "tel": [
+    [
+     "tel:01618356789",
+     "0161 835 6789"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=One+Stockport+Family+Hub%2C+120+Garners+Lane%2C+Adswood%2C+Stockport%2C+SK3+8QW"
+  },
+  {
+   "area": "Stockport",
+   "i": 5,
+   "name": "Gatley and Heald Green Start Well Health Visiting Team",
+   "addr": "Heald Green Health Centre, Finney Lane, Heald Green, Cheadle, SK8 3JD",
+   "tel": [
+    [
+     "tel:01612045751",
+     "0161 204 5751"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Heald+Green+Health+Centre%2C+Finney+Lane%2C+Heald+Green%2C+Cheadle%2C+SK8+3JD"
+  },
+  {
+   "area": "Stockport",
+   "i": 6,
+   "name": "Hazel Grove Start Well Health Visiting Team",
+   "addr": "Hazel Grove Clinic, 253 London Road, Hazel Grove, Stockport, SK7 4PW",
+   "tel": [
+    [
+     "tel:01618356607",
+     "0161 835 6607"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Hazel+Grove+Clinic%2C+253+London+Road%2C+Hazel+Grove%2C+Stockport%2C+SK7+4PW"
+  },
+  {
+   "area": "Stockport",
+   "i": 7,
+   "name": "Heatons Start Well Health Visiting Team",
+   "addr": "Heaton Norris Clinic, Cheviot Close, Heaton Norris, Stockport, SK4 1SX",
+   "tel": [
+    [
+     "tel:01618356490",
+     "0161 835 6490"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Heaton+Norris+Clinic%2C+Cheviot+Close%2C+Heaton+Norris%2C+Stockport%2C+SK4+1SX"
+  },
+  {
+   "area": "Stockport",
+   "i": 8,
+   "name": "Marple Start Well Health Visiting Team",
+   "addr": "Marple Clinic, Memorial Park, Marple, Stockport, SK6 6BA",
+   "tel": [
+    [
+     "tel:01612045287",
+     "0161 204 5287"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Marple+Clinic%2C+Memorial+Park%2C+Marple%2C+Stockport%2C+SK6+6BA"
+  },
+  {
+   "area": "Stockport",
+   "i": 9,
+   "name": "Offerton and Stockport Central Start Well Health Visiting Team",
+   "addr": "Shaw Heath Health Centre, Gilmore Street, Shaw Heath, Stockport, SK3 8DN",
+   "tel": [
+    [
+     "tel:01612045597",
+     "0161 204 5597"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Shaw+Heath+Health+Centre%2C+Gilmore+Street%2C+Shaw+Heath%2C+Stockport%2C+SK3+8DN"
+  },
+  {
+   "area": "Stockport",
+   "i": 10,
+   "name": "Reddish Start Well Health Visiting Team",
+   "addr": "Reddish Vale Start Well Satellite, Reddish Vale Road, Reddish, Stockport, SK5 7EU",
+   "tel": [
+    [
+     "tel:01614750900",
+     "0161 475 0900"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Reddish+Vale+Start+Well+Satellite%2C+Reddish+Vale+Road%2C+Reddish%2C+Stockport%2C+SK5+7EU"
+  },
+  {
+   "area": "Stockport",
+   "i": 11,
+   "name": "Woodley Start Well Health Visiting Team",
+   "addr": "Woodley Health Centre (2nd Floor), Hyde Road, Woodley, Stockport, SK6 1ND",
+   "tel": [
+    [
+     "tel:01612045194",
+     "0161 204 5194"
+    ]
+   ],
+   "hours": [
+    "Monday to Friday, office hours"
+   ],
+   "extra": [],
+   "maps": "https://maps.apple.com/?q=Woodley+Health+Centre+%282nd+Floor%29%2C+Hyde+Road%2C+Woodley%2C+Stockport%2C+SK6+1ND"
+  }
+ ],
+ "hints": {
+  "Bury": "Bury teams are linked to your registered GP surgery, not your home address.",
+  "Rochdale": "All five Rochdale teams share one phone number: 0161 206 2906.",
+  "Stockport": "Stockport teams are linked to where you live."
+ }
+}

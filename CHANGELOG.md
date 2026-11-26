@@ -2,6 +2,14 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## Simple guide 1.0 – 26 November 2026 (new: live and trial)
+A new, much simpler version of the guide at its own address (the full guide is unchanged).
+- Live: /simple/ · Trial: /simple/preview/. Its own Home Screen app ("EY App help"; trial "EY Simple") and offline copy (cache `ey-simple-v1.0`).
+- 12 pages: cover (one Start button, a calm "You are not on your own" message), Before you start (3 things you need, plus the App Store tip), 7 sign-in steps (the full guide's 15 steps paired; "Restart your iPhone" dropped), Still not working? (5 common problems: tap one to see who can help, what to do and one button), Contacts (Health Visiting team finder for Bury, Rochdale and Stockport; NHS login Support), Accessibility and privacy.
+- Each step has up to 3 numbered actions, one screenshot (tap to see full size) and a "Stuck here?" card that opens the matching problem. A Help button sits between Back and Next on every step.
+- No Contents, Search or Sign-in check.
+- Checked: every page and state at 16 iPhone sizes plus Dark Mode (270 page states): nothing too wide, no script errors; every step page fits without scrolling at all sizes. Scrolling only on Contacts once a team is chosen, Still not working? with a problem open on smaller phones, and Accessibility and privacy in Safari on smaller phones. Navigation, Back from help, Done and Get help links tested.
+
 ## 3.92 – 26 November 2026 (live and trial)
 Sign-in check: the question box stays in the same place from question 4 to question 5 (David saw it move down on his iPhone).
 - Cause: question 5's info area (card + 76 px "See an example" preview) was exactly the tallest of the six, with no spare room, so a small difference in how Safari draws it put question 5's box lower than the others.

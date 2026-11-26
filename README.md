@@ -30,6 +30,15 @@ The whole guide is one self-contained file, `index.html`. Fonts, images and scri
 | `CHANGELOG.md` | What changed in each published version |
 | `.nojekyll` | Tells GitHub Pages to serve the files as they are |
 
+## Simple guide (trial version of the guide)
+
+A much shorter guide, built around one idea: follow 7 steps, and if you get stuck, each step tells you who can help. 12 pages: cover, Before you start, 7 sign-in steps, Still not working?, Contacts (Health Visiting team finder and NHS login Support), Accessibility and privacy.
+
+- Live: https://david-somers-jupiter-6.github.io/gm-early-years-app-iphone-guide/simple/
+- Trial: https://david-somers-jupiter-6.github.io/gm-early-years-app-iphone-guide/simple/preview/
+
+Built by `scripts/simple/gen.py VERSION OUT.html [trial]` from `scripts/simple/` (styles, script, screenshots cropped from the full guide, team data). To publish a new version: save it as `releases/GM_Early_Years_App_Simple_Guide_vX.X.html`, copy it over `simple/index.html`, build the trial copy into `simple/preview/index.html` (with `trial`), set `CACHE` in `simple/sw.js` to `ey-simple-vX.X`, then run `python3 scripts/validate_simple.py`. Check every page with `python3 scripts/simple/check.py FILE OUTDIR` (16 iPhone sizes and Dark Mode).
+
 ## Publishing a new version
 
 1. Save the new guide as `releases/GM_Early_Years_App_iPhone_vX.XX.html`.

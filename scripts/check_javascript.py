@@ -3,7 +3,8 @@
 from pathlib import Path
 import re, subprocess, tempfile
 
-source=(Path(__file__).resolve().parents[1]/'index.html').read_text(encoding='utf-8')
+import sys
+source=(Path(__file__).resolve().parents[1]/(sys.argv[1] if len(sys.argv)>1 else 'index.html')).read_text(encoding='utf-8')
 scripts=re.findall(r'<script(?:\s[^>]*)?>(.*?)</script\s*>',source,re.I|re.S)
 if not scripts:
     raise SystemExit('FAIL No inline JavaScript found')
