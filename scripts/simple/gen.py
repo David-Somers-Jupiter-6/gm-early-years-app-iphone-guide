@@ -93,10 +93,11 @@ cover = f'''<section class="screen" id="cover" aria-label="Cover">
       <span class="ic" aria-hidden="true">{I_TICK}</span>
       <p><strong>Having trouble signing in?</strong>You are not on your own. We will help you, one step at a time.</p>
     </div>
-    <p class="cv-fam"><span class="pin" aria-hidden="true"><svg viewBox="0 0 24 24" width="15" height="15"><path d="M12 21s-6.5-6.2-6.5-11a6.5 6.5 0 0 1 13 0c0 4.8-6.5 11-6.5 11z" fill="currentColor"/><circle cx="12" cy="10" r="2.4" fill="#fff"/></svg></span>For families in <span class="cv-c">Bury</span><span class="cv-c">Rochdale</span><span class="cv-c">Stockport</span><a class="cv-a11y" href="#a11y">Accessibility</a></p>
+    <p class="cv-fam"><span class="cv-fl"><span class="pin" aria-hidden="true"><svg viewBox="0 0 24 24" width="15" height="15"><path d="M12 21s-6.5-6.2-6.5-11a6.5 6.5 0 0 1 13 0c0 4.8-6.5 11-6.5 11z" fill="currentColor"/><circle cx="12" cy="10" r="2.4" fill="#fff"/></svg></span>For families in</span><span class="cv-c">Bury</span><span class="cv-c">Rochdale</span><span class="cv-c">Stockport</span></p>
   </div>
 </div>
 <nav class="bnav" aria-label="Page navigation">
+  <a class="btn-help cover-a11y" href="#a11y">{I_A11Y}<span>Accessibility</span></a>
   <a class="btn btn-start" href="#before">Start {I_NEXT}</a>
 </nav>
 </section>'''

@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## Simple guide 1.2 – 26 November 2026 (live and trial)
+Cover: Bury, Rochdale and Stockport back on one line (David).
+- Cause: in 1.0–1.1 the area labels were 14 px (full guide 13 px), with wider spacing and an Accessibility link on the same line, so Stockport wrapped on narrower iPhones (and on David's iPhone 11 in Safari, where only 16 px was spare in testing).
+- Labels now match the full guide (13 px, 6 px gaps; "For families in" kept together); cover side padding 16 px on 375–389 px wide screens. Spare room on the line: 22 px (iPhone SE/mini, same as the full guide) to 79 px; 53 px on iPhone 11.
+- The Accessibility link moved to the cover's bottom bar, beside Start (icon and label, like Help on the step pages).
+- Offline cache `ey-simple-v1.2`. Checked: 16 iPhone sizes plus Dark Mode (288 page states), no script errors, navigation tests pass.
+
 ## Simple guide 1.1 – 26 November 2026 (live and trial)
 The App's sign-in screen now has its own step (David).
 - Step 1 "Open your Activation Link" ends at tapping the link ("The App sign-in screen opens").
