@@ -2,7 +2,14 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
-## 3.90 – 25 November 2026 (live and trial)
+## 3.91 – 26 November 2026 (live and trial)
+Sign-in check polish (David).
+- Start page: the 6 questions are in pairs (1–2 your App account, 3–4 your NHS login, 5–6 both accounts). The dividers were inside each pair (between 1 and 2, 3 and 4, 5 and 6); now there is one divider below question 2 and one below question 4, in the gap between the pairs, and none inside a pair. Same line colour (adapts to Dark Mode).
+- Questions 1–6 (screens up to 760 px high, where the "?" icon sits beside the question): the question's first line sat 5.5 px (1.5 px on screens up to 640 px high) below the middle of the icon. Now centred on it, as "i" and its label are above; the answers and reply move up 5 px on all six questions, which still line up with each other at all 16 sizes. Taller screens keep the "? Question" label row (already aligned).
+- Checked: scripts/check_iphone_sizes.py (1,760 checks at 16 sizes: nothing cut off, nothing too wide; only the known team-picker names shortened); questions aligned at 16 sizes; no script errors; navigation tests the same as 3.90.
+- Build: scripts/make391.py + scripts/review391/fixes.py.
+
+## 3.90 – 25 November 2026
 Points 3, 9, 11, 13, 14, 15, 16, 17 and 19 from the problems-and-solutions doc, as chosen by David.
 - Sign-in check questions 1 and 2 ask something real: "Is the account for you?" (Are you the child's mother or primary carer? Yes, I am / No, I am not) and "Will you sign in yourself?" (Will you be the one signing in? Yes, I will / No, someone else will). The "Please tap an answer, then tap Next." strip is kept exactly as it was. Start page, results and Search use the new names; on the results a No to either is now a ✗ with Get help (counted), not a soft "i" with Read more.
 - Sign-in check questions on iPhone SE in Safari: question 1 now lines up with 2–6 (it sat 27 px higher, already so in 3.89). Question 5 asks "Are your details the same in both accounts?", so on larger iPhones all six questions sit 23 px higher than in 3.89 (still identical on every question).
