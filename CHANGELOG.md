@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## Simple guide 1.1 – 26 November 2026 (live and trial)
+The App's sign-in screen now has its own step (David).
+- Step 1 "Open your Activation Link" ends at tapping the link ("The App sign-in screen opens").
+- New step 2 "Tap Continue to NHS login": screenshot of the App sign-in screen; under Parents and carers sign in below, tap Continue to NHS login; the buttons further down are for staff.
+- 8 steps (13 pages); later steps renumbered. Offline cache `ey-simple-v1.1`.
+- Checked: 16 iPhone sizes plus Dark Mode (288 page states): every step page still fits without scrolling; nothing too wide; no script errors; navigation tests pass.
+
 ## Simple guide 1.0 – 26 November 2026 (new: live and trial)
 A new, much simpler version of the guide at its own address (the full guide is unchanged).
 - Live: /simple/ · Trial: /simple/preview/. Its own Home Screen app ("EY App help"; trial "EY Simple") and offline copy (cache `ey-simple-v1.0`).

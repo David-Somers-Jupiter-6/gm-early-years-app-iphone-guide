@@ -32,7 +32,7 @@ The whole guide is one self-contained file, `index.html`. Fonts, images and scri
 
 ## Simple guide (trial version of the guide)
 
-A much shorter guide, built around one idea: follow 7 steps, and if you get stuck, each step tells you who can help. 12 pages: cover, Before you start, 7 sign-in steps, Still not working?, Contacts (Health Visiting team finder and NHS login Support), Accessibility and privacy.
+A much shorter guide, built around one idea: follow 8 steps, and if you get stuck, each step tells you who can help. 13 pages: cover, Before you start, 8 sign-in steps, Still not working?, Contacts (Health Visiting team finder and NHS login Support), Accessibility and privacy.
 
 - Live: https://david-somers-jupiter-6.github.io/gm-early-years-app-iphone-guide/simple/
 - Trial: https://david-somers-jupiter-6.github.io/gm-early-years-app-iphone-guide/simple/preview/

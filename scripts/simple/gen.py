@@ -122,9 +122,12 @@ pages.append(('before', 'Before you start', before))
 STEPS = [
     dict(t='Open your Activation Link', part='GM Early Years App', img='step2',
          do=['Open <strong>Messages</strong> and find the text about your GM Early Years App account.',
-             'Tap the link in the text.',
-             'Under <strong>Parents and carers</strong>, tap <strong>Continue to NHS login</strong>.'],
+             'Tap the link in the text. The App sign-in screen opens.'],
          stuck=('No text with a link?', 'p-link')),
+    dict(t='Tap Continue to NHS login', part='GM Early Years App', img='step3',
+         do=['Under <strong>Parents and carers sign in below</strong>, tap <strong>Continue to NHS login</strong>.',
+             'Do not use the buttons further down. They are for staff.'],
+         stuck=('Sign-in screen not opening?', '')),
     dict(t='Sign in to NHS login', part='NHS login', img='step5',
          do=['Asked about cookies? Tap either choice.',
              'Type your NHS login email address and password.',
@@ -176,7 +179,7 @@ for i, s in enumerate(STEPS, 1):
 </div>
 {bnav(back=prev, nxt='cover' if last else f'step-{i+1}', nxt_label='Finish' if last else 'Next')}
 </section>'''
-    body = body.replace('<span class="vh">Step 8 of 7: </span>', '<span class="vh">Step 7 of 7: </span>')
+    body = body.replace(f'<span class="vh">Step {len(STEPS) + 1} of {len(STEPS)}: </span>', f'<span class="vh">Step {len(STEPS)} of {len(STEPS)}: </span>')
     pages.append((sid, s['t'], body))
 
 # 10. Still not working?
@@ -295,7 +298,7 @@ doc = f'''<!DOCTYPE html>
 <meta name="apple-mobile-web-app-title" content="{title_app}">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <title>GM Early Years App – simple sign-in help</title>
-<meta name="description" content="Simple guide version {VERSION}. Seven short steps to sign in to the GM Early Years App on an iPhone, and who can help if you get stuck.">
+<meta name="description" content="Simple guide version {VERSION}. Eight short steps to sign in to the GM Early Years App on an iPhone, and who can help if you get stuck.">
 <meta name="author" content="GMDP Support Team, GMCA">
 <style>
 {css}

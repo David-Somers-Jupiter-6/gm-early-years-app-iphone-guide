@@ -23,7 +23,7 @@ for rel, trial in (('simple/index.html', False), ('simple/preview/index.html', T
         'language set to en-GB': '<html lang="en-GB">' in html,
         'mobile viewport': 'name="viewport"' in html and 'width=device-width' in html,
         'version found on the cover': version is not None,
-        'the 12 pages are present': set(pages) == {'cover', 'before', 'help', 'contacts', 'a11y'} | {f'step-{i}' for i in range(1, 8)},
+        'all pages present (cover, Before you start, steps 1 to N, help, contacts, accessibility)': (lambda steps: steps >= 7 and set(pages) == {'cover', 'before', 'help', 'contacts', 'a11y'} | {f'step-{i}' for i in range(1, steps + 1)})(len([x for x in pages if x.startswith('step-')])),
         'page ids are unique': len(pages) == len(set(pages)),
         'every internal link has a target': targets <= ids,
         'every image has alt text': all('alt=' in i for i in images),

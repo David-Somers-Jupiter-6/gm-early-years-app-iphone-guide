@@ -9,7 +9,7 @@ SIZES = [('SE Safari', 375, 548), ('SE Home', 375, 647), ('mini/Zoomed Safari', 
          ('12-14 Safari', 390, 664), ('12-14 Home', 390, 797), ('15/16 Safari', 393, 659), ('15/16 Home', 393, 793),
          ('16 Pro Safari', 402, 681), ('16 Pro Home', 402, 814), ('11/XR Safari', 414, 715), ('11/XR Home', 414, 848),
          ('Pro Max Safari', 430, 740), ('Pro Max Home', 430, 873), ('16 Pro Max Safari', 440, 763), ('16 Pro Max Home', 440, 896)]
-PAGES = ['cover', 'before'] + [f'step-{i}' for i in range(1, 8)] + ['help', 'contacts', 'a11y']
+PAGES = ['cover', 'before'] + [f'step-{i}' for i in range(1, 9)] + ['help', 'contacts', 'a11y']
 M = """(id)=>{const s=document.getElementById(id);const sc=s.querySelector('.scroll');
  const wide=[...s.querySelectorAll('*')].filter(e=>{const r=e.getBoundingClientRect();return r.width&&(r.right>innerWidth+0.5||r.left<-0.5)}).map(e=>(e.className&&e.className.baseVal===undefined?e.className:e.tagName)).slice(0,3);
  const shot=s.querySelector('.shot');
