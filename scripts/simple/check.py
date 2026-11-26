@@ -27,7 +27,7 @@ async def main():
             pg.on('console', lambda m: m.type == 'error' and errs.append(m.text))
             pg.on('pageerror', lambda e: errs.append(str(e)))
             await pg.goto('file://' + F + '#cover'); await pg.wait_for_timeout(500)
-            states = [(pid, '') for pid in PAGES] + [('help', 'open p-code'), ('contacts', 'Bury team 4'), ('contacts', 'Stockport team 9')]
+            states = [(pid, '') for pid in PAGES] + [('help', 'open p-code'), ('help', 'open p-open'), ('contacts', 'Bury team 4'), ('contacts', 'Stockport team 9')]
             for pid, st in states:
                 await pg.evaluate("s=>{location.hash=s}", pid); await pg.wait_for_timeout(120)
                 if st.startswith('open'):

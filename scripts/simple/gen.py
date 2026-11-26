@@ -128,7 +128,7 @@ STEPS = [
     dict(t='Tap Continue to NHS login', part='GM Early Years App', img='step3',
          do=['Under <strong>Parents and carers sign in below</strong>, tap <strong>Continue to NHS login</strong>.',
              'Do not use the buttons further down. They are for staff.'],
-         stuck=('Sign-in screen not opening?', '')),
+         stuck=('Sign-in screen not opening?', 'p-app')),
     dict(t='Sign in to NHS login', part='NHS login', img='step5',
          do=['Asked about cookies? Tap either choice.',
              'Type your NHS login email address and password.',
@@ -153,7 +153,7 @@ STEPS = [
          do=['Tap the code box.',
              'Tap the code above your keyboard. This is a new code, not the NHS login one.',
              'Tap <strong>Verify Code</strong>.'],
-         stuck=('App not opening?', '')),
+         stuck=('App not opening?', 'p-open')),
     dict(t='You are signed in', part='All done', img='step15',
          do=['If you see <strong>Assessment Forms Status</strong>, tap <strong>Close</strong>.',
              'You will see your details. That is everything.'],
@@ -187,6 +187,8 @@ for i, s in enumerate(STEPS, 1):
 PROBS = [
     ('p-link', f'<span class="ti hv" aria-hidden="true">{I_MSG}</span>', 'My Activation Link has not arrived', 'Your Health Visiting team',
      'Ask them to check your mobile number and send you a new link.', ('#contacts', 'Find your Health Visiting team', False)),
+    ('p-app', f'<span class="ti hv" aria-hidden="true">{I_APP}</span>', 'The link does not open the App', 'GMDP Support team',
+     'Check the App is on your iPhone: search <strong>gm early years</strong> in the App Store. Then tap the link in the text again.', ('mailto:gmdp.support@greatermanchester-ca.gov.uk', 'Email GMDP Support', False)),
     ('p-nhs', NHS_TI, 'I cannot sign in to NHS login', 'NHS login Support',
      'Only NHS login can see or change your NHS login.', ('https://help.login.nhs.uk', 'NHS login help', True)),
     ('p-code', NHS_TI, 'My security code has not arrived', 'NHS login Support',
@@ -195,6 +197,8 @@ PROBS = [
      'Ask them to make your App email and mobile match your NHS login.', ('#contacts', 'Find your Health Visiting team', False)),
     ('p-other', f'<span class="ti hv" aria-hidden="true">{I_USERS}</span>', 'Someone else’s details were used', 'Your Health Visiting team',
      'Ask them to change the App account to your own email and mobile.', ('#contacts', 'Find your Health Visiting team', False)),
+    ('p-open', f'<span class="ti hv" aria-hidden="true">{I_APP}</span>', 'The App does not open after my code', 'GMDP Support team',
+     'Wait a few minutes. Still stuck, or seeing an error? Email us with the step and any error message. Never send passwords or codes.', ('mailto:gmdp.support@greatermanchester-ca.gov.uk', 'Email GMDP Support', False)),
 ]
 items = ''
 for pid, ti, title, who, what, (href, label, ext) in PROBS:

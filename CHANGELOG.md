@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## Simple guide 1.3 – 26 November 2026 (live and trial)
+Every "Get help" opens the problem for that step (David).
+- Steps 1, 3, 4, 5 and 6 already did. Step 2 and step 7 only opened the help page, as no problem covered them.
+- New problems on Still not working?, in step order: "The link does not open the App" (step 2: check the App is installed, then tap the link again; GMDP Support) and "The App does not open after my code" (step 7: wait a few minutes, then email GMDP Support with the step and any error, never passwords or codes) – both from the full guide's own help.
+- 7 problems; list rows slightly shorter on screens up to 700 px high. Only iPhone SE in Safari scrolls the closed list (56 px).
+- Offline cache `ey-simple-v1.3`. Checked: 16 iPhone sizes plus Dark Mode (306 page states), each step's Get help opens its problem fully in view, no script errors, navigation tests pass.
+
 ## Simple guide 1.2 – 26 November 2026 (live and trial)
 Cover: Bury, Rochdale and Stockport back on one line (David).
 - Cause: in 1.0–1.1 the area labels were 14 px (full guide 13 px), with wider spacing and an Accessibility link on the same line, so Stockport wrapped on narrower iPhones (and on David's iPhone 11 in Safari, where only 16 px was spare in testing).
