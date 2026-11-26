@@ -2,7 +2,16 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
-## 3.91 – 26 November 2026 (live and trial)
+## 3.92 – 26 November 2026 (live and trial)
+Sign-in check: the question box stays in the same place from question 4 to question 5 (David saw it move down on his iPhone).
+- Cause: question 5's info area (card + 76 px "See an example" preview) was exactly the tallest of the six, with no spare room, so a small difference in how Safari draws it put question 5's box lower than the others.
+- The preview is 56 px: the two account headings above the blue "See an example · Tap here" bar (fade removed); the whole box still opens the full example. Question 5 now has at least 19 px spare at all 16 sizes, so the box position is set by the other questions.
+- The alignment also re-runs once the guide's fonts have loaded.
+- Effect: on some sizes all six question boxes sit 7–21 px higher than in 3.91 (iPhone 11 in Safari unchanged); still identical on every question at 16 sizes.
+- Checked: scripts/check_iphone_sizes.py (1,760 checks: nothing cut off or too wide; only the known team-picker names shortened); questions aligned at 16 sizes; no script errors; navigation tests the same as 3.91.
+- Build: scripts/make392.py + scripts/review392/fixes.py.
+
+## 3.91 – 26 November 2026
 Sign-in check polish (David).
 - Start page: the 6 questions are in pairs (1–2 your App account, 3–4 your NHS login, 5–6 both accounts). The dividers were inside each pair (between 1 and 2, 3 and 4, 5 and 6); now there is one divider below question 2 and one below question 4, in the gap between the pairs, and none inside a pair. Same line colour (adapts to Dark Mode).
 - Questions 1–6 (screens up to 760 px high, where the "?" icon sits beside the question): the question's first line sat 5.5 px (1.5 px on screens up to 640 px high) below the middle of the icon. Now centred on it, as "i" and its label are above; the answers and reply move up 5 px on all six questions, which still line up with each other at all 16 sizes. Taller screens keep the "? Question" label row (already aligned).
