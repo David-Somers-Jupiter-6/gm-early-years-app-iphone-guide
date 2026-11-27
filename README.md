@@ -37,7 +37,7 @@ A much shorter guide, built around one idea: follow 8 steps, and if you get stuc
 - Live: https://david-somers-jupiter-6.github.io/gm-early-years-app-iphone-guide/simple/
 - Trial: https://david-somers-jupiter-6.github.io/gm-early-years-app-iphone-guide/simple/preview/
 
-Built by `scripts/simple/gen.py VERSION OUT.html [trial]` from `scripts/simple/` (styles, script, screenshots cropped from the full guide, team data). To publish a new version: save it as `releases/GM_Early_Years_App_Simple_Guide_vX.X.html`, copy it over `simple/index.html`, build the trial copy into `simple/preview/index.html` (with `trial`), set `CACHE` in `simple/sw.js` to `ey-simple-vX.X`, then run `python3 scripts/validate_simple.py`. Check every page with `python3 scripts/simple/check.py FILE OUTDIR` (16 iPhone sizes and Dark Mode).
+Built by `scripts/simple/gen.py VERSION OUT.html [trial]` from `scripts/simple/` (styles, script, screenshots cropped from the full guide, team data). To publish a new version: save it as `releases/GM_Early_Years_App_Simple_Guide_vX.X.html`, copy it over `simple/index.html`, build the trial copy into `simple/preview/index.html` (with `trial`), set `CACHE` in `simple/sw.js` to `ey-simple-vX.X`, then run `python3 scripts/validate_simple.py`. Check every page with `python3 scripts/simple/check.py FILE OUTDIR` (16 iPhone sizes and Dark Mode) and `python3 scripts/simple/axe_check.py FILE AXE_JS` (accessibility; `npm install axe-core@4`). Home Screen name: "EY Sign-in" (trial "EY Simple").
 
 ## Publishing a new version
 

@@ -1,6 +1,6 @@
 {
   "name": "GM Early Years App – simple sign-in help",
-  "short_name": "EY App help",
+  "short_name": "EY Sign-in",
   "description": "Seven short steps to sign in to the GM Early Years App on an iPhone, and who can help if you get stuck.",
   "lang": "en-GB",
   "start_url": "./",

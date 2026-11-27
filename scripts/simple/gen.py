@@ -44,6 +44,7 @@ I_CARD = sv('<rect x="3" y="5" width="18" height="14" rx="2.5"/><circle cx="9" c
 I_APP = sv('<rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10.5 18.5h3"/>', 22)
 I_SMS = sv('<path d="M4 5h16v11H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/>', 22)
 I_CONTACT = sv('<path d="M4 13v-1a8 8 0 0116 0v1"/><rect x="3" y="12.5" width="4.5" height="7" rx="1.6" fill="currentColor"/><rect x="16.5" y="12.5" width="4.5" height="7" rx="1.6" fill="currentColor"/>', 24)
+I_SCREENS = sv('<rect x="2.5" y="4" width="13" height="9.5" rx="1.5"/><path d="M6.5 17h5M9 13.5V17"/><rect x="16" y="8" width="6" height="11.5" rx="1.5"/>', 22)
 I_ZOOM = sv('<circle cx="10.5" cy="10.5" r="6"/><path d="M15 15l5 5M10.5 8v5M8 10.5h5"/>', 18, 2.4)
 NHS_TI = '<span class="ti nhs" aria-hidden="true"><b>NHS</b></span>'
 
@@ -113,12 +114,13 @@ before = f'''<section class="screen" id="before" aria-label="Before you start">
     <li><span class="ni" aria-hidden="true">{I_LOCK}</span><div><strong>Your own NHS login</strong><span>Not got one? <a href="https://help.login.nhs.uk/setupnhslogin" target="_blank" rel="noopener">Set up NHS login</a></span></div></li>
     <li><span class="ni" aria-hidden="true">{I_SMS}</span><div><strong>Your Activation Link</strong><span>It comes by text message.</span></div></li>
   </ul>
-  <p class="tipline"><span class="ni sm" aria-hidden="true">{I_APP}</span><span>Is the App on your iPhone? If not, search <strong>gm early years</strong> in the App Store.</span></p>
+  <p class="tipline"><span class="ni sm" aria-hidden="true">{I_SCREENS}</span><span><strong>Tip:</strong> read this guide on another screen, like a computer. Then sign in on your iPhone.</span></p>
 </div>
 {bnav(back='cover', nxt='step-1')}
 </section>'''
 pages.append(('before', 'Before you start', before))
 
+FOCUS = {'step2': '0.444', 'step3': '0.443', 'step5': '0.168', 'step7': '0.068', 'step8': '0.360', 'step10': '0.470', 'step12': '0.046', 'step15': '0.000'}
 # 3-9. Steps
 STEPS = [
     dict(t='Open your Activation Link', part='GM Early Years App', img='step2',
@@ -175,7 +177,7 @@ for i, s in enumerate(STEPS, 1):
 <div class="scroll">
   {pbox(s['t'], f"Step {i} of {len(STEPS)} · {s['part']}", cls='ok' if last else '', step=(len(STEPS) + 1 if last else i, len(STEPS)))}
   <ol class="do">{lis}</ol>
-  <button type="button" class="shot" aria-label="Show this screenshot full size"><img src="{img64(os.path.join(HERE, f'shots/{s["img"]}.jpg'))}" alt="{esc(alt)}"><span class="zoomi" aria-hidden="true">{I_ZOOM}</span></button>
+  <button type="button" class="shot" aria-label="Show this screenshot full size"><img src="{img64(os.path.join(HERE, f'shots/{s["img"]}.jpg'))}" alt="{esc(alt)}" data-focus="{FOCUS[s['img']]}"><span class="zoomi" aria-hidden="true">{I_ZOOM}</span></button>
   {tail}
 </div>
 {bnav(back=prev, nxt='cover' if last else f'step-{i+1}', nxt_label='Finish' if last else 'Next')}
@@ -186,7 +188,7 @@ for i, s in enumerate(STEPS, 1):
 # 10. Still not working?
 PROBS = [
     ('p-link', f'<span class="ti hv" aria-hidden="true">{I_MSG}</span>', 'My Activation Link has not arrived', 'Your Health Visiting team',
-     'Ask them to check your mobile number and send you a new link.', ('#contacts', 'Find your Health Visiting team', False)),
+     'Ask them to check your mobile number and send you a new link.', ('#contacts" data-hv="1', 'Find your Health Visiting team', False)),
     ('p-app', f'<span class="ti hv" aria-hidden="true">{I_APP}</span>', 'The link does not open the App', 'GMDP Support team',
      'Check the App is on your iPhone: search <strong>gm early years</strong> in the App Store. Then tap the link in the text again.', ('mailto:gmdp.support@greatermanchester-ca.gov.uk', 'Email GMDP Support', False)),
     ('p-nhs', NHS_TI, 'I cannot sign in to NHS login', 'NHS login Support',
@@ -194,9 +196,9 @@ PROBS = [
     ('p-code', NHS_TI, 'My security code has not arrived', 'NHS login Support',
      'Wait a few minutes. If it still does not arrive, get help from NHS login.', ('https://help.login.nhs.uk/error-messages-support', 'Security code help', True)),
     ('p-match', f'<span class="ti hv" aria-hidden="true">{I_USER}</span>', 'My details do not match', 'Your Health Visiting team',
-     'Ask them to make your App email and mobile match your NHS login.', ('#contacts', 'Find your Health Visiting team', False)),
+     'Ask them to make your App email and mobile match your NHS login.', ('#contacts" data-hv="1', 'Find your Health Visiting team', False)),
     ('p-other', f'<span class="ti hv" aria-hidden="true">{I_USERS}</span>', 'Someone else’s details were used', 'Your Health Visiting team',
-     'Ask them to change the App account to your own email and mobile.', ('#contacts', 'Find your Health Visiting team', False)),
+     'Ask them to change the App account to your own email and mobile.', ('#contacts" data-hv="1', 'Find your Health Visiting team', False)),
     ('p-open', f'<span class="ti hv" aria-hidden="true">{I_APP}</span>', 'The App does not open after my code', 'GMDP Support team',
      'Wait a few minutes. Still stuck, or seeing an error? Email us with the step and any error message. Never send passwords or codes.', ('mailto:gmdp.support@greatermanchester-ca.gov.uk', 'Email GMDP Support', False)),
 ]
@@ -211,7 +213,7 @@ helpp = f'''<section class="screen" id="help" aria-label="Still not working?">
   {pbox('Still not working?', 'Help', cls='help', icon=I_HELP.replace('width="24" height="24"', 'width="24" height="24" style="color:#fff"'))}
   <p class="calm"><span class="ic" aria-hidden="true">{I_TICK}</span>Tap the problem that sounds like yours.</p>
   <div class="plist">{items}</div>
-  <p class="note">Something else? <a href="#contacts">Your Health Visiting team</a> can help.</p>
+  <p class="note">Something else? <a href="#contacts" data-hv="1">Your Health Visiting team</a> can help.</p>
 </div>
 {bnav(back='cover', nxt='contacts', nxt_label='Contacts', help_btn=False, back_dyn=True)}
 </section>'''
@@ -226,9 +228,9 @@ contacts = f'''<section class="screen" id="contacts" aria-label="Contacts">
     <div class="ch"><span class="ti hv" aria-hidden="true">{I_USER}</span><div><h3>Your Health Visiting team</h3><p>For your App account and Activation Link.</p></div></div>
     <p class="clabel" id="area-l"><span class="num" aria-hidden="true">1</span>Choose your area</p>
     <div class="areas" role="group" aria-labelledby="area-l">{area_btns}</div>
-    <div class="teamwrap" hidden>
+    <div class="teamwrap off">
       <p class="clabel" id="team-l"><span class="num" aria-hidden="true">2</span>Choose your team</p>
-      <div class="sel"><select id="team" aria-labelledby="team-l"><option value="">Choose your team</option></select></div>
+      <div class="sel"><select id="team" aria-labelledby="team-l" disabled><option value="">Choose your area first</option></select></div>
       <p class="ahint" id="ahint"></p>
     </div>
     <div class="team" id="teamcard" aria-live="polite" hidden></div>
@@ -248,17 +250,16 @@ a11y = f'''<section class="screen" id="a11y" aria-label="Accessibility and priva
   {pbox('Accessibility and privacy', 'About this guide', cls='help', icon=I_A11Y.replace('stroke="currentColor"', 'stroke="#fff"'))}
   <div class="ccard tight">
     <h3>Need this guide another way?</h3>
-    <p>Ask for large print, easy read or another language. To make the text bigger, tap <strong>aA</strong> in Safari.</p>
+    <p>Ask for large print, easy read or another language. For bigger text, tap <strong>aA</strong> in Safari.</p>
     <a class="go" href="mailto:gmdp.support@greatermanchester-ca.gov.uk">{I_MAIL} Email GMDP Support</a>
   </div>
   <div class="ccard tight">
     <h3>Accessibility statement</h3>
-    <p>Run by the Greater Manchester Combined Authority (GMCA). Partially compliant with WCAG 2.2 AA.</p>
-    <p><a href="../{'../' if TRIAL else ''}#a11y-stmt">Read the full statement</a></p>
+    <p>Run by GMCA. Partially compliant with WCAG 2.2 AA. <a href="../{'../' if TRIAL else ''}#a11y-stmt">Read the full statement</a></p>
   </div>
   <div class="ccard tight">
     <h3>Your privacy</h3>
-    <p>This guide does not collect any information about you. No sign-in, cookies or tracking.</p>
+    <p>We do not collect any information about you. No sign-in, cookies or tracking.</p>
   </div>
 </div>
 {bnav(back='contacts', nxt='cover', nxt_label='Done', help_btn=False, back_dyn=True, done=True)}
@@ -273,7 +274,7 @@ teams = {}
 for t in HV['teams']:
     teams.setdefault(t['area'], []).append(dict(n=t['name'], a=t['addr'], tel=t['tel'][0][0][4:], td=t['tel'][0][1], h=t['hours'][0], m=t['maps']))
 OPT = {
-    'Bury': ['Bury Central (Town Centre)', 'Enhanced and SEND', 'Prestwich Township', 'Radcliffe', 'Ramsbottom, Tottington and North Manor', 'Whitefield and Unsworth'],
+    'Bury': ['Bury Central (Town Centre)', 'Enhanced and SEND', 'Prestwich Township', 'Radcliffe', 'Ramsbottom, Tottington & North Manor', 'Whitefield and Unsworth'],
     'Rochdale': ['Heywood', 'Middleton', 'Pennines', 'Rochdale North', 'Rochdale South'],
     'Stockport': ['Adswood', 'Brinnington', 'Cheadle Heath and Edgeley', 'Cheadle Hulme and Bramhall', 'Family Nurse Partnership', 'Gatley and Heald Green', 'Hazel Grove', 'Heatons', 'Marple', 'Offerton and Stockport Central', 'Reddish', 'Woodley'],
 }
@@ -287,7 +288,7 @@ css = open(os.path.join(HERE, 'simple.css'), encoding='utf-8').read()
 css = css.replace('{{FONT_ARCHIVO}}', A['font_archivo']).replace('{{FONT_SOURCE}}', A['font_source'])
 js = open(os.path.join(HERE, 'simple.js'), encoding='utf-8').read().replace('/*DATA*/null', DATA)
 icons = '../../icons/' if TRIAL else '../icons/'
-title_app = 'EY Simple' if TRIAL else 'EY App help'
+title_app = 'EY Simple' if TRIAL else 'EY Sign-in'
 
 doc = f'''<!DOCTYPE html>
 <html lang="en-GB">

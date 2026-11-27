@@ -2,6 +2,21 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## Simple guide 1.5 – 27 November 2026 (live and trial)
+All fixes from the before/after review (David: "Implement all").
+1. Contacts: "2 Choose your team" shows from the start (greyed out, "Choose your area first"), so the NHS login Support box no longer moves when an area is tapped.
+2. Still not working?: rows slightly shorter on short screens (44 px tap targets kept); the 7 problems now fit on iPhone SE.
+3. Accessibility and privacy: shorter wording ("Run by GMCA", statement link on the same line; "We do not collect any information about you"); fits on every iPhone.
+4. Contacts: "Ramsbottom, Tottington & North Manor" in the team box; the box text shrinks (17 to 15 at most) only when a chosen name would not fit. The team card keeps the full name.
+5. Screenshots: on short screens (iPhone SE in Safari) each screenshot shows the highlighted part full width; tap still shows the whole screenshot.
+6. Home Screen name "EY Sign-in" (was "EY App help", the same as the full guide). Trial stays "EY Simple".
+7. "Find your Health Visiting team" (and "Your Health Visiting team" on Still not working?) outlines the Health Visiting team card on Contacts for 2 seconds.
+8. Swipe left for Next and right for Back (not on the area buttons or team box).
+9. Lighter page: screenshots, cover photo and logo recompressed or resized (691 KB to 583 KB).
+10. Automated accessibility check (axe-core, WCAG 2.2 AA and best practice) on every page and opened state, Light and Dark Mode: no issues after fixes. Fixed: Dark Mode white text on blue buttons (3.4:1, now 4.9:1), cover version number (4.3:1, now 5.5:1), "Well done!" (4.47:1, now 5.8:1). `scripts/simple/axe_check.py`.
+- Before you start: "Tip: read this guide on another screen, like a computer. Then sign in on your iPhone." replaces the App Store tip (option B, fits on every iPhone; the App Store advice is in "The link does not open the App").
+- Offline cache `ey-simple-v1.5`. Checked: 16 iPhone sizes plus Dark Mode (306 page states), no script errors, navigation and swipe tests pass. Only Contacts scrolls on smaller iPhones (and Still not working? with a problem open).
+
 ## Simple guide 1.4 – 26 November 2026 (live and trial)
 Contacts and privacy (David).
 - Contacts: "2 Choose your team" laid out the same way as "1 Choose your area", so it stays on one line in Safari (it was wrapped in a label element; the team box is now named by the heading instead).
