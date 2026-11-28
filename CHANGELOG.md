@@ -2,6 +2,9 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## Guide 3.96 – 28 November 2026 (trial only; live stays 3.92)
+Step 1 clip pauses for 2 seconds on the opened App Store before it ends (David). 7.1 s long. Built by `scripts/assets/install/v396/build_clips.py` (`... OUTDIR inst-1` renders one clip) and `scripts/make396.py`; clip address `?v=3.96`.
+
 ## Guide 3.95 – 28 November 2026 (trial only; live stays 3.92)
 Installing the App clips now show the green highlight inside the video (David: "if you highlight something, someone has to see that it's highlighted").
 1. Before each tap the clip pauses on a freeze-frame; the box (and arrow) fades in and holds about 2 seconds, with the rest of the screen dimmed 30 %; then the tap plays. Same highlight style and positions as the screenshots.
