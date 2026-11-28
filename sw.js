@@ -19,6 +19,7 @@ self.addEventListener('fetch', function (e) {
   if (r.method !== 'GET') return;
   var u = new URL(r.url), scope = new URL(self.registration.scope);
   if (u.origin !== scope.origin) return;                       /* maps and other sites: straight to the network */
+  if (/\.mp4$/.test(u.pathname)) return;                     /* 3.93 install clips: straight to the network (iPhone video needs it) */
   var isGuide = u.pathname === scope.pathname || u.pathname === scope.pathname + 'index.html';
   if (r.mode === 'navigate' || isGuide) {
     if (!isGuide) return;                                      /* other pages, such as /preview/: not kept */

@@ -37,6 +37,7 @@ checks = {
     'Home Screen: manifest, icons and offline worker present': all((ROOT / f).is_file() for f in ('manifest.webmanifest', 'sw.js', 'icons/icon-180.png', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png')),
     'Home Screen: guide links the manifest and the iPhone icon': 'rel="manifest" href="manifest.webmanifest"' in html and 'rel="apple-touch-icon" href="icons/icon-180.png"' in html,
     'offline worker cache named for this version': version is not None and f"'ey-guide-v{version}'" in (ROOT / 'sw.js').read_text(encoding='utf-8'),
+    'install clips present for every page that plays one (live and trial)': all((ROOT / 'clips' / (n + '.mp4')).is_file() for f in ('index.html', 'preview/index.html') if (ROOT / f).is_file() for n in re.findall(r'data-clip="([^"]+)"', (ROOT / f).read_text(encoding='utf-8'))),
     '.nojekyll present': (ROOT / '.nojekyll').is_file(),
     'file size under 5 MB': (ROOT / 'index.html').stat().st_size < 5_000_000,
 }

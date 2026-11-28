@@ -2,6 +2,14 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## Guide 3.93 – 28 November 2026 (trial only; live stays 3.92)
+Installing the App: tapping a step's picture now plays a short clip of that step in the whole-screen view, then the highlighted screenshot fades in with a Play again button.
+1. Six clips (steps 1, 3, 4, 5, 6, 7) cut from David's App Store screen recording (12:44 and 12:47, 28 Nov), with the search result showing Get. Step 2 has no clip: the recording opened straight on the Search tab. Clips are separate files in `clips/` (840 KB in all), loaded only when a picture is tapped; built by `scripts/make393.py`.
+2. Caption "Tap to watch" (play icon) on those six pictures; the introduction page says "Tap the picture on a step to watch a short clip of it."
+3. Reduce Motion on: the screenshot shows first, with a Play clip button. No clip available (offline, saved copy): the screenshot shows as before.
+4. `sw.js` lets clip requests go straight to the network (iPhone video needs this); cache name unchanged. The deploy workflow publishes `clips/`; the validator checks every clip a page uses is present.
+5. Checked at all 16 iPhone sizes: no layout change on any page compared with 3.92.
+
 ## Simple guide 1.5 – 27 November 2026 (live and trial)
 All fixes from the before/after review (David: "Implement all").
 1. Contacts: "2 Choose your team" shows from the start (greyed out, "Choose your area first"), so the NHS login Support box no longer moves when an area is tapped.
