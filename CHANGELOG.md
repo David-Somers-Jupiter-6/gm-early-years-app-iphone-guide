@@ -2,6 +2,11 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## Guide 3.98 – 28 November 2026 (trial only; live stays 3.92)
+1. Fix (David): after closing the whole-screen view (clip or screenshot), the picture came back the wrong size. Cause: Safari's toolbars change size while the view is open, so `fit()` measured the enlarged picture and kept it (`--maxh` 560 px). Now `fit()` is skipped while a whole-screen view is open and runs again when it closes (tap or Escape). Applies to every screenshot in the guide. Reproduced and confirmed fixed in Chromium by resizing the window while the view was open.
+2. Search for the App: the instructions are numbered steps (1 Tap Search at the bottom of the App Store; 2 Tap the search box and type gm early years; 3 Look for GM Early Years by Greater Manchester Early Years), using the Support pages' `abc-steps` list; the Tap Search chip removed.
+3. `scripts/make398.py`; clip address `?v=3.98`. All 16 iPhone sizes: no page cut off or scrolling that was not before.
+
 ## Guide 3.97 – 28 November 2026 (trial only; live stays 3.92)
 Installing the App: "Tap Search" and "Search for the App" combined into one step, "Search for the App" (David). 6 steps.
 1. Page `inst-2` removed; `inst-3` is step 2: "Tap Search at the bottom of the App Store. Tap the search box and type gm early years. Look for GM Early Years by Greater Manchester Early Years." + Tap chip "Search"; its screenshot (search box highlighted) kept. Page ids kept, so links still work.
