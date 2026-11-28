@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## Guide 3.95 – 28 November 2026 (trial only; live stays 3.92)
+Installing the App clips now show the green highlight inside the video (David: "if you highlight something, someone has to see that it's highlighted").
+1. Before each tap the clip pauses on a freeze-frame; the box (and arrow) fades in and holds about 2 seconds, with the rest of the screen dimmed 30 %; then the tap plays. Same highlight style and positions as the screenshots.
+2. Idle stretches cut (identical frames, so the cuts do not show); typing at 2x, the pause before the search at 3x. Lengths: 5.6, 9.8, 4.0, 5.4, 4.6, 12.3 s (step 6 no longer ends on 3 s of splash screen).
+3. Step 7: the two notification pop-ups are not highlighted yet (the first shows Allow tapped; the second is unclear) – for the annotation discussion.
+4. Clip address carries `?v=3.95` so phones fetch the new clips. Built by `scripts/assets/install/v395/build_clips.py` and `scripts/make395.py`. Page layouts unchanged (only the clips and revision history changed).
+
 ## Guide 3.94 – 28 November 2026 (trial only; live stays 3.92)
 Installing the App: new screenshots taken from the clips, so the picture after each clip matches it (David: "Great idea. Yes please").
 1. Steps 1, 3, 4, 5, 6, 7: frames from the screen recording with the same green highlight as before (box #B5E51D, arrow below; step 3's arrow shortened so it does not cover "GM Early Years"). Step 4 shows Get; step 5 shows the progress circle part-filled. Step 2 keeps its screenshot (no clip). Sources and drawing script in `scripts/assets/install/v394/`; built by `scripts/make394.py`.
