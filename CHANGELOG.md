@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## Guide 3.97 – 28 November 2026 (trial only; live stays 3.92)
+Installing the App: "Tap Search" and "Search for the App" combined into one step, "Search for the App" (David). 6 steps.
+1. Page `inst-2` removed; `inst-3` is step 2: "Tap Search at the bottom of the App Store. Tap the search box and type gm early years. Look for GM Early Years by Greater Manchester Early Years." + Tap chip "Search"; its screenshot (search box highlighted) kept. Page ids kept, so links still work.
+2. New clip for step 2 (14.1 s): opens on the App Store Today screen with Search highlighted (the old step 2 screenshot; the recording opened straight on the Search tab), held 2.2 s; cross-fade to the recording; search box highlighted, 1.5 s pause; typing at 1.5x; 1.5 s pause on "gm early years"; results, then 2.3 s pause with GM Early Years highlighted. The screen is dimmed only while paused. Built by `scripts/assets/install/v397/build_clip_search.py`.
+3. Steps renumbered 1–6 (progress bar 6 segments; "Step N of 6"); introduction "in 6 steps"; Contents counters 77 → 76; Support "Page N of 35" → 34. `scripts/make397.py`; clip address `?v=3.97`.
+4. Checked at all 16 iPhone sizes: nothing cut off or scrolling that was not before.
+
 ## Guide 3.96 – 28 November 2026 (trial only; live stays 3.92)
 Step 1 clip pauses for 2 seconds on the opened App Store before it ends (David). 7.1 s long. Built by `scripts/assets/install/v396/build_clips.py` (`... OUTDIR inst-1` renders one clip) and `scripts/make396.py`; clip address `?v=3.96`.
 
