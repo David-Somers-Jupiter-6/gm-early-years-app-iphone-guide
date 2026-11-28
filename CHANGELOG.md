@@ -2,6 +2,13 @@
 
 Changes to the published website. The guide's own revision history is on its last page.
 
+## Guide 3.94 – 28 November 2026 (trial only; live stays 3.92)
+Installing the App: new screenshots taken from the clips, so the picture after each clip matches it (David: "Great idea. Yes please").
+1. Steps 1, 3, 4, 5, 6, 7: frames from the screen recording with the same green highlight as before (box #B5E51D, arrow below; step 3's arrow shortened so it does not cover "GM Early Years"). Step 4 shows Get; step 5 shows the progress circle part-filled. Step 2 keeps its screenshot (no clip). Sources and drawing script in `scripts/assets/install/v394/`; built by `scripts/make394.py`.
+2. Step 3: "Look for GM Early Years by Greater Manchester Early Years" (the App Store icon is now the GMCA logo, not the ABC blocks).
+3. Step 4: "tap Get" (with the Face ID / Touch ID / Apple ID line); tip "Button shows a cloud? You have had the App before. Tap the cloud."; Tap chip "Get".
+4. Checked at all 16 iPhone sizes: nothing cut off or scrolling that was not before (identical to 3.93).
+
 ## Guide 3.93 – 28 November 2026 (trial only; live stays 3.92)
 Installing the App: tapping a step's picture now plays a short clip of that step in the whole-screen view, then the highlighted screenshot fades in with a Play again button.
 1. Six clips (steps 1, 3, 4, 5, 6, 7) cut from David's App Store screen recording (12:44 and 12:47, 28 Nov), with the search result showing Get. Step 2 has no clip: the recording opened straight on the Search tab. Clips are separate files in `clips/` (840 KB in all), loaded only when a picture is tapped; built by `scripts/make393.py`.
